@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dspl xmlns="http://schemas.google.com/dspl/2010"
+      xmlns:geo="http://www.google.com/publicdata/dataset/google/geo"
+      xmlns:time="http://www.google.com/publicdata/dataset/google/time"
+      xmlns:entity="http://www.google.com/publicdata/dataset/google/entity"
+      xmlns:quantity="http://www.google.com/publicdata/dataset/google/quantity">
+
+   <import namespace="http://www.google.com/publicdata/dataset/google/geo"/>
+   <import namespace="http://www.google.com/publicdata/dataset/google/time"/>
+   <import namespace="http://www.google.com/publicdata/dataset/google/entity"/>
+   <import namespace="http://www.google.com/publicdata/dataset/google/quantity"/>
+
+   <info>
+      <name>
+         <value xml:lang="en">Unemployment in Europe (monthly)</value>
+         <value xml:lang="de">Arbeitslosigkeit in Europa (monatlich)</value>
+         <value xml:lang="fr">Le Chômage en Europe (mensuel)</value>
+      </name>
+      <description>
+         <value xml:lang="en">Harmonized unemployment data for European countries.
+            This dataset was prepared by Google based on data downloaded from Eurostat.</value>
+         <value xml:lang="de">Harmonisierte Daten zur Arbeitslosigkeit für
+            europäische Länder. Dieser Datensatz wurde von Google aufbereitet, basierend auf
+            online Daten von Eurostat.</value>
+         <value xml:lang="fr">Données harmonisées sur le chômage dans les pays
+            européens. Ces données ont été préparées par Google sur la base de
+            données téléchargées à partir d'Eurostat.</value>
+      </description>
+      <url>
+         <value xml:lang="en">http://epp.eurostat.ec.europa.eu/portal/page/portal/lang-en/employment_unemployment_lfs/introduction</value>
+         <value xml:lang="fr">http://epp.eurostat.ec.europa.eu/portal/page/portal/lang-fr/employment_unemployment_lfs/introduction</value>
+         <value xml:lang="de">http://epp.eurostat.ec.europa.eu/portal/page/portal/lang-de/employment_unemployment_lfs/introduction</value>
+      </url>
+   </info>
+   <provider>
+      <name>
+         <value xml:lang="en">Eurostat</value>
+         <value xml:lang="de">Eurostat</value>
+         <value xml:lang="fr">Eurostat</value>
+      </name>
+      <description>
+         <value xml:lang="en">Eurostat</value>
+         <value xml:lang="de">Eurostat</value>
+         <value xml:lang="fr">Eurostat</value>
+      </description>
+      <url>
+         <value xml:lang="en">http://epp.eurostat.ec.europa.eu/portal/page/portal/lang-en/employment_unemployment_lfs/introduction</value>
+         <value xml:lang="de">http://epp.eurostat.ec.europa.eu/portal/page/portal/lang-de/employment_unemployment_lfs/introduction</value>
+         <value xml:lang="fr">http://epp.eurostat.ec.europa.eu/portal/page/portal/lang-fr/employment_unemployment_lfs/introduction</value>
+      </url>
+   </provider>
+
+   <concepts>
+      <concept id="country_group" extends="geo:location">
+         <info>
+            <name>
+               <value xml:lang="en">Country groups</value>
+               <value xml:lang="de">Ländergruppen</value>
+               <value xml:lang="fr">Groupes de pays</value>
+            </name>
+            <description>
+               <value xml:lang="en">Country groups, Eurostat</value>
+               <value xml:lang="de">Ländergruppen, Eurostat</value>
+               <value xml:lang="fr">Groupes de pays, Eurostat</value>
+
+            </description>
+         </info>
+         <table ref="country_groups">
+           <mapProperty ref="name" xml:lang="en" toColumn="name_en"/>
+           <mapProperty ref="name" xml:lang="de" toColumn="name_de"/>
+           <mapProperty ref="name" xml:lang="fr" toColumn="name_fr"/>
+         </table>
+      </concept>
+
+      <concept id="country" extends="geo:location">
+         <info>
+            <name>
+               <value xml:lang="en">Country</value>
+               <value xml:lang="de">Land</value>
+               <value xml:lang="fr">Pays</value>
+            </name>
+            <description>
+               <value xml:lang="en">Country, Eurostat</value>
+               <value xml:lang="de">Land, Eurostat</value>
+               <value xml:lang="fr">Pays, Eurostat</value>
+            </description>
+            <pluralName>
+               <value xml:lang="en">Countries</value>
+               <value xml:lang="de">Länder</value>
+               <value xml:lang="fr">Pays</value>
+            </pluralName>
+         </info>
+         <property id="google_country_code" concept="geo:country" isMapping="true"/>
+         <property id="country_group" concept="country_group" isParent="true"/>
+         <table ref="countries">
+            <mapProperty ref="name" xml:lang="en" toColumn="name_en"/>
+            <mapProperty ref="name" xml:lang="de" toColumn="name_de"/>
+            <mapProperty ref="name" xml:lang="fr" toColumn="name_fr"/>
+         </table>
+      </concept>
+      <concept id="age_group" extends="entity:entity">
+         <info>
+            <name>
+               <value xml:lang="en">Age group</value>
+               <value xml:lang="de">Altersgruppe</value>
+               <value xml:lang="fr">Groupe d'âge</value>
+            </name>
+            <description>
+               <value xml:lang="en">Age group</value>
+               <value xml:lang="de">Altersgruppe</value>
+               <value xml:lang="fr">Groupe d'âge</value>
+            </description>
+            <totalName>
+               <value xml:lang="en">Total</value>
+               <value xml:lang="de">Gesamt</value>
+               <value xml:lang="fr">Ensemble</value>
+            </totalName>
+         </info>
+         <attribute concept="entity:entity_order">
+            <value>NATURAL</value>
+         </attribute>
+         <table ref="age_groups">
+            <mapProperty ref="name" xml:lang="en" toColumn="name_en"/>
+            <mapProperty ref="name" xml:lang="de" toColumn="name_de"/>
+            <mapProperty ref="name" xml:lang="fr" toColumn="name_fr"/>
+         </table>
+      </concept>
+      <concept id="sex" extends="entity:entity">
+         <info>
+            <name>
+               <value xml:lang="en">Sex</value>
+               <value xml:lang="de">Geschlecht</value>
+               <value xml:lang="fr">Sexe</value>
+            </name>
+            <description>
+               <value xml:lang="en">Sex</value>
+               <value xml:lang="de">Geschlecht</value>
+               <value xml:lang="fr">Sexe</value>
+            </description>
+            <totalName>
+               <value xml:lang="en">Both sexes</value>
+               <value xml:lang="de">Insgesamt</value>
+               <value xml:lang="fr">Ensemble</value>
+            </totalName>
+         </info>
+         <table ref="sexes">
+            <mapProperty ref="name" xml:lang="en" toColumn="name_en"/>
+            <mapProperty ref="name" xml:lang="de" toColumn="name_de"/>
+            <mapProperty ref="name" xml:lang="fr" toColumn="name_fr"/>
+         </table>
+      </concept>
+      <concept id="seasonality" extends="entity:entity">
+         <info>
+            <name>
+               <value xml:lang="en">Seasonality</value>
+               <value xml:lang="de">Saisonalität</value>
+               <value xml:lang="fr">Saisonnalité</value>
+            </name>
+            <description>
+               <value xml:lang="en">Are values seasonally adjusted or not</value>
+               <value xml:lang="de">Sind Werte saisonbereinigt oder nicht</value>
+               <value xml:lang="fr">Valeurs corrigées ou non des variations saisonnières</value>
+            </description>
+         </info>
+         <attribute concept="entity:entity_order">
+            <value>NATURAL</value>
+         </attribute>
+         <defaultValue>sa</defaultValue>
+         <table ref="seasonalities">
+            <mapProperty ref="name" xml:lang="en" toColumn="name_en"/>
+            <mapProperty ref="name" xml:lang="de" toColumn="name_de"/>
+            <mapProperty ref="name" xml:lang="fr" toColumn="name_fr"/>
+         </table>
+      </concept>
+      <!-- Metrics -->
+      <concept id="unemployment" extends="quantity:amount">
+         <info>
+            <name>
+               <value xml:lang="en">Unemployment (monthly)</value>
+               <value xml:lang="de">Arbeitslosigkeit (monatlich)</value>
+               <value xml:lang="fr">Chômeurs (mensuel)</value>
+            </name>
+            <description>
+               <value xml:lang="en">The total number of people unemployed</value>
+               <value xml:lang="de">Anzahl der Arbeitslosen</value>
+               <value xml:lang="fr">Le nombre total de chômeurs</value>
+            </description>
+            <url>
+               <value xml:lang="en">http://ec.europa.eu/eurostat/product?code=une_nb_m&amp;language=en</value>
+               <value xml:lang="de">http://ec.europa.eu/eurostat/product?code=une_nb_m&amp;language=de</value>
+               <value xml:lang="fr">http://ec.europa.eu/eurostat/product?code=une_nb_m&amp;language=fr</value>
+            </url>
+         </info>
+         <type ref="float"/>
+      </concept>
+      <concept id="unemployment_rate" extends="quantity:rate">
+         <info>
+            <name>
+               <value xml:lang="en">Unemployment rate (monthly)</value>
+               <value xml:lang="de">Arbeitslosenquote (monatlich)</value>
+               <value xml:lang="fr">Taux de chômage (mensuel)</value>
+            </name>
+            <description>
+               <value xml:lang="en">The unemployment rate represents unemployed persons as a percentage of the labour force. The labour force is the total number of people employed and unemployed.</value>
+               <value xml:lang="de">Die Arbeitslosenquote ist definiert als der prozentuale Anteil der Arbeitslosen an den Erwerbspersonen. Die Erwerbspersonen umfassen die Erwerbstätigen und die Arbeitslosen.</value>
+               <value xml:lang="fr">Le taux de chômage représente le pourcentage de chômeurs dans la population active. La population active représente le nombre total des personnes ayant un emploi ou étant au chômage.</value>
+            </description>
+            <url>
+               <value xml:lang="en">http://ec.europa.eu/eurostat/product?code=une_rt_m&amp;language=en</value>
+               <value xml:lang="de">http://ec.europa.eu/eurostat/product?code=une_rt_m&amp;language=de</value>
+               <value xml:lang="fr">http://ec.europa.eu/eurostat/product?code=une_rt_m&amp;language=fr</value>
+            </url>
+         </info>
+         <type ref="float"/>
+         <attribute id="is_percentage">
+            <type ref="boolean"/>
+            <value>true</value>
+         </attribute>
+      </concept>
+   </concepts>
+   <slices>
+  <!-- Countries -->
+      <slice id="country_total">
+         <dimension concept="country"/>
+         <dimension concept="seasonality"/>
+         <dimension concept="time:month"/>
+         <metric concept="unemployment"/>
+         <metric concept="unemployment_rate"/>
+         <table ref="country_total_tbl"/>
+      </slice>
+      <slice id="country_age">
+         <dimension concept="country"/>
+         <dimension concept="seasonality"/>
+         <dimension concept="age_group"/>
+         <dimension concept="time:month"/>
+         <metric concept="unemployment"/>
+         <metric concept="unemployment_rate"/>
+         <table ref="country_age_tbl"/>
+      </slice>
+      <slice id="country_sex">
+         <dimension concept="country"/>
+         <dimension concept="seasonality"/>
+         <dimension concept="sex"/>
+         <dimension concept="time:month"/>
+         <metric concept="unemployment"/>
+         <metric concept="unemployment_rate"/>
+         <table ref="country_sex_tbl"/>
+      </slice>
+      <slice id="country_sex_age">
+         <dimension concept="country"/>
+         <dimension concept="seasonality"/>
+         <dimension concept="sex"/>
+         <dimension concept="age_group"/>
+         <dimension concept="time:month"/>
+         <metric concept="unemployment"/>
+         <metric concept="unemployment_rate"/>
+         <table ref="country_sex_age_tbl"/>
+      </slice>
+      <!-- Country groups -->
+      <slice id="country_group_total">
+         <dimension concept="country_group"/>
+         <dimension concept="seasonality"/>
+         <dimension concept="time:month"/>
+         <metric concept="unemployment"/>
+         <metric concept="unemployment_rate"/>
+         <table ref="country_group_total_tbl"/>
+      </slice>
+      <slice id="country_group_age">
+         <dimension concept="country_group"/>
+         <dimension concept="seasonality"/>
+         <dimension concept="age_group"/>
+         <dimension concept="time:month"/>
+         <metric concept="unemployment"/>
+         <metric concept="unemployment_rate"/>
+         <table ref="country_group_age_tbl"/>
+      </slice>
+      <slice id="country_group_sex">
+         <dimension concept="country_group"/>
+         <dimension concept="seasonality"/>
+         <dimension concept="sex"/>
+         <dimension concept="time:month"/>
+         <metric concept="unemployment"/>
+         <metric concept="unemployment_rate"/>
+         <table ref="country_group_sex_tbl"/>
+      </slice>
+      <slice id="country_group_sex_age">
+         <dimension concept="country_group"/>
+         <dimension concept="seasonality"/>
+         <dimension concept="sex"/>
+         <dimension concept="age_group"/>
+         <dimension concept="time:month"/>
+         <metric concept="unemployment"/>
+         <metric concept="unemployment_rate"/>
+         <table ref="country_group_sex_age_tbl"/>
+      </slice>
+   </slices>
+   <tables>
+      <table id="country_groups">
+         <column id="country_group" type="string"/>
+         <column id="name_en" type="string"/>
+         <column id="name_fr" type="string"/>
+         <column id="name_de" type="string"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_groups.csv</file>
+         </data>
+      </table>
+      <table id="countries">
+         <column id="country" type="string"/>
+         <column id="google_country_code" type="string"/>
+         <column id="country_group" type="string"/>
+         <column id="name_en" type="string"/>
+         <column id="name_fr" type="string"/>
+         <column id="name_de" type="string"/>
+         <column id="latitude" type="float"/>
+         <column id="longitude" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">countries.csv</file>
+         </data>
+      </table>
+      <table id="age_groups">
+         <column id="age_group" type="string"/>
+         <column id="name_en" type="string"/>
+         <column id="name_fr" type="string"/>
+         <column id="name_de" type="string"/>
+         <data>
+            <file encoding="utf-8" format="csv">age_groups.csv</file>
+         </data>
+      </table>
+      <table id="sexes">
+         <column id="sex" type="string"/>
+         <column id="name_en" type="string"/>
+         <column id="name_fr" type="string"/>
+         <column id="name_de" type="string"/>
+         <data>
+            <file encoding="utf-8" format="csv">sexes.csv</file>
+         </data>
+      </table>
+      <table id="seasonalities">
+         <column id="seasonality" type="string"/>
+         <column id="name_en" type="string"/>
+         <column id="name_fr" type="string"/>
+         <column id="name_de" type="string"/>
+         <data>
+            <file encoding="utf-8" format="csv">seasonalities.csv</file>
+         </data>
+      </table>
+      <table id="country_total_tbl">
+         <column id="country" type="string"/>
+         <column id="seasonality" type="string"/>
+         <column format="yyyy.MM" id="month" type="date"/>
+         <column id="unemployment" type="float"/>
+         <column id="unemployment_rate" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_total.csv</file>
+         </data>
+      </table>
+      <table id="country_age_tbl">
+         <column id="country" type="string"/>
+         <column id="seasonality" type="string"/>
+         <column id="age_group" type="string"/>
+         <column format="yyyy.MM" id="month" type="date"/>
+         <column id="unemployment" type="float"/>
+         <column id="unemployment_rate" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_age.csv</file>
+         </data>
+      </table>
+      <table id="country_sex_tbl">
+         <column id="country" type="string"/>
+         <column id="seasonality" type="string"/>
+         <column id="sex" type="string"/>
+         <column format="yyyy.MM" id="month" type="date"/>
+         <column id="unemployment" type="float"/>
+         <column id="unemployment_rate" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_sex.csv</file>
+         </data>
+      </table>
+      <table id="country_sex_age_tbl">
+         <column id="country" type="string"/>
+         <column id="seasonality" type="string"/>
+         <column id="sex" type="string"/>
+         <column id="age_group" type="string"/>
+         <column format="yyyy.MM" id="month" type="date"/>
+         <column id="unemployment" type="float"/>
+         <column id="unemployment_rate" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_sex_age.csv</file>
+         </data>
+      </table>
+      <table id="country_group_total_tbl">
+         <column id="country_group" type="string"/>
+         <column id="seasonality" type="string"/>
+         <column format="yyyy.MM" id="month" type="date"/>
+         <column id="unemployment" type="float"/>
+         <column id="unemployment_rate" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_group_total.csv</file>
+         </data>
+      </table>
+      <table id="country_group_age_tbl">
+         <column id="country_group" type="string"/>
+         <column id="seasonality" type="string"/>
+         <column id="age_group" type="string"/>
+         <column format="yyyy.MM" id="month" type="date"/>
+         <column id="unemployment" type="float"/>
+         <column id="unemployment_rate" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_group_age.csv</file>
+         </data>
+      </table>
+      <table id="country_group_sex_tbl">
+         <column id="country_group" type="string"/>
+         <column id="seasonality" type="string"/>
+         <column id="sex" type="string"/>
+         <column format="yyyy.MM" id="month" type="date"/>
+         <column id="unemployment" type="float"/>
+         <column id="unemployment_rate" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_group_sex.csv</file>
+         </data>
+      </table>
+      <table id="country_group_sex_age_tbl">
+         <column id="country_group" type="string"/>
+         <column id="seasonality" type="string"/>
+         <column id="sex" type="string"/>
+         <column id="age_group" type="string"/>
+         <column format="yyyy.MM" id="month" type="date"/>
+         <column id="unemployment" type="float"/>
+         <column id="unemployment_rate" type="float"/>
+         <data>
+            <file encoding="utf-8" format="csv">country_group_sex_age.csv</file>
+         </data>
+      </table>
+   </tables>
+</dspl>

@@ -1,0 +1,4 @@
+"seasonality","name_en","name_fr","name_de"
+"nsa","Not seasonally adjusted data","Données non désaisonnalisées","Nichtsaisonbereinigte Daten"
+"sa","Seasonally adjusted data","Données désaisonnalisées","Saisonbereinigte Daten"
+"trend","Trend cycle","Tendance-cycle","Trend (glatte Komponente)"
