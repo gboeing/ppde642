@@ -1,4 +1,4 @@
-Today we will be learning pandas - a powerful python data analysis library - by way of Juan Shishido's excellent intro to pandas IPython notebook. Juan was a CP255 student last year and now runs this workshop at the D-Lab.
+Today we will be learning pandas - a powerful python data analysis library - by way of [Juan Shishido's] (https://github.com/dlab-berkeley/introduction-to-pandas) excellent intro to pandas IPython notebook. Juan was a CP255 student last year and now runs this workshop at the D-Lab.
 
 # pandas
 
