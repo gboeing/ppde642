@@ -3,6 +3,8 @@
 .logs/*
 *.doc
 *.docx
+*.ppt
+*.pptx
 
 # Compiled source #
 ###################
