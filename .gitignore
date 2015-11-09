@@ -5,6 +5,7 @@
 *.docx
 *.ppt
 *.pptx
+keys.py
 
 # Compiled source #
 ###################
@@ -14,6 +15,7 @@
 *.exe
 *.o
 *.so
+*.pyc
  
 # Packages #
 ############
