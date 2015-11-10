@@ -1,8 +1,22 @@
-# About Git
+# Git and GitHub
 
+### Overview:
+
+Today we'll learn about Git and GitHub.
 Git is a [version control system](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control).
 
-Git Does:
+### Readings:
+
+[GitHub for beginners](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
+
+### Class Session:
+
+Today we'll be working on the [Git lesson](http://swcarpentry.github.io/git-novice/)
+from [Software Carpentry](http://software-carpentry.org/).
+We won't be covering all of it so feel free to work through the rest
+on your own.
+
+#### Git Does:
 
 - take snapshots of your project (on command, with descriptions)
 - allow you to check out any snapshot at any time
@@ -12,19 +26,12 @@ Git Does:
 - detect conflicting changes
 - send your project and all its history to a server (like GitHub)
 
-Git Does Not:
+#### Git Does Not:
 
 - track every single little change
 - save you from talking to your colleagues
 
-# Today
-
-Today we'll be working on the [Git lesson](http://swcarpentry.github.io/git-novice/)
-from [Software Carpentry](http://software-carpentry.org/).
-We won't be covering all of it so feel free to work through the rest
-on your own.
-
-# Useful Links
+### Useful Links:
 
 - [Pro Git book](https://git-scm.com/book/en/v2)
 - [Git Command Reference](http://git-scm.com/docs)
