@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Census Tract Map</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/leaflet.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/leaflet.js'></script>
+    <script src='dataset.js'></script>    
+    <style type='text/css'>
+        body { 
+          margin: 0; 
+          padding: 0; 
+          font-family: Helvetica, sans-serif;
+        }
+        #map {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+        }
+        .info {
+            padding: 6px 8px;
+            font: 14px/16px Arial, Helvetica, sans-serif;
+            background: white;
+            background: rgba(255,255,255,0.8);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+        .info h4 {
+            margin: 0 0 5px;
+            color: #777;
+        }
+        .legend {
+            line-height: 18px;
+            color: #555;
+        }
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div id='map'></div>
+    <script type='text/javascript'>
+        
+        // create the Leaflet map container
+        var map = L.map('map');
+        
+        // define a function to automate setting up Mapbox layers
+        function setUpMapboxLayer(id) {
+            return L.tileLayer('https://api.mapbox.com/v4/' + id + '/{z}/{x}/{y}.png?access_token=' + token);
+        }
+
+        // define mapbox API ID and token, then add mapbox tile layer to the map
+        var token = 'pk.eyJ1IjoiZ2JvZWluZyIsImEiOiJ2VUNpUUhFIn0.wu94_XyIkiWD7QG0wIJTKQ'
+        var mapboxBasemap = setUpMapboxLayer('gboeing.o30jheie', token);
+        map.addLayer(mapboxBasemap);
+        
+        // specify what to do to display each feature (tract) in the dataset: set the appearance (style) and interactions
+        var layerOptions = {
+            style: getStyle, //appearance
+            onEachFeature: onEachFeature //interactions
+        };
+        
+        // define the default style for the features (tracts)
+        function getStyle(feature) {
+            return {
+                fillColor: getColor(feature.properties.ex9mapdata_r_1d),
+                weight: 1, 
+                opacity: 1, 
+                color: 'white',
+                fillOpacity: 0.35
+            };
+        }
+        
+        // pick a fill color based on each tract's ex9mapdata_r_1d attribute value
+        function getColor(value) {
+            return value > 200 ? '#800026' :
+                   value > 160 ? '#BD0026' :
+                   value > 120 ? '#E31A1C' :
+                   value > 80  ? '#FC4E2A' :
+                   value > 0   ? '#FD8D3C' :
+                                 '#FFEDA0' ;
+        }
+        
+        //************************************************************************
+        // define interactions with a feature: clicks and hovers
+        //************************************************************************
+        function onEachFeature(feature, layer) {
+            layer.on({
+                mouseover: highlightFeature,
+                mouseout: resetHighlight,
+                click: zoomToFeature
+            });
+        }
+        // on mouseover, highlight the shape hovered over
+        function highlightFeature(e) {
+            var layer = e.target;
+            layer.setStyle({
+                weight: 3,
+                color: '#EEEEEE',
+                fillOpacity: 0.7
+            });
+            if (!L.Browser.ie && !L.Browser.opera) {
+                layer.bringToFront();
+            }
+            info.update(layer.feature.properties);
+        }
+        //on mouseout, reset all styles
+        function resetHighlight(e) {
+            tractsLayer.resetStyle(e.target);
+            info.update();
+        }
+        //on click, zoom to bounds of the clicked shape
+        function zoomToFeature(e) {
+            map.fitBounds(e.target.getBounds());
+        }
+        
+        
+        //************************************************************************
+        // create info window
+        //************************************************************************
+        var info = L.control();
+        info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+            this.update();
+            return this._div;
+        };
+
+        // update info window based on feature properties passed
+        info.update = function (properties) {
+            this._div.innerHTML = '<h4>East Bay census tracts</h4>' +  (properties ?
+                '<b>ex9mapdata_r_1d</b><br />' + properties.ex9mapdata_r_1d
+                : 'Hover over tract for info.<br />Click tract to zoom to it.');
+        };
+        info.addTo(map);
+        
+        
+        //************************************************************************
+        // create legend
+        //************************************************************************
+        var legend = L.control({position: 'bottomright'});
+
+        legend.onAdd = function (map) {
+
+            var div = L.DomUtil.create('div', 'info legend'), // create a div with a class "info legend"
+                grades = [0, 80, 120, 160, 200],
+                labels = [];
+            // loop through our intervals and generate a label with a colored square for each interval
+            for (var i = 0; i < grades.length; i++) {
+                div.innerHTML +=
+                    '<i style="background:' + getColor(grades[i] + 1) + '"></i> ' +
+                    grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+            }
+            return div;
+        };
+
+        legend.addTo(map);
+                
+        
+        // create the tracts layer and add to map
+        var tractsLayer = L.geoJson(dataset, layerOptions); 
+        map.addLayer(tractsLayer)
+        
+        // fit the map window to the data's spatial extent
+        map.fitBounds(tractsLayer.getBounds());
+        
+    </script>
+</body>
+</html>
