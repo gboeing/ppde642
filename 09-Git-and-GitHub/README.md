@@ -16,7 +16,7 @@ from [Software Carpentry](http://software-carpentry.org/).
 We won't be covering all of it so feel free to work through the rest
 on your own.
 
-#### Git Does:
+Git Does:
 
 - take snapshots of your project (on command, with descriptions)
 - allow you to check out any snapshot at any time
@@ -26,7 +26,7 @@ on your own.
 - detect conflicting changes
 - send your project and all its history to a server (like GitHub)
 
-#### Git Does Not:
+Git Does Not:
 
 - track every single little change
 - save you from talking to your colleagues
