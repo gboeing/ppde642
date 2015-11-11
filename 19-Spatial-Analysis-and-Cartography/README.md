@@ -55,13 +55,13 @@ You'll need to install geopandas and basemap. If you don't know your python vers
 at a command prompt run "conda info" then look at the platform and python version lines.
 
 1. geopandas:
-    a. mac or linux: http://geopandas.org/install.html
-    b. windows: http://geoffboeing.com/2014/09/using-geopandas-windows/
+    1. mac or linux: http://geopandas.org/install.html
+    2. windows: http://geoffboeing.com/2014/09/using-geopandas-windows/
 2. matplotlib's basemap add-on toolkit:
-    a. mac or linux:
+    1. mac or linux:
         1. First, conda install pillow
         2. Then install basemap from source. Instructions [here](http://matplotlib.org/basemap/users/installing.html#installation) and file [here](http://sourceforge.net/projects/matplotlib/files/matplotlib-toolkits/basemap-1.0.7/basemap-1.0.7.tar.gz/download) If you've never seen tar.gz files before, think of them as doubly-zipped files. First you unzip the .gz and you’ll get a folder with a .tar file inside. Then you unzip the .tar file and you'll get the basemap-1.0.7 folder that the instructions refer to generically as basemap-x.y.z.
-    b. windows:
+    2. windows:
         1. First, conda install pillow
         2. Then install basemap using the windows installer – choose the one for your python version (such as 2.7) and architecture (32 or 64 bit): http://sourceforge.net/projects/matplotlib/files/matplotlib-toolkits/basemap-1.0.7/ (Links to an external site.) For example I downloaded and ran the file "basemap-1.0.7.win-amd64-py2.7.exe" because I have 64 bit python 2.7.
 

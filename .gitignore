@@ -5,6 +5,7 @@
 *.docx
 *.ppt
 *.pptx
+*.qgs~
 keys.py
 
 # Compiled source #
