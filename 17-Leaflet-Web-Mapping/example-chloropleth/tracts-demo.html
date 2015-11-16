@@ -50,13 +50,14 @@
         var map = L.map('map');
         
         // define a function to automate setting up Mapbox layers
-        function setUpMapboxLayer(id) {
+        function setUpMapboxLayer(id, token) {
             return L.tileLayer('https://api.mapbox.com/v4/' + id + '/{z}/{x}/{y}.png?access_token=' + token);
         }
 
         // define mapbox API ID and token, then add mapbox tile layer to the map
+        var id = 'gboeing.o30jheie'
         var token = 'pk.eyJ1IjoiZ2JvZWluZyIsImEiOiJ2VUNpUUhFIn0.wu94_XyIkiWD7QG0wIJTKQ'
-        var mapboxBasemap = setUpMapboxLayer('gboeing.o30jheie', token);
+        var mapboxBasemap = setUpMapboxLayer(id, token);
         map.addLayer(mapboxBasemap);
         
         // specify what to do to display each feature (tract) in the dataset: set the appearance (style) and interactions
