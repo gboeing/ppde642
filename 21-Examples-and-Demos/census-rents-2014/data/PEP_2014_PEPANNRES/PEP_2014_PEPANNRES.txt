@@ -1,0 +1,26 @@
+PEPANNRES
+Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014
+
+Note: The estimates are based on the 2010 Census and reflect changes to the April 1, 2010
+population due to the Count Question Resolution program and geographic program revisions. See
+Geographic Terms and Definitions at 
+http://www.census.gov/popest/about/geo/terms.html for a list of the states that are
+included in each region and division. All geographic boundaries for the 2014 population
+estimates series except statistical area delineations are as of January 1, 2014. The
+Office of Management and Budget's statistical area delineations for metropolitan,
+micropolitan, and combined statistical areas, as well as metropolitan divisions, are those
+issued by that agency in February 2013 
+http://www.whitehouse.gov/sites/default/files/omb/bulletins/2013/b13-01.pdf. An
+"(X)" in the 2010 Census field indicates a locality that was formed or incorporated after the
+2010 Census. Additional information on these localities can be found in the Geographic Boundary Change Notes (see 
+http://www.census.gov/geo/reference/boundary-changes.html).  For
+population estimates methodology statements, see 
+http://www.census.gov/popest/methodology/index.html.
+
+
+Suggested Citation: 
+Annual Estimates of the Resident Population: April 1, 2010 to July 1, 2014 
+Source: U.S. Census Bureau, Population Division 
+Release Dates: For the United States, regions, divisions, states, and Puerto Rico Commonwealth, December 2014. For counties, municipios, metropolitan statistical areas, micropolitan statistical areas, metropolitan divisions, and combined statistical areas, March 2015.   For Cities and Towns (Incorporated Places and Minor Civil Divisions), May 2015.
+
+
