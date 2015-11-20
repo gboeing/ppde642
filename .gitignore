@@ -1,12 +1,15 @@
+# file to store my api keys
+keys.py
+
+.ipynb_checkpoints
+
 *.bat
-*/.ipynb_checkpoints/*
 .logs/*
 *.doc
 *.docx
 *.ppt
 *.pptx
 *.qgs~
-keys.py
 
 # Compiled source #
 ###################
