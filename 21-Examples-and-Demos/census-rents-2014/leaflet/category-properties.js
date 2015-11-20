@@ -1,0 +1,2 @@
+var rentCatProps = {0: {'color': '#0000FF', 'label': '$356&ndash;517'}, 1: {'color': '#3C00C3', 'label': '$518&ndash;598'}, 2: {'color': '#790085', 'label': '$599&ndash;660'}, 3: {'color': '#B80047', 'label': '$666&ndash;786'}, 4: {'color': '#F3000B', 'label': '$787+'}};
+var rentChangeCatProps = {0: {'color': '#0000FF', 'label': '< 4.2%'}, 1: {'color': '#3C00C3', 'label': '4.2&ndash;8.0%'}, 2: {'color': '#790085', 'label': '8.0&ndash;10.6%'}, 3: {'color': '#B80047', 'label': '10.6&ndash;14.3%'}, 4: {'color': '#F3000B', 'label': '> 14.4%'}};
