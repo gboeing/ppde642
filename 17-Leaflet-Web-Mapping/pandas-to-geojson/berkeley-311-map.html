@@ -66,20 +66,16 @@
     // 1. CREATE OVERLAY 
 
     // specify what the circle markers should look like
-    var overlayStyles = {
+    var overlayStylesClosed = {
         radius: 8,
-        // fill styles
-        fillColor: 'orange', fillOpacity: 0.8,
-        // border styles
-        color: 'black', opacity: 1, weight: 1
+        fillColor: '#81DAF5', fillOpacity: 0.8, // fill styles
+        color: 'black', opacity: 0.5, weight: 1 // border styles
     };
     
     var overlayStylesOpen = {
-        radius: 8,
-        // fill styles
-        fillColor: 'red', fillOpacity: 0.8,
-        // border styles
-        color: 'black', opacity: 1, weight: 1
+        radius: 12,
+        fillColor: '#DF0101', fillOpacity: 0.8, // fill styles
+        color: 'black', opacity: 0.5, weight: 1 // border styles
     };
     
     // specify how to load the individual features 
@@ -92,7 +88,7 @@
         },
         pointToLayer: function (feature, latlng) {
             if(feature.properties.ticket_status=='Closed') {
-                return L.circleMarker(latlng, overlayStyles);
+                return L.circleMarker(latlng, overlayStylesClosed);
             }
             else {
                 return L.circleMarker(latlng, overlayStylesOpen);
