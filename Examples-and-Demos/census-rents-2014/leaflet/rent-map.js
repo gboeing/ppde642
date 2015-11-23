@@ -8,8 +8,8 @@ var legend = null;
 //2 vars are loaded by category-propertiess.js: rentCatProps and rentChangeCatProps, we'll switch between them when datasets are switched. initialize with rentCatProps.
 var catProps = rentCatProps;
 var catName = 'rent_cat';
-var rent_desc = '<span><b>2014 Median Rent</b></span><span>Click a metro area for details.</span><span><a href="javascript:switchData();">Switch map</a> to the % increase since 2010.</span>';
-var rent_change_desc = '<span><b>Increase in Median Rent 2010&ndash;14</b></span><span>Click a metro area for details.</span><span><a href="javascript:switchData();">Switch map</a> to the median rent $ amount.</span>';
+var rentDesc = '<span><b>2014 Median Rent</b></span><span>Click any metro area for details.</span><span><button onclick="javascript:switchData();">Switch Data</button>';
+var rentChangeDesc = '<span><b>Rise in Median Rent 2010&ndash;14</b></span><span>Click any metro area for details.</span><span><button onclick="javascript:switchData();">Switch Data</button>';
 
 //add tile layer basemap to the map
 basemapUrl = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
@@ -22,7 +22,10 @@ map.addLayer(basemap);
 function createFeatures() {
     //set the overlay description based on whether we on looking at rent categories or switched datasets to rent change categories
     var overlayDesc = document.getElementById('overlay-desc');
-    if (catName == 'rent_change_cat') { overlayDesc.innerHTML = rent_change_desc; } else { overlayDesc.innerHTML = rent_desc; }
+    if (catName == 'rent_change_cat') { descText = rentChangeDesc; } else { descText = rentDesc; }
+    //if they're not viewing this in an iframe, link to my blog post
+    if (inIframe()) { descText += '</span>' } else { descText += ' <a href="http://geoffboeing.com/2015/11/landscape-us-rents/">More Info</a></span>' }
+    overlayDesc.innerHTML = descText
 
     //specify what the circle markers should look like (radius and fill color are dynamically set later)
     var markerStyle = {radius: null, fillOpacity: 0.7, color: '#666666', opacity: 1, weight: 1, fillColor: null};
@@ -55,6 +58,15 @@ function createFeatures() {
             geojsonLayer._layers[key].setRadius(getRadius());
         }
     });
+    
+    //check if someone's viewing this page directly instead of in iframe
+    function inIframe() {
+        try {
+            return window.self !== window.top;
+        } catch (e) {
+            return true;
+        }
+    }
     
     //************************************************************************
     //define interactions with a feature: clicks and hovers
