@@ -19,6 +19,7 @@ in this course.
   - [National Historical Geographic Information System](https://www.nhgis.org/)
   - [US Census geospatial API](https://github.com/codeforamerica/US-Census-Area-API)
   - [US Census Bureau City SDK](https://uscensusbureau.github.io/citysdk/)
+  - [Python wrapper for the US Census API](https://github.com/sunlightlabs/census)
   - [Geocommons data archive](http://geocommons.com/)
   - [Socrata Open Data](https://opendata.socrata.com/)
   - [Open Data Network](http://www.opendatanetwork.com/)
