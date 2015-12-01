@@ -45,7 +45,8 @@ in this course.
   - [Pandas from the ground up](https://www.youtube.com/watch?v=5JnMutdy6Fw&feature=youtu.be)
   - [Geospatial Python](http://geospatialpython.com/)
   - [I Quant NY](http://iquantny.tumblr.com/)
-- **Online communities**
+- **Communities**
+  - [Code for America Local Brigades](http://www.codeforamerica.org/brigade/)
   - [StackOverflow](https://stackoverflow.com/)
   - [StackExchange: GIS](https://gis.stackexchange.com/)
   - [Reddit: Python](https://www.reddit.com/r/python)
