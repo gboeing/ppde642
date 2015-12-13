@@ -17,6 +17,7 @@ in this course.
   - [CartoDB for urban planners](https://courses.planetizen.com/course/cartodb-planners)
 - **Data sources**
   - [National Historical Geographic Information System](https://www.nhgis.org/)
+  - [Natural Earth public domain map data sets](http://www.naturalearthdata.com/)
   - [US Census geospatial API](https://github.com/codeforamerica/US-Census-Area-API)
   - [US Census Bureau City SDK](https://uscensusbureau.github.io/citysdk/)
   - [Python wrapper for the US Census API](https://github.com/sunlightlabs/census)
@@ -58,6 +59,7 @@ in this course.
   - [Leaflet](http://leafletjs.com/)
   - [CartoDB](https://cartodb.com/)
   - [Mapbox](https://www.mapbox.com/)
+  - [GeoJSON.io](http://geojson.io/)
   - [Google Fusion Tables](https://support.google.com/fusiontables/#topic=1652595)
   - [Open Paths](https://openpaths.cc/)
   - [Plenar.io](http://plenar.io/)
