@@ -1,9 +1,9 @@
-# Examples and Demos
+# Examples, Demos, and More Resources
 
-### Overview:
+### Examples and Demos:
 
-Miscellaneous projects, examples, and demonstrations of the tools and techniques covered
-in this course.
+For examples and demonstrations of the tools and techniques covered in this course, see
+this [GitHub repo](https://github.com/gboeing/data-visualization).
 
 ### More resources:
 
