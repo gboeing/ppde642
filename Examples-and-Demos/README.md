@@ -28,6 +28,8 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [Reddit: Open Data] (https://www.reddit.com/r/opendata)
   - [StackExchange: Open Data](https://opendata.stackexchange.com/)  
 - **Tutorials and demos**
+  - [How to make an animated cartogram](http://metrocosm.com/how-to-make-cartograms-with-animation/)
+  - [A Complete Tutorial to Learn Data Science with Python from Scratch](http://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/)
   - [Chord diagrams in Python](http://nbviewer.ipython.org/github/empet/Plotly-plots/blob/master/Chord-diagram.ipynb)
   - [Plotting for Pandas](http://pandasplotting.blogspot.com/)
   - [Coding for Good: APIs](http://cfg.good.is/categories/unit-4)
@@ -36,6 +38,7 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [Data visualization with D3.js and Python](http://blog.nextgenetics.net/?e=7)
   - [D3 tutorials](http://alignedleft.com/tutorials/d3/)
   - [Intro to PostGIS](http://workshops.boundlessgeo.com/postgis-intro/)
+  - [Intro to machine learning theory and applications](http://www.datasciencecentral.com/m/blogpost?id=6448529%3ABlogPost%3A341914)
 - **Readings and Presentations**
   - [How to become a data scientist](http://blog.datacamp.com/wp-content/uploads/2014/08/How-to-become-a-data-scientist.jpg)
   - [The Data Science workflow](http://blog.binaryedge.io/2015/09/08/the-data-science-workflow/)
@@ -45,6 +48,7 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [Learning how to program](http://radar.oreilly.com/2014/03/a-concrete-approach-to-learning-how-to-program-for-beginners.html)
   - [Pandas from the ground up](https://www.youtube.com/watch?v=5JnMutdy6Fw&feature=youtu.be)
   - [Geospatial Python](http://geospatialpython.com/)
+  - [Master the basics of machine learning](https://medium.com/@mattfogel/master-the-basics-of-machine-learning-with-these-6-resources-63fea5a21c1c#.iehabl2an)
   - [I Quant NY](http://iquantny.tumblr.com/)
 - **Communities**
   - [Code for America Local Brigades](http://www.codeforamerica.org/brigade/)
