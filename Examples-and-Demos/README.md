@@ -28,6 +28,8 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [Reddit: Open Data] (https://www.reddit.com/r/opendata)
   - [StackExchange: Open Data](https://opendata.stackexchange.com/)  
 - **Tutorials and demos**
+  - [Reshaping in Pandas – Pivot, Pivot-Table, Stack and Unstack explained with Pictures](https://nikolaygrozev.wordpress.com/2015/07/01/reshaping-in-pandas-pivot-pivot-table-stack-and-unstack-explained-with-pictures/)
+  - [Python for geospatial data processing](http://www.machinalis.com/blog/python-for-geospatial-data-processing/)
   - [How to make an animated cartogram](http://metrocosm.com/how-to-make-cartograms-with-animation/)
   - [A Complete Tutorial to Learn Data Science with Python from Scratch](http://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/)
   - [Chord diagrams in Python](http://nbviewer.ipython.org/github/empet/Plotly-plots/blob/master/Chord-diagram.ipynb)
@@ -39,6 +41,7 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [D3 tutorials](http://alignedleft.com/tutorials/d3/)
   - [Intro to PostGIS](http://workshops.boundlessgeo.com/postgis-intro/)
   - [Intro to machine learning theory and applications](http://www.datasciencecentral.com/m/blogpost?id=6448529%3ABlogPost%3A341914)
+  - [Running the Python scientific stack on a Raspberry Pi](http://geoffboeing.com/2016/03/scientific-python-raspberry-pi/)
 - **Readings and Presentations**
   - [How to become a data scientist](http://blog.datacamp.com/wp-content/uploads/2014/08/How-to-become-a-data-scientist.jpg)
   - [The Data Science workflow](http://blog.binaryedge.io/2015/09/08/the-data-science-workflow/)
