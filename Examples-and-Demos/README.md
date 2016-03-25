@@ -62,6 +62,7 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [Reddit: Data is Beautiful](https://www.reddit.com/r/dataisbeautiful/)
   - [Y-Combinator Hacker News](https://news.ycombinator.com/)
 - **Tools**
+  - [Data Science Toolkit](http://www.datasciencetoolkit.org/)
   - [OpenStreetMap](http://www.openstreetmap.org/)
   - [Leaflet](http://leafletjs.com/)
   - [CartoDB](https://cartodb.com/)
