@@ -52,6 +52,7 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [Pandas from the ground up](https://www.youtube.com/watch?v=5JnMutdy6Fw&feature=youtu.be)
   - [Geospatial Python](http://geospatialpython.com/)
   - [Master the basics of machine learning](https://medium.com/@mattfogel/master-the-basics-of-machine-learning-with-these-6-resources-63fea5a21c1c#.iehabl2an)
+  - [The correct way to use pie charts](http://www.randalolson.com/2016/03/24/the-correct-way-to-use-pie-charts/)
   - [I Quant NY](http://iquantny.tumblr.com/)
 - **Communities**
   - [Code for America Local Brigades](http://www.codeforamerica.org/brigade/)
