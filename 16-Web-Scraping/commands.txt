@@ -1,7 +1,0 @@
-scrapy startproject craigslistRent
-
-scrapy crawl indexSpider -o temp-rentals.csv -t csv
-
-scrapy crawl latlongSpider -o temp-latlong.csv -t csv
-
-python MergeData.py

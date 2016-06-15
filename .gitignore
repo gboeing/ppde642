@@ -2,6 +2,7 @@
 keys.py
 
 .ipynb_checkpoints
+16-Web-Scraping/old/*
 
 *.bat
 .logs/*
