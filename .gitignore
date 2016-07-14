@@ -12,6 +12,7 @@ keys.py
 *.pptx
 *.qgs~
 *.mbox
+*.h5
 
 # Compiled source #
 ###################
