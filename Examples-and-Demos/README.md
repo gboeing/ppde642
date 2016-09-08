@@ -63,6 +63,7 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [Reddit: Data is Beautiful](https://www.reddit.com/r/dataisbeautiful/)
   - [Y-Combinator Hacker News](https://news.ycombinator.com/)
 - **Tools**
+  - [Social Explorer](http://www.socialexplorer.com/)
   - [Data Science Toolkit](http://www.datasciencetoolkit.org/)
   - [OpenStreetMap](http://www.openstreetmap.org/)
   - [Leaflet](http://leafletjs.com/)
@@ -72,6 +73,7 @@ this [GitHub repo](https://github.com/gboeing/data-visualization).
   - [Google Fusion Tables](https://support.google.com/fusiontables/#topic=1652595)
   - [Open Paths](https://openpaths.cc/)
   - [Plenar.io](http://plenar.io/)
+  - [My Sidewalk](https://mysidewalk.com/)
   - [Kartograph.py](http://kartograph.org/)
   - [Urban Observatory](http://www.urbanobservatory.org/)
   
