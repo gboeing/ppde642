@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin/>
+        <pubdate>20020528</pubdate>
+        <title>Superdistricts with Populations, San Francisco Bay Area, California, 2000</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace/>
+          <publish>California. Metropolitan Transportation Commission</publish>
+        </pubinfo>
+        <onlink>http://purl.stanford.edu/sn432sp4756</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin/>
+            <pubdate>20100101</pubdate>
+            <title>California Metropolitan Transportation Comission GIS Data</title>
+            <pubinfo>
+              <pubplace/>
+              <publish>California. Metropolitan Transportation Commission</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This polygon shapefile contains superdistrict boundaries and population statistics created by the Metropolitan Transportation Comission (MTC) using Census 2000 data. Superdistricts are used in the analysis of sub-county level demographic and travel forecasts. MTC maintains a set of regional travel analysis zones for use in MTC planning studies. These travel analysis zones (TAZs) are typically small area neighborhoods or communities that serve as the smallest geographic basis for travel demand model forecasting systems. From time to time, MTC updates the regional travel analysis zone system to reflect changes in decennial census geography, changes in computing capability, and forecasting needs for particular corridor studies. In addition to regional TAZs and counties, MTC supports an intermediate geographic scale, "superdistricts," for analysis and reporting purposes. There are 34 superdistricts in the nine-county Bay Area. This layer is part of the Bay Area Metropolitan Transportation Commission (MTC) GIS Maps and Data collection.</abstract>
+      <purpose>This dataset is intended for researchers, students, and policy makers for reference and mapping purposes, and may be used for basic applications such as viewing, querying, and map output production, or to provide a basemap to support graphical overlays and analysis with other spatial data.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20000101</begdate>
+          <enddate>20001231</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-123.534391</westbc>
+        <eastbc>-121.164147</eastbc>
+        <northbc>38.865812</northbc>
+        <southbc>36.889249</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>lcsh</themekt>
+        <themekey>Population</themekey>
+        <themekey>Transportation demand management</themekey>
+        <themekey>Traffic estimation</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>boundaries</themekey>
+        <themekey>society</themekey>
+        <themekey>transportation</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+      <place>
+        <placekt>geonames</placekt>
+        <placekey>San Francisco Bay Area (Calif.)</placekey>
+        <placekey>San Francisco (Calif.)</placekey>
+        <placekey>Contra Costa County (Calif.)</placekey>
+        <placekey>Napa County (Calif.)</placekey>
+        <placekey>San Mateo County (Calif.)</placekey>
+        <placekey>San Mateo County (Calif.)</placekey>
+        <placekey>Solano County (Calif.)</placekey>
+        <placekey>Sonoma County (Calif.)</placekey>
+        <placekey>Marin County (Calif.)</placekey>
+        <placekey>Alameda County (Calif.)</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2000</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>No restrictions on access or use.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>California. Metropolitan Transportation Commission</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>unknown</addrtype>
+          <address>101 Eighth Street</address>
+          <city>Oakland</city>
+          <state>California</state>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>510.817.5700</cntvoice>
+        <cntemail>info@mtc.ca.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>California, Metropolitan Transportation Commission. (2002). Superdistricts with Populations, San Francisco Bay Area, California, 2000. MTC. Available at: http://purl.stanford.edu/sn432sp4756.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>34</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bayarea_superdistricts</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUPERD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREALAND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREAWATER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TOTPOP2000</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LANDACRE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WATERACRE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>No restrictions on access or use.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20150717</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Stanford Geospatial Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>physical</addrtype>
+          <address>Branner Earth Sciences Library</address>
+          <address>Mitchell Building, 2nd Floor</address>
+          <address>397 Panama Mall</address>
+          <city>Stanford</city>
+          <state>California</state>
+          <postal>94305</postal>
+        </cntaddr>
+        <cntvoice>650-723-2746</cntvoice>
+        <cntemail>brannerlibrary@stanford.edu</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
