@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map Demo</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src='dataset.js'></script>
+    
+    <style type='text/css'>
+    
+        body { 
+          margin: 0; 
+          padding: 0; 
+          font-family: Helvetica, sans-serif;
+        }
+        
+        #map {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 100%;
+        }
+        
+        .popupHeader {
+          font-weight: bold;
+          color: gray;
+          font-size: 110%;
+        }
+        
+        .popupDetails {
+          font-weight: normal;
+          color: gray;
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <div id="map"></div>
+    
+    <script type="text/javascript">
+    /***********************************************
+    SET UP THE BACKGROUND MAP
+    ***********************************************/
+    
+    // create the Leaflet map container
+    var map = L.map('map');
+    
+    //add tile layer basemap to the map
+    var basemapUrl = 'http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
+    var basemapAttribution = '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="http://cartodb.com/attributions">CartoDB</a>';
+    var basemapProperties = {minZoom: 12, maxZoom: 16, attribution: basemapAttribution};
+    var basemap = L.tileLayer(basemapUrl, basemapProperties);
+    map.addLayer(basemap);
+    
+    
+    /***********************************************
+    CREATE DATA OVERLAY 
+    ***********************************************/
+    
+    // specify what the circle markers should look like for open and closed 311 tickets
+    var markerStyleClosed = {
+        radius: 8, //size
+        fillColor: '#81DAF5', fillOpacity: 0.8, // fill styles
+        color: 'black', opacity: 0.5, weight: 1 // border styles
+    };
+    var markerStyleOpen = {
+        radius: 12, //size
+        fillColor: '#DF0101', fillOpacity: 0.8, // fill styles
+        color: 'black', opacity: 0.5, weight: 1 // border styles
+    };
+    
+    // give each data point a text popup containing the details
+    function createPopup(feature, layer) {
+        layer.bindPopup('<span class="popupHeader">' +  feature.properties.street_address + '</span><br />' + 
+                        '<span class="popupDetails">' + feature.properties.issue_type + '<br />' + 
+                                                        feature.properties.issue_description + '<br />' + 
+                                                        feature.properties.ticket_status + '</span>');
+    }
+    
+    // function to add data points to map layer with proper styling
+    function addPointToLayer(feature, latlng) {
+        if(feature.properties.ticket_status=='Closed') {
+            return L.circleMarker(latlng, markerStyleClosed);
+        }
+        else {
+            return L.circleMarker(latlng, markerStyleOpen);
+        }
+    }
+    
+    // specify how to load the individual features: give each its styling and a text popup
+    var pointsOptions = {
+        onEachFeature: createPopup,
+        pointToLayer: addPointToLayer,
+    };
+    
+    // create the layer and add to map
+    var geojsonLayer = L.geoJson(dataset, pointsOptions); 
+    map.addLayer(geojsonLayer);
+    
+    // fit the initial map view to the data points
+    map.fitBounds(geojsonLayer.getBounds());
+    
+    </script>
+</body>
+</html>

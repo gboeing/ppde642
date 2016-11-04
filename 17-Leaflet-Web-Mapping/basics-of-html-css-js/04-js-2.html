@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is the web page's title</title>
+        <style>
+            button {
+                color: red;
+            }
+        </style>
+        <script>
+            
+            // change the text inside a header -- you can run this function in the console
+            function updateHeader() {
+                document.getElementById("subheader").innerHTML = "My new subheader!";
+                document.getElementById("update-header").style.color = "blue";
+            }
+            
+            // change the image
+            function updateImage() {
+                var currentImage = document.getElementById("berkeley-image").src;
+                console.log("updating image: " + currentImage);
+                document.getElementById("berkeley-image").src = "images/berkeley2.jpg";
+                document.getElementById("update-image").style.fontWeight = "bold";
+            }
+            
+        </script>
+    </head>
+    <body>
+
+        <h1>
+            This is a heading
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span>Duis aute 
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span>Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        </p>
+        
+        <h1 id="heading2" class="content-heading">
+            Another heading
+        </h1>
+        <h2 id="subheader" class="content-subheading">
+            This is a subheader
+        </h2>
+        <div>
+            <button id="update-header" onclick="updateHeader()">update header</button>
+        </div>
+        <p id="information">
+            <a href="http://www.berkeley.edu">UC Berkeley</a> is located in Berkeley, California.
+            <br>
+            <img id="berkeley-image" src="images/berkeley.jpg">
+            <div>
+                <button id="update-image" onclick="updateImage()">update image</button>
+            </div>
+        </p>
+
+    </body>
+</html>
+
+
+<!--
+1. Create a button and a function that changes h1 elements with id of "heading2" to have new text and new color
+2. Create a button that pops up an alert that displays the value of a variable
+-->

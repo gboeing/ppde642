@@ -11,9 +11,6 @@ that they're easily downloaded by the viewer of your web page.
 - http://www.citylab.com/design/2015/06/who-owns-the-digital-map-of-the-world/396119
 - http://leafletjs.com/reference.html
 
-### Getting Started:
-
-Sign up for a free account on Mapbox.com - we'll use their tiles as our basemap.
 
 ### Class Session:
 

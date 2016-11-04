@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is the web page's title</title>
+        <style>
+            h1 {
+                color: blue;
+            }
+        </style>
+        <script>
+            // log variables to the console to see what's going on under the hood
+            var x = 100;
+            x = x * 2 + 50;
+            console.log(x);
+            
+            // or pop up a value as an alert to see it
+            x = x / 3
+            //alert(x);
+            
+            // if-else
+            if (x > 100) {
+                var message = x + " is greater than 100";
+            } else {
+                var message = x + " is less than 100";
+            }
+            console.log(message);
+            
+            // for loop, over an array
+            cities = ["Berkeley", "Albany", "Oakland"];
+            for (i = 0; i < cities.length; i++) {
+                var city = cities[i];
+                console.log(city);
+            }
+            
+            // js object
+            var states = {"california":120, "texas":98, "oregon":[99, 101, 22]};
+            console.log(states);
+            
+            // change the text inside a header
+            //document.getElementById("subheader").innerHTML = "My new subheader!";
+            
+        </script>
+    </head>
+    <body>
+
+        <h1>
+            This is a heading
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span>Duis aute 
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span>Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        </p>
+        
+        <h1 id="heading2" class="content-heading">
+            Another heading
+        </h1>
+        <h2 id="subheader" class="content-subheading">
+            This is a subheader
+        </h2>
+        <p id="information">
+            <a href="http://www.berkeley.edu">UC Berkeley</a> is located in Berkeley, California.
+            <br>
+            <img src="images/berkeley.jpg">
+        </p>
+
+    </body>
+</html>
+
