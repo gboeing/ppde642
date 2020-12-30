@@ -1,0 +1,21 @@
+\usepackage{crimson}   % serif font
+\usepackage{helvet}    % sanserif font
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+
+% configure the page layout, via geometry package
+\geometry{
+	paper=letterpaper,         % paper size
+	top=4cm,                   % margin sizes
+	bottom=4cm,
+	left=4.5cm,
+	right=4.5cm}
+\setstretch{1.02}              % line spacing
+\clubpenalty=10000             % prevent orphans
+\widowpenalty=10000            % prevent widows
+
+% custom section and subsection headers
+\titleformat{\section}{\normalfont\sffamily\large\bfseries\color{black}}{\thesection.}{0.3em}{}
+\titleformat{\subsection}{\normalfont\sffamily\small\bfseries\color{black}}{\thesubsection.}{0.3em}{}
