@@ -82,7 +82,8 @@ Per USC guidelines, for each course unit the university expects 2 hours of out-o
 
 Final grades will be assigned according to the following, for a total of 1000 points:
 
-  - 500 points: 4 analytics assignments × 125 points each
+  - 480 points: 4 analytics assignments × 120 points each
+  - 20 points: project proposal
   - 100 points: mini-lecture
   - 100 points: final presentation
   - 200 points: final project
@@ -113,12 +114,12 @@ Readings to be completed prior to class:
 
 **Urban analytics and urban science**
 
-We introduce the fields of urban analytics and urban science, consider how they relate to one another in the study and practice of city planning, and explore various critiques and open challenges.
+We introduce ourselves and the fields of urban analytics and urban science, consider how they relate to one another in the study and practice of city planning, and explore various critiques and open challenges.
 
 Readings to be completed prior to class:
 
-  - Townsend.
-  - Kontokosta. 2018. Urban Informatics in the Science and Practice of Planning. Journal of Planning Education and Research. https://doi.org/10.1177/0739456X18793716
+  - Townsend. 2015. Cities of Data: Examining the New Urban Science. Public Culture. [Direct link](https://doi.org/10.1215/08992363-2841808). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1215/08992363-2841808).
+  - Kontokosta. 2018. Urban Informatics in the Science and Practice of Planning. Journal of Planning Education and Research. [Direct link](https://doi.org/10.1177/0739456X18793716). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1177/0739456X18793716).
 
 
 
@@ -133,6 +134,8 @@ Readings to be completed prior to class:
   - McKinney. 2017. Python for Data Analysis, 2nd Ed. O'Reilly. (Ch 5-8)
   - *Optional but important*: if any of the preceding reading feels unfamiliar, first read Ch 1-4
   - *Optional if you haven't used JupyterLab before*: [JupyterLab](https://jupyterlab.readthedocs.io/) user guide sections on the interface and notebooks
+
+Project proposal due the following Wednesday.
 
 
 
@@ -166,11 +169,11 @@ Readings to be completed prior to class:
 
 **Spatial data**
 
-We introduce methods for working with spatial data including mapping.
+We introduce methods for working with spatial data.
 
 Readings to be completed prior to class:
 
-  - geopandas user guide: https://geopandas.org/
+  - GeoPandas [user guide](https://geopandas.org/)
 
 Assignment 2 due the following Wednesday.
 
@@ -180,12 +183,12 @@ Assignment 2 due the following Wednesday.
 
 **Urban network analysis I**
 
-We introduce the theory and methods of computational spatial network analysis, including spatially-embedded graphs and libraries to model and analyze urban infrastructure networks. We explore questions of planarity, topology, and representation in models.
+We introduce the theory and methods of computational spatial network analysis, including spatially-embedded graphs and libraries to model and analyze urban infrastructure networks.
 
 Readings to be completed prior to class:
 
-  - O'Sullivan. 2014. Spatial Network Analysis. In: Handbook of Regional Science, edited by Fischer and Nijkamp.
-  - OSMnx docs: https://osmnx.readthedocs.io/
+  - O'Sullivan. 2014. Spatial Network Analysis. Handbook of Regional Science, edited by Fischer and Nijkamp. [Direct link](https://doi.org/10.1007/978-3-642-23430-9_67) [USC link](https://www-doi-org.libproxy2.usc.edu/10.1007/978-3-642-23430-9_67).
+  - OSMnx [documentation](https://osmnx.readthedocs.io/)
 
 
 
@@ -196,7 +199,7 @@ Readings to be completed prior to class:
 We build on the theory and methods introduced in the prior module to explore applications of spatial network analysis in the science and practice of urban planning, including routing, accessibility, and network design.
 
   - Boeing. 2020. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1080/01944363.2020.1819382).
-  - pandana docs: https://udst.github.io/pandana/
+  - Pandana [documentation](https://udst.github.io/pandana/)
 
 Assignment 3 due the following Wednesday.
 
@@ -206,11 +209,12 @@ Assignment 3 due the following Wednesday.
 
 **Spatial analysis**
 
-We cover a coding approach to spatial analysis, including spatial clustering, spatial autocorrelation, spatial diffusion and spillover, and visualization such as point and choropleth mapping.
+We cover a coding approach to spatial analysis, including weights matrices, spatial clustering, spatial autocorrelation, spatial diffusion and spillover, and mapping.
 
 Readings to be completed prior to class:
 
-  - pysal docs: https://pysal.org/pysal/api.html
+  - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 14.2-14.3)
+  - PySAL [documentation](https://pysal.org/)
 
 
 
@@ -222,8 +226,8 @@ We introduce explicitly spatial models in the regression framework, including GW
 
 Readings to be completed prior to class:
 
-  - Watch 3 Blue 1 Brown's Essence of linear algebra video series.
-  - Anselin and Rey. 2014. Modern Spatial Econometrics in Practice.
+  - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 12-13 and 14.4-14.6)
+  - *Optional* 3Blue1Brown's (excellent) Essence of Linear Algebra [video series](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 Assignment 4 due the following Wednesday.
 
@@ -237,33 +241,32 @@ We introduce, from an applied perspective, machine learning and a class of algor
 
 Readings to be completed prior to class:
 
-  - Wu et al. 2008. Top 10 algorithms in data mining. Knowledge and Information Systems, 14, 1-37.
-  - Raschka. 2015. Python Machine Learning. (Ch 1-3)
+  - Raschka. 2015. Python Machine Learning. (Ch 1-4)
 
 
 
 ## Module 12
 
-**Machine learning II: natural language processing**
+**Machine learning II: unsupervised learning**
 
-We introduce, from an applied perspective, machine learning in the context of natural language processing to extract meaning and sentiment from large bodies of text.
+We introduce, from an applied perspective, unsupervised learning through cluster analysis and dimensionality reduction to discover groups and structure in data and to work with data in low-dimension embeddings.
 
 Readings to be completed prior to class:
 
-  - Raschka. 2015. Python Machine Learning. (Ch 8)
-  - NLTK docs: https://www.nltk.org/
+  - Raschka. 2015. Python Machine Learning. (Ch 5, 11)
 
 
 
 ## Module 13
 
-**Machine learning III: cluster analysis and dimensionality reduction**
+**Machine learning III: deep learning and natural language processing**
 
-We introduce, from an applied perspective, machine learning in the context of clustering algorithms, cluster analysis, and dimensionality reduction to identify groups and structure in data, and to work with data in low-dimension embeddings.
+We introduce, from an applied perspective, deep learning with keras and natural language processing with nltk.
 
 Readings to be completed prior to class:
 
-  - Raschka. 2015. Python Machine Learning. (Ch 5, 11)
+  - LeCun et al. 2015. Deep Learning. Nature. [Direct link](https://doi.org/10.1038/nature14539). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1038/nature14539).
+  - Raschka. 2015. Python Machine Learning. (Ch 8)
 
 
 
