@@ -4,7 +4,7 @@
 
 This is the second part of a two-course series on **urban data science** that I teach at the **University of Southern California**'s Department of Urban Planning and Spatial Analysis.
 
-This course series takes a computational social science approach to working with urban data. It uses Python and Jupyter notebooks to introduce coding and statistical methods that students can reproduce and experiment with in the cloud. It presumes no prior knowledge as this course series introduces coding, stats, spatial analysis, and applied machine learning from the ground up.
+This course series takes a computational social science approach to working with urban data. It uses Python and Jupyter notebooks to introduce coding and statistical methods that students can reproduce and experiment with in the cloud. The series as a whole presumes no prior knowledge as it introduces coding, stats, spatial analysis, and applied machine learning from the ground up, but PPD599 assumes you have completed PPD534 or its equivalent.
 
 
 ## Urban Data Science course series
