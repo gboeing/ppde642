@@ -1,6 +1,6 @@
 **Advanced Urban Analytics**
 
-USC PPD599 / Spring 2020 / 4 units
+USC PPD599 / Spring 2021 / 4 units
 
 
 
@@ -11,7 +11,7 @@ USC PPD599 / Spring 2020 / 4 units
 
 Email: boeing at usc dot edu
 
-Office hours: Thurs xx:xx-xx:xx, Zoom ([you must sign-up in advance online](https://www.wejoinin.com/sheets/vqcmr/))
+Office hours: Wed 17:20-18:20, Zoom
 
 Classroom location and meeting times are [available online](https://classes.usc.edu/)
 
@@ -59,7 +59,7 @@ Given the nature of this course, I do expect a few things of you before you seek
 If the above steps haven't solved your problem, send an email (or attend office hours) and include the following information:
 
   1. A detailed description of what you're trying to do, why, and how
-  2. A complete [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) of your code so far (never send screenshots of code)
+  2. A complete [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) of your code so far (never send screenshots of code or tracebacks)
   3. What you've already tried to do to solve your problem and what you have learned from it (specifically, explain the results of steps 1-4 above, including relevant links from stackoverflow etc)
 
 I do not ask for this to be pedantic. Rather, I need it to be able to help you solve your problem.
@@ -82,8 +82,7 @@ Per USC guidelines, for each course unit the university expects 2 hours of out-o
 
 Final grades will be assigned according to the following, for a total of 1000 points:
 
-  - 480 points: 4 analytics assignments × 120 points each
-  - 20 points: project proposal
+  - 500 points: 4 analytics assignments × 125 points each
   - 100 points: mini-lecture
   - 100 points: final presentation
   - 200 points: final project
@@ -98,13 +97,13 @@ Assignments must be submitted via Blackboard by 23:59 pacific time on their due 
 
 ## Module 1
 
-**Introduction**
+**Jan 20 - Introduction**
 
 We introduce the course, the syllabus, the semester's expectations and schedule, and set up the computing environment for coursework. Then we introduce the foundational tools underlying much of the modern data science world: package management, version control, and computational notebooks.
 
 Readings to be completed prior to class:
 
-  - Boeing and Arribas-Bel. 2020. GIS and Computational Notebooks. In: The Geographic Information Science & Technology Body of Knowledge, edited by J.P. Wilson.
+  - Boeing and Arribas-Bel. 2020. GIS and Computational Notebooks. In: The Geographic Information Science & Technology Body of Knowledge, edited by J.P. Wilson. [Direct link](https://doi.org/10.22224/gistbok/2021.1.2).
   - If you're on Windows, read [this guide](http://dosprompt.info/)'s "basics" and "folders" sections. If you're on Mac, read [this guide](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855).
   - Conda [user guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
 
@@ -112,7 +111,7 @@ Readings to be completed prior to class:
 
 ## Module 2
 
-**Urban analytics and urban science**
+**Jan 27 - Urban analytics and urban science**
 
 We introduce ourselves and the fields of urban analytics and urban science, consider how they relate to one another in the study and practice of city planning, and explore various critiques and open challenges.
 
@@ -125,23 +124,21 @@ Readings to be completed prior to class:
 
 ## Module 3
 
-**Python for urban data science**
+**Feb 3 - Python for urban data science**
 
-We do a quick refresher on the Python language and its use in (urban) data science. This course presumes prior experience, so we quickly review the basics then introduce more advanced methods.
+We do a quick refresher on Python and pandas for (urban) data science. This course presumes prior experience, so we quickly review the basics then introduce more advanced methods.
 
 Readings to be completed prior to class:
 
   - McKinney. 2017. Python for Data Analysis, 2nd Ed. O'Reilly. (Ch 5-8)
   - *Optional but important*: if any of the preceding reading feels unfamiliar, first read Ch 1-4
-  - *Optional if you haven't used JupyterLab before*: [JupyterLab](https://jupyterlab.readthedocs.io/) user guide sections on the interface and notebooks
-
-Project proposal due the following Wednesday.
+  - *Optional if you haven't used JupyterLab before*: [JupyterLab](https://jupyterlab.readthedocs.io/) user guide "interface" and "notebooks" sections
 
 
 
 ## Module 4
 
-**Data preparation and visualization**
+**Feb 10 - Data preparation and visualization**
 
 We cover data wrangling and manipulation to prepare a dataset for analysis and also introduce computational visualization techniques to find patterns in data.
 
@@ -155,25 +152,27 @@ Assignment 1 due the following Wednesday.
 
 ## Module 5
 
-**Geocoding and APIs**
+**Feb 17 - APIs and scraping**
 
-We introduce working with APIs, geocoding, reverse geocoding, and data collection from data portals.
+We introduce working with APIs, geocoding, data portals, and scraping.
 
 Readings to be completed prior to class:
 
-  - McKinney. 2017. Python for Data Analysis, 2nd Ed. O'Reilly. (Ch 9-10)
+  - Beautiful Soup [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 
 
 ## Module 6
 
-**Spatial data**
+**Feb 24 - Spatial data**
 
 We introduce methods for working with spatial data.
 
 Readings to be completed prior to class:
 
   - GeoPandas [user guide](https://geopandas.org/)
+  - Shapely [user manual](https://shapely.readthedocs.io/)
+  - *Optional* Introduction to [PostGIS](https://postgis.net/workshops/postgis-intro/)
 
 Assignment 2 due the following Wednesday.
 
@@ -181,7 +180,7 @@ Assignment 2 due the following Wednesday.
 
 ## Module 7
 
-**Urban network analysis I**
+**Mar 3 - Urban network analysis I**
 
 We introduce the theory and methods of computational spatial network analysis, including spatially-embedded graphs and libraries to model and analyze urban infrastructure networks.
 
@@ -194,7 +193,7 @@ Readings to be completed prior to class:
 
 ## Module 8
 
-**Urban network analysis II**
+**Mar 10 - Urban network analysis II**
 
 We build on the theory and methods introduced in the prior module to explore applications of spatial network analysis in the science and practice of urban planning, including routing, accessibility, and network design.
 
@@ -207,7 +206,7 @@ Assignment 3 due the following Wednesday.
 
 ## Module 9
 
-**Spatial analysis**
+**Mar 17 - Spatial analysis**
 
 We cover a coding approach to spatial analysis, including weights matrices, spatial clustering, spatial autocorrelation, spatial diffusion and spillover, and mapping.
 
@@ -220,7 +219,7 @@ Readings to be completed prior to class:
 
 ## Module 10
 
-**Spatial regression**
+**Mar 24 - Spatial regression**
 
 We introduce explicitly spatial models in the regression framework, including GWR and spatial-lag and spatial-error models, to predict and explain urban phenomena while accounting for ubiquitous spatial heterogeneity and diffusion.
 
@@ -235,44 +234,49 @@ Assignment 4 due the following Wednesday.
 
 ## Module 11
 
-**Machine learning I: supervised learning**
+**Mar 31 - Supervised learning**
 
-We introduce, from an applied perspective, machine learning and a class of algorithms known as supervised learning classifiers, including logistic regression, support vector machines, decision trees, random forests, k-nearest neighbors, perceptrons, and naive Bayes.
+We introduce, from an applied perspective, machine learning through a class of algorithms known as supervised learning classifiers, including logistic regression, support vector machines, decision trees, random forests, k-nearest neighbors, perceptrons, and naive Bayes.
 
 Readings to be completed prior to class:
 
   - Raschka. 2015. Python Machine Learning. (Ch 1-4)
 
+Mini-lectures, part 1
+
 
 
 ## Module 12
 
-**Machine learning II: unsupervised learning**
+**Apr 7 - No class: wellness day**
 
-We introduce, from an applied perspective, unsupervised learning through cluster analysis and dimensionality reduction to discover groups and structure in data and to work with data in low-dimension embeddings.
-
-Readings to be completed prior to class:
-
-  - Raschka. 2015. Python Machine Learning. (Ch 5, 11)
-
-
-
-## Module 13
-
-**Machine learning III: deep learning and natural language processing**
-
-We introduce, from an applied perspective, deep learning with keras and natural language processing with nltk.
+What we would have covered: deep learning and natural language processing. We introduce, from an applied perspective, deep learning with keras and natural language processing with nltk.
 
 Readings to be completed prior to class:
 
   - LeCun et al. 2015. Deep Learning. Nature. [Direct link](https://doi.org/10.1038/nature14539). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1038/nature14539).
   - Raschka. 2015. Python Machine Learning. (Ch 8)
+  - *Optional* [City of LA](https://github.com/CityOfLosAngeles/automated-walk-bike-counter) using computer vision to count cyclists and pedestrians
+
+
+
+## Module 13
+
+**Apr 14 - Unsupervised learning**
+
+We introduce, from an applied perspective, unsupervised learning through cluster analysis and dimensionality reduction to discover structure in data and to work with data in low-dimension embeddings.
+
+Readings to be completed prior to class:
+
+  - Raschka. 2015. Python Machine Learning. (Ch 5, 11)
+
+Mini-lectures, part 2
 
 
 
 ## Module 14
 
-**Workshop**
+**Apr 21 - Workshop**
 
 We have a collective hands-on workshop applying the methods we have learned throughout the semester to the individual final projects.
 
@@ -280,7 +284,7 @@ We have a collective hands-on workshop applying the methods we have learned thro
 
 ## Module 15
 
-**Final Presentations**
+**Apr 28 - Final Presentations**
 
 Present your final projects to the group and engage in a discussion around each.
 
