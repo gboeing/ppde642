@@ -27,8 +27,9 @@ Students will be expected to:
 
   - Complete and be prepared to discuss all assigned readings
   - Attend the lecture
-  - Complete and submit assigned homework
+  - Complete and submit assignments
   - Present a mini-lecture on an applied method
+  - Prepare a short conference paper and presentation
 
 The course has prerequisites: students are expected to have taken PPD534 or an equivalent introductory course on basic Python, stats, and spatial concepts. These prerequisites will not be covered from the ground-up as you are expected to be already familiar with them. This course requires patience and practice: learning to code will take lots of trial-and-error, self-direction, repetition, and experimentation on your part. You will get out of it what you are willing to put into it. Please note that this syllabus is a living document and may be updated by the instructor during the semester as needed.
 
@@ -38,7 +39,7 @@ The course has prerequisites: students are expected to have taken PPD534 or an e
 # Learning Objectives
 
   - Understand the nature and applications of urban analytics and urban science
-  - Write code to organize, analyze, and visualize urban data
+  - Write code to collect, organize, analyze, and visualize urban data
   - Model and analyze urban networks
   - Train and interpret urban models
 
@@ -52,7 +53,7 @@ I am available if you need help throughout the semester and am happy to answer y
 Given the nature of this course, I do expect a few things of you before you seek assistance with coding/data questions:
 
   1. Close all open programs, restart your computer, then try your task again
-  2. Search google and stackoverflow for the topic/problem (for example, the name of the function you're struggling with or the error message you are seeing)
+  2. Search Google and StackOverflow for the topic/problem (for example, the name of the function you're struggling with or the error message you are seeing)
   3. Go back through the relevant lecture materials to look for any insights
   4. Go back through the assigned reading materials to look for any insights
 
@@ -60,7 +61,7 @@ If the above steps haven't solved your problem, send an email (or attend office 
 
   1. A detailed description of what you're trying to do, why, and how
   2. A complete [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) of your code so far (never send screenshots of code or tracebacks)
-  3. What you've already tried to do to solve your problem and what you have learned from it (specifically, explain the results of steps 1-4 above, including relevant links from stackoverflow etc)
+  3. What you've already tried to do to solve your problem and what you have learned from it (specifically, explain the results of steps 1-4 above, including relevant links from StackOverflow etc)
 
 I do not ask for this to be pedantic. Rather, I need it to be able to help you solve your problem.
 
@@ -71,7 +72,7 @@ I do not ask for this to be pedantic. Rather, I need it to be able to help you s
 
 Coursework will be based on free open-source software. You will need a laptop (non-Chromebook) to install and run the course software.
 
-Copyrighted course reading materials are available via blackboard for enrolled students to download. The course lectures assume that you have read the assigned readings prior to the class session and are now reasonably fluent in their contents and ready to discuss/debate them in class.
+Copyrighted course reading materials are available via Blackboard for enrolled students to download. The course lectures assume that you have read the assigned readings prior to the class session and are now reasonably fluent in their contents and ready to discuss/debate them in class.
 
 
 
@@ -186,7 +187,7 @@ We introduce the theory and methods of computational spatial network analysis, i
 
 Readings to be completed prior to class:
 
-  - O'Sullivan. 2014. Spatial Network Analysis. Handbook of Regional Science, edited by Fischer and Nijkamp. [Direct link](https://doi.org/10.1007/978-3-642-23430-9_67) [USC link](https://www-doi-org.libproxy2.usc.edu/10.1007/978-3-642-23430-9_67).
+  - O'Sullivan. 2014. Spatial Network Analysis. Handbook of Regional Science, edited by Fischer and Nijkamp. [Direct link](https://doi.org/10.1007/978-3-642-23430-9_67) [USC link](https://www-doi-org.libproxy2.usc.edu/10.1007/978-3-642-23430-9_67)
   - OSMnx [documentation](https://osmnx.readthedocs.io/)
 
 
@@ -197,8 +198,7 @@ Readings to be completed prior to class:
 
 We build on the theory and methods introduced in the prior module to explore applications of spatial network analysis in the science and practice of urban planning, including routing, accessibility, and network design.
 
-  - Boeing. 2020. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1080/01944363.2020.1819382).
-  - Pandana [documentation](https://udst.github.io/pandana/)
+  - Boeing. 2020. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1080/01944363.2020.1819382)
 
 Assignment 3 due the following Wednesday.
 
