@@ -18,10 +18,10 @@ Write a conference paper organized into five sections:
   4. results: present your findings and relevant visuals
   5. discussion: circle back to your research question, interpret your findings, and discuss their importance and how planners or policymakers could use them to improve urban living
 
-Format your paper according to the conference's guidelines. For the purposes of this course, your paper should be at least 3000 words in length (not including tables, figures, captions, or references). It must include the following:
+Format your paper according to the conference's guidelines. For the purposes of this course, your paper must be at least 3000 words in length (not including tables, figures, captions, or references). It must include the following:
 
   - a table of descriptive statistics
-  - a table of spatial regression (or equivalent modeling) results
+  - a table of spatial regression or machine learning model results
   - at least 4 figures containing data visualizations, including at least 1 map
 
 You are encouraged, but not required, to actually submit this paper to the conference.
