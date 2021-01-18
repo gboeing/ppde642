@@ -33,7 +33,7 @@ Download and install [miniconda](https://docs.conda.io/en/latest/miniconda.html)
 ```
 conda config --prepend channels conda-forge
 conda config --set channel_priority strict
-conda env create --file environment.yml
+conda env create --file environment.yml --force
 conda activate ppd599
 python -m ipykernel install --sys-prefix --name ppd599 --display-name "Python (ppd599)"
 ```

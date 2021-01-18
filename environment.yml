@@ -12,7 +12,7 @@ dependencies:
   - geopandas
   - jupyterlab
   - mapclassify
-  - osmnx=1.0.*
+  - osmnx=1.0.1
   - pandana
   - pandas
   - pysal
@@ -28,8 +28,8 @@ dependencies:
   - bokeh
   - datashader
   - holoviews
-  - keras
-  - nltk
+  # keras
+  # nltk
   - psycopg2
   - pydeck
   - urbanaccess
