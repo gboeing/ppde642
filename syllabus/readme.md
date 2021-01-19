@@ -240,7 +240,7 @@ We introduce, from an applied perspective, machine learning through a class of a
 
 Readings to be completed prior to class:
 
-  - Raschka. 2015. Python Machine Learning. (Ch 1-4)
+  - Raschka. 2019. Python Machine Learning. (Ch 1-4)
 
 Mini-lectures, part 1
 
@@ -255,7 +255,7 @@ What we would have covered: deep learning and natural language processing. We in
 Readings to be completed prior to class:
 
   - LeCun et al. 2015. Deep Learning. Nature. [Direct link](https://doi.org/10.1038/nature14539). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1038/nature14539).
-  - Raschka. 2015. Python Machine Learning. (Ch 8)
+  - Raschka. 2019. Python Machine Learning. (Ch 8, 12)
   - *Optional* [City of LA](https://github.com/CityOfLosAngeles/automated-walk-bike-counter) using computer vision to count cyclists and pedestrians
 
 
@@ -268,7 +268,7 @@ We introduce, from an applied perspective, unsupervised learning through cluster
 
 Readings to be completed prior to class:
 
-  - Raschka. 2015. Python Machine Learning. (Ch 5, 11)
+  - Raschka. 2019. Python Machine Learning. (Ch 5, 6, 11)
 
 Mini-lectures, part 2
 
