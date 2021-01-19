@@ -1,4 +1,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gboeing/ppd599/master?urlpath=lab)
+[![Build Status](https://github.com/gboeing/ppd599/workflows/tests/badge.svg?branch=master)](https://github.com/gboeing/ppd599/actions?query=workflow%3A%22tests%22)
+
 
 # PPD599: Advanced Urban Analytics
 
