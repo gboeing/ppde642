@@ -1,4 +1,4 @@
-# Assignment 3: Descriptive analysis
+# Assignment 2: Descriptive analysis
 
 See syllabus for due date.
 
