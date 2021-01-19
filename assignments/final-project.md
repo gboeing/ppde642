@@ -6,17 +6,23 @@ The final project is a cumulative assignment that requires you to use the skills
 
 ### Paper
 
-Identify a conference of interest and familiarize yourself with their paper submission requirements.
+Identify a conference of interest and familiarize yourself with their paper submission requirements. You might consider the following conferences, among others:
+
+  - Transportation Research Board (TRB)
+  - Association of Collegiate Schools of Planning (ACSP)
+  - American Planning Association's National Planning Conference (APA)
+  - American Association of Geographers (AAG)
+  - Urban Affairs Association (UAA)
 
 Develop an urban research question that fits with the themes of your chosen conference. Develop a research design to answer this question, then collect data, clean and organize it, visualize it, and analyze it.
 
 Write a conference paper organized into five sections:
 
-  1. introduction: provide a short (~3 paragraph) overview of the study's importance, methods, findings, and implications
-  2. background: explain the context of your study and a short lit review of relevant related work
+  1. introduction: provide a short (~3 paragraph) overview of the study's importance, methods, findings, and ramifications
+  2. background: explain the context of your study and provide a short lit review of relevant related work
   3. methods: present your data and your analysis methods with sufficient detail that I could reproduce your study
   4. results: present your findings and relevant visuals
-  5. discussion: circle back to your research question, interpret your findings, and discuss their importance and how planners or policymakers could use them to improve urban living
+  5. discussion: circle back to your research question, interpret your findings, and discuss their importance and how planners or policymakers could use them to improve some aspect of urban living
 
 Format your paper according to the conference's guidelines. For the purposes of this course, your paper must be at least 3000 words in length (not including tables, figures, captions, or references). It must include the following:
 

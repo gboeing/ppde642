@@ -2,7 +2,7 @@
 
 See syllabus for due date.
 
-You will conduct a spatial analysis using a spatial dataset (ideally the same one from throughout the semester). Create a new Jupyter notebook. The first cell of your notebook should be markdown explaining where you found your data set and what it contains.
+You will conduct a spatial analysis using a spatial dataset (ideally the same one from throughout the semester to support your final project). Create a new Jupyter notebook. The first cell of your notebook should be markdown explaining where you found your data set and what it contains.
 
 Use geopandas to load your data set and clean/process it as needed. Using the techniques we learned in class, do the following:
 
