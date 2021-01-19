@@ -1,0 +1,35 @@
+name: ppd599
+channels:
+  - conda-forge
+dependencies:
+
+  # necessary
+  - beautifulsoup4
+  - cartopy
+  - contextily
+  - dill
+  - folium
+  - geopandas
+  - jupyterlab
+  - mapclassify
+  - osmnx=1.0.1
+  - pandana
+  - pandas
+  - pysal
+  - python=3.7.*
+  - rasterio
+  - rtree
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
+
+  # possible
+  - bokeh
+  - datashader
+  - holoviews
+  # keras
+  # nltk
+  - psycopg2
+  - pydeck
+  - urbanaccess
