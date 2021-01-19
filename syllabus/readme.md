@@ -114,7 +114,7 @@ Readings to be completed prior to class:
 
 **Jan 27 - Urban analytics and urban science**
 
-We introduce ourselves and the fields of urban analytics and urban science, consider how they relate to one another in the study and practice of city planning, and explore various critiques and open challenges.
+We introduce ourselves (see Google Doc) and the fields of urban analytics and urban science, consider how they relate to one another in the study and practice of city planning, and explore various critiques and open challenges.
 
 Readings to be completed prior to class:
 
