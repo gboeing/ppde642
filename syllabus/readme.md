@@ -60,8 +60,8 @@ Given the nature of this course, I do expect a few things of you before you seek
 If the above steps haven't solved your problem, send an email (or attend office hours) and include the following information:
 
   1. A detailed description of what you're trying to do, why, and how
-  2. A complete [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) of your code so far (never send screenshots of code or tracebacks)
-  3. What you've already tried to do to solve your problem and what you have learned from it (specifically, explain the results of steps 1-4 above, including relevant links from StackOverflow etc)
+  2. A complete [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) of your code so far (never send screenshots of code/tracebacks)
+  3. What you've already tried to do to solve your problem and what you have learned from it so far (specifically, explain the results of steps 1-4 above, including relevant links from StackOverflow etc)
 
 I do not ask for this to be pedantic. Rather, I need it to be able to help you solve your problem.
 
@@ -104,7 +104,7 @@ We introduce the course, the syllabus, the semester's expectations and schedule,
 
 Readings to be completed prior to class:
 
-  - Boeing and Arribas-Bel. 2020. GIS and Computational Notebooks. In: The Geographic Information Science & Technology Body of Knowledge, edited by J.P. Wilson. [Direct link](https://doi.org/10.22224/gistbok/2021.1.2).
+  - Boeing and Arribas-Bel. 2021. GIS and Computational Notebooks. In: The Geographic Information Science & Technology Body of Knowledge, edited by J.P. Wilson. [Direct link](https://doi.org/10.22224/gistbok/2021.1.2).
   - If you're on Windows, read [this guide](http://dosprompt.info/)'s "basics" and "folders" sections. If you're on Mac, read [this guide](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855).
   - Conda [user guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
 
@@ -118,8 +118,9 @@ We introduce ourselves (see Google Doc) and the fields of urban analytics and ur
 
 Readings to be completed prior to class:
 
-  - Townsend. 2015. Cities of Data: Examining the New Urban Science. Public Culture. [Direct link](https://doi.org/10.1215/08992363-2841808). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1215/08992363-2841808).
   - Kontokosta. 2018. Urban Informatics in the Science and Practice of Planning. Journal of Planning Education and Research. [Direct link](https://doi.org/10.1177/0739456X18793716). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1177/0739456X18793716).
+  - Townsend. 2015. Cities of Data: Examining the New Urban Science. Public Culture. [Direct link](https://doi.org/10.1215/08992363-2841808). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1215/08992363-2841808).
+  - Mattern. 2013. Methodolatry and the Art of Measure: The New Wave of Urban Data Science. Places. [Direct link](https://doi.org/10.22269/131105).
 
 
 
@@ -131,7 +132,7 @@ We do a quick refresher on Python and pandas for (urban) data science. This cour
 
 Readings to be completed prior to class:
 
-  - McKinney. 2017. Python for Data Analysis, 2nd Ed. O'Reilly. (Ch 5-8)
+  - McKinney. 2017. Python for Data Analysis, 2nd Ed. (Ch 5-8)
   - *Optional but important*: if any of the preceding reading feels unfamiliar, first read Ch 1-4
   - *Optional if you haven't used JupyterLab before*: [JupyterLab](https://jupyterlab.readthedocs.io/) user guide "interface" and "notebooks" sections
 
@@ -145,7 +146,7 @@ We cover data wrangling and manipulation to prepare a dataset for analysis and a
 
 Readings to be completed prior to class:
 
-  - McKinney. 2017. Python for Data Analysis, 2nd Ed. O'Reilly. (Ch 9-10)
+  - McKinney. 2017. Python for Data Analysis, 2nd Ed. (Ch 9-10)
 
 Assignment 1 due the following Wednesday.
 
@@ -159,7 +160,8 @@ We introduce working with APIs, geocoding, data portals, and scraping.
 
 Readings to be completed prior to class:
 
-  - Beautiful Soup [documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+  - Wu. 2020. Web Scraping Basics. Towards Data Science. [Direct link](https://towardsdatascience.com/web-scraping-basics-82f8b5acd45c).
+  - Park. 2019. How Do APIs Work? Tray.io. [Direct link](https://tray.io/blog/how-do-apis-work).
 
 
 
@@ -240,7 +242,7 @@ We introduce, from an applied perspective, machine learning through a class of a
 
 Readings to be completed prior to class:
 
-  - Raschka. 2019. Python Machine Learning. (Ch 1-4)
+  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 1-4)
 
 Mini-lectures, part 1
 
@@ -255,7 +257,7 @@ What we would have covered: deep learning and natural language processing. We in
 Readings to be completed prior to class:
 
   - LeCun et al. 2015. Deep Learning. Nature. [Direct link](https://doi.org/10.1038/nature14539). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1038/nature14539).
-  - Raschka. 2019. Python Machine Learning. (Ch 8, 12)
+  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 8, 12)
   - *Optional* [City of LA](https://github.com/CityOfLosAngeles/automated-walk-bike-counter) using computer vision to count cyclists and pedestrians
 
 
@@ -268,7 +270,7 @@ We introduce, from an applied perspective, unsupervised learning through cluster
 
 Readings to be completed prior to class:
 
-  - Raschka. 2019. Python Machine Learning. (Ch 5, 6, 11)
+  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 6, 11)
 
 Mini-lectures, part 2
 
