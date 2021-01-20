@@ -22,7 +22,7 @@ A Python **module** is a file of Python code containing variables, classes, func
 
 ### pip
 
-`pip` installs Python packages from [PyPI](https://pypi.org/)in the form of wheels or source code. The latter often requires that you have library dependencies and compatible compilers already installed on your system to install the Python package. This often requires some expertise when installing complicated toolkits, such as the Python geospatial data science ecosystem. For that reason, I recommend using `conda` unless you have to use `pip`.
+`pip` installs Python packages from [PyPI](https://pypi.org/) in the form of wheels or source code. The latter often requires that you have library dependencies and compatible compilers already installed on your system to install the Python package. This often requires some expertise when installing complicated toolkits, such as the Python geospatial data science ecosystem. For that reason, I recommend using `conda` unless you have to use `pip`.
 
 
 ### conda
@@ -51,7 +51,7 @@ Read the `conda` [documentation](https://conda.io/) for more details.
 
 During the course's initial software setup, you created a conda environment with all the required packages. The required packages are defined in the course's [environment file](../environment.yml). These are the tools we will use all semester.
 
-All of the lectures and coursework will utilize Jupyter notebooks. These notebooks provide an interactive environment for working with code and have become standard in the data science world.
+All of the lectures and coursework will utilize Jupyter notebooks. These notebooks provide an interactive environment for working with code and have become standard in the data science world. [Read more](https://doi.org/10.22224/gistbok/2021.1.2).
 
 
 ## Version control
