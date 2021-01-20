@@ -5,12 +5,12 @@ In this module, we introduce the course, the syllabus, the semester's expectatio
 
 ## Syllabus
 
-The syllabus is in the [syllabus](../syllabus) folder.
+The syllabus is in the [syllabus](../../syllabus) folder.
 
 
 ## Computing environment
 
-Make sure that you have already completed the course's initial [software](../software) setup before proceeding.
+Make sure that you have already completed the course's initial [software](../../software) setup before proceeding.
 
 
 ## Package management
@@ -49,7 +49,7 @@ Read the `conda` [documentation](https://conda.io/) for more details.
 
 ## Urban data science in a computational notebook
 
-During the course's initial software setup, you created a conda environment with all the required packages. The required packages are defined in the course's [environment file](../environment.yml). These are the tools we will use all semester.
+During the course's initial software setup, you created a conda environment with all the required packages. The required packages are defined in the course's [environment file](../../environment.yml). These are the tools we will use all semester.
 
 All of the lectures and coursework will utilize Jupyter notebooks. These notebooks provide an interactive environment for working with code and have become standard in the data science world. [Read more](https://doi.org/10.22224/gistbok/2021.1.2).
 
