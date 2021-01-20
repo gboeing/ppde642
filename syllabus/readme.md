@@ -148,7 +148,7 @@ Readings to be completed prior to class:
 
   - McKinney. 2017. Python for Data Analysis, 2nd Ed. (Ch 9-10)
 
-Assignment 1 due the following Wednesday.
+Assignment 1 due the following Tuesday.
 
 
 
@@ -177,7 +177,7 @@ Readings to be completed prior to class:
   - Shapely [user manual](https://shapely.readthedocs.io/)
   - *Optional* Introduction to [PostGIS](https://postgis.net/workshops/postgis-intro/)
 
-Assignment 2 due the following Wednesday.
+Assignment 2 due the following Tuesday.
 
 
 
@@ -202,7 +202,7 @@ We build on the theory and methods introduced in the prior module to explore app
 
   - Boeing. 2020. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1080/01944363.2020.1819382)
 
-Assignment 3 due the following Wednesday.
+Assignment 3 due the following Tuesday.
 
 
 
@@ -230,7 +230,7 @@ Readings to be completed prior to class:
   - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 12-13 and 14.4-14.6)
   - *Optional* 3Blue1Brown's (excellent) Essence of Linear Algebra [video series](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-Assignment 4 due the following Wednesday.
+Assignment 4 due the following Tuesday.
 
 
 
