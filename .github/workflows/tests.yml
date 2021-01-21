@@ -44,8 +44,10 @@ jobs:
           channel-priority: strict
           activate-environment: ppd599
           environment-file: environment.yml
-          use-mamba: true
           miniforge-variant: Mambaforge
+          miniforge-version: "*"
+          use-mamba: true
+          mamba-version: "*"
 
       - name: Test environment
         run: |
