@@ -13,6 +13,7 @@ jobs:
     name: ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
 
@@ -43,6 +44,8 @@ jobs:
           channel-priority: strict
           activate-environment: ppd599
           environment-file: environment.yml
+          use-mamba: true
+          miniforge-variant: Mambaforge
 
       - name: Test environment
         run: |
