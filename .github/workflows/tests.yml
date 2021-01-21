@@ -47,7 +47,6 @@ jobs:
           miniforge-variant: Mambaforge
           miniforge-version: "*"
           use-mamba: true
-          mamba-version: "*"
 
       - name: Test environment
         run: |
