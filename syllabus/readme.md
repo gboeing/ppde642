@@ -57,7 +57,7 @@ Given the nature of this course, I do expect a few things of you before you seek
   3. Go back through the relevant lecture materials to look for any insights
   4. Go back through the assigned reading materials to look for any insights
 
-If the above steps haven't solved your problem, send an email (or attend office hours) and include the following information:
+If the above steps haven't solved your problem, post on Slack (or attend office hours) and include the following information:
 
   1. A detailed description of what you're trying to do, why, and how
   2. A complete [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) of your code so far (never send screenshots of code/tracebacks)
@@ -87,7 +87,7 @@ Final grades will be assigned according to the following, for a total of 1000 po
   - 100 points: mini-lecture
   - 100 points: final presentation
   - 200 points: final project
-  - 100 points: active participation in classroom
+  - 100 points: active participation in classroom and on Slack
 
 Assignments must be submitted via Blackboard by 23:59 pacific time on their due date. Late assignment submissions will be deducted 20% per day. Late final project submissions will not be accepted or graded. It is your responsibility to ensure that all submissions have gone through, so please visually confirm successful submission in the system.
 
@@ -156,7 +156,7 @@ Assignment 1 due the following Tuesday.
 
 **Feb 17 - APIs and scraping**
 
-We introduce working with APIs, geocoding, data portals, and scraping.
+We introduce working with APIs, geocoding, and scraping.
 
 Readings to be completed prior to class:
 
