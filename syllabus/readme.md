@@ -140,9 +140,9 @@ Readings to be completed prior to class:
 
 ## Module 4
 
-**Feb 10 - Data preparation and visualization**
+**Feb 10 - Data cleaning and exploration**
 
-We cover data wrangling and manipulation to prepare a dataset for analysis and also introduce computational visualization techniques to find patterns in data.
+We introduce data wrangling, cleaning, and feature engineering to prepare data for analysis and then discuss exploratory descriptive statistics and visualization techniques to explore patterns in the data.
 
 Readings to be completed prior to class:
 
