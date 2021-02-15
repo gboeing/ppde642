@@ -296,7 +296,7 @@ Present your final projects to the group and engage in a discussion around each.
 
 ## Exam Week
 
-**Final Projects Due**
+**Final Projects** due May 4.
 
 
 
