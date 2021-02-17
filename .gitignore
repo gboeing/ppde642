@@ -1,5 +1,6 @@
 data/*
 modules/*/*.png
+modules/*/keys.py
 syllabus/pdf/*.pdf
 
 # Byte-compiled / optimized / DLL files
