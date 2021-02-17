@@ -1,4 +1,4 @@
-# Module 5: APIs and Geocoding
+# Module 5: APIs and Scraping
 
 We introduce working with APIs, geocoding, and scraping.
 
