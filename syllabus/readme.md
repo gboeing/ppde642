@@ -190,6 +190,7 @@ We introduce the theory and methods of computational spatial network analysis, i
 Readings to be completed prior to class:
 
   - O'Sullivan. 2014. Spatial Network Analysis. Handbook of Regional Science, edited by Fischer and Nijkamp. [Direct link](https://doi.org/10.1007/978-3-642-23430-9_67) [USC link](https://www-doi-org.libproxy2.usc.edu/10.1007/978-3-642-23430-9_67)
+  - NetworkX [documentation](https://networkx.org/documentation/stable/index.html)
   - OSMnx [documentation](https://osmnx.readthedocs.io/)
 
 
