@@ -47,10 +47,11 @@ First make sure you've completed the "initial software setup" instructions above
 
 When you come into class each day, before the lecture begins, do the following steps (takes <1 minute):
 
+  1. Make sure you have the latest data from the course's Google Drive data folder
   1. Open a terminal, change directories to the `ppd599` folder on your desktop that you created in the initial software setup
-  2. Run `git pull` to bring your local clone of the course repo up to date with the remote
-  3. Run `conda activate ppd599` then `jupyter lab` to start your Jupyter server
-  4. In your web browser, visit http://localhost:8888
+  1. Run `git pull` to bring your local clone of the course repo up to date with the remote
+  1. Run `conda activate ppd599` then `jupyter lab` to start your Jupyter server
+  1. In your web browser, visit http://localhost:8888
 
 When you're all done using Jupyter at the end of a session: to stop the running container, go to your terminal window where docker is running and press `ctrl + c` then wait until everything shuts down and your terminal's cursor reappears. If it asks you for confirmation to terminate, enter `y` for yes. Do not just close your terminal window without stopping Jupyter first! Note that you can only type commands into a terminal window when its cursor is blinking. Otherwise it's busy. Pressing `ctrl + c` tells the terminal to terminate what it's doing so it is freed up again.
 
