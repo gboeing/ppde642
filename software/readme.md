@@ -53,7 +53,7 @@ When you come into class each day, before the lecture begins, do the following s
   1. Run `conda activate ppd599` then `jupyter lab` to start your Jupyter server
   1. In your web browser, visit http://localhost:8888
 
-When you're all done using Jupyter at the end of a session: to stop the running container, go to your terminal window where docker is running and press `ctrl + c` then wait until everything shuts down and your terminal's cursor reappears. If it asks you for confirmation to terminate, enter `y` for yes. Do not just close your terminal window without stopping Jupyter first! Note that you can only type commands into a terminal window when its cursor is blinking. Otherwise it's busy. Pressing `ctrl + c` tells the terminal to terminate what it's doing so it is freed up again.
+When you're all done using Jupyter at the end of a session, in the menu click File > Shut Down. Do not just close your browser tab or terminal window without stopping Jupyter first. Note that you can only type commands into a terminal window when its cursor is blinking. Otherwise it's busy.
 
 
 ## Troubleshooting
