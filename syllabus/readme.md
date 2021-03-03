@@ -224,14 +224,14 @@ Readings to be completed prior to class:
 
 ## Module 10
 
-**Mar 24 - Spatial regression**
+**Mar 24 - Spatial models**
 
 We introduce explicitly spatial models in the regression framework, including GWR and spatial-lag and spatial-error models, to predict and explain urban phenomena while accounting for ubiquitous spatial heterogeneity and diffusion.
 
 Readings to be completed prior to class:
 
   - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 12-13 and 14.4-14.6)
-  - *Optional* Antonakis et al. 2010. On Making Causal Claims: A Review and Recommendations. The Leadership Quarterly. [Direct link](https://doi.org/10.1016/j.leaqua.2010.10.010). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1016/j.leaqua.2010.10.010)
+  - Antonakis et al. 2010. On Making Causal Claims. The Leadership Quarterly. [Direct link](https://doi.org/10.1016/j.leaqua.2010.10.010). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1016/j.leaqua.2010.10.010)
 
 Assignment 4 due the following Tuesday.
 
@@ -284,6 +284,10 @@ Mini-lectures, part 2
 **Apr 21 - Workshop**
 
 We have a collective hands-on workshop applying the methods we have learned throughout the semester to the individual final projects.
+
+Readings to be completed prior to class:
+
+  - Belcher. 2019. Writing Your Journal Article in Twelve Weeks, 2nd Ed. (Ch 11)
 
 
 
