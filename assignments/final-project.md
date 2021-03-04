@@ -18,19 +18,19 @@ Develop an urban research question that fits with the themes of your chosen conf
 
 Write a conference paper organized into five sections:
 
-  1. introduction: provide a short (~3 paragraph) overview of the study's importance, methods, findings, and ramifications
-  2. background: explain the context of your study and provide a short lit review of relevant related work
-  3. methods: present your data and your analysis methods with sufficient detail that I could reproduce your study
-  4. results: present your findings and relevant visuals
+  1. introduction: provide a short (3 paragraph) summary of the study's importance, methods, and findings/implications (1 paragraph each)
+  2. background: explain the context of your study and provide a short lit review of relevant related work to establish what is known and what urgent open questions remain
+  3. methods: present your data and your analysis methods with sufficient detail that a reader could reproduce your study
+  4. results: present your findings and include supporting visuals
   5. discussion: circle back to your research question, interpret your findings, and discuss their importance and how planners or policymakers could use them to improve some aspect of urban living
 
-Format your paper according to the conference's guidelines. For the purposes of this course, your paper must be at least 3000 words in length (not including tables, figures, captions, or references). It must include the following:
+Format your paper according to the conference's guidelines. For the purposes of this course, your paper must be at least 3000 words in length (not including tables, figures, captions, or references). It must include the following, at a minimum:
 
   - a table of descriptive statistics
   - a table of spatial regression or machine learning model results
-  - at least 4 figures containing data visualizations, including at least 1 map
+  - 4 aesthetically-pleasing figures containing data visualizations including at least 1 map
 
-You are encouraged, but not required, to actually submit this paper to the conference.
+You are strongly encouraged, but not required, to actually submit this paper to the conference.
 
 ### Presentation
 
@@ -38,4 +38,6 @@ Prepare and deliver a 10 minute presentation, with slides, to present your confe
 
 ## Submission
 
-See syllabus for due dates. Via Blackboard, submit a zip file containing the paper (as PDF), all images, and the Jupyter notebook(s) and data files used to conduct this study. Make sure everything is runnable and reproducible. Late final project submissions will not be accepted or graded, so try to submit a little early just to be safe.
+See syllabus for due dates. Via Blackboard, submit a single zip file named `LastName_FirstName_FinalProject.zip` containing the paper (as PDF), all images, and the Jupyter notebook(s) and data files used to conduct this study. Make sure your notebook runs from the top without any errors (i.e., restart the kernel and run all cells) and that all the visuals can be seen inline without me having to re-run your notebook. Make sure your code is well-commented throughout for explanatory clarity.
+
+Late final project submissions will not be accepted or graded, so try to submit a little early just to be safe.
