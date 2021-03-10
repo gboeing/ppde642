@@ -13,7 +13,7 @@ Email: boeing at usc dot edu
 
 Office hours: Wed 17:20-18:20, Zoom
 
-Classroom location and meeting times are [available online](https://classes.usc.edu/)
+Classroom location and meeting times are [listed online](https://classes.usc.edu/)
 
 
 
