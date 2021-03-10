@@ -13,7 +13,7 @@ Email: boeing at usc dot edu
 
 Office hours: Wed 17:20-18:20, Zoom
 
-Classroom location and meeting times are [available online](https://classes.usc.edu/)
+Classroom location and meeting times are [listed online](https://classes.usc.edu/)
 
 
 
@@ -118,8 +118,8 @@ We introduce ourselves (see Google Doc) and the fields of urban analytics and ur
 
 Readings to be completed prior to class:
 
-  - Kontokosta. 2018. Urban Informatics in the Science and Practice of Planning. Journal of Planning Education and Research. [Direct link](https://doi.org/10.1177/0739456X18793716). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1177/0739456X18793716).
-  - Townsend. 2015. Cities of Data: Examining the New Urban Science. Public Culture. [Direct link](https://doi.org/10.1215/08992363-2841808). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1215/08992363-2841808).
+  - Kontokosta. 2018. Urban Informatics in the Science and Practice of Planning. Journal of Planning Education and Research. [Direct link](https://doi.org/10.1177/0739456X18793716). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1177/0739456X18793716).
+  - Townsend. 2015. Cities of Data: Examining the New Urban Science. Public Culture. [Direct link](https://doi.org/10.1215/08992363-2841808). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1215/08992363-2841808).
   - Mattern. 2013. Methodolatry and the Art of Measure: The New Wave of Urban Data Science. Places. [Direct link](https://doi.org/10.22269/131105).
 
 
@@ -189,7 +189,7 @@ We introduce the theory and methods of computational spatial network analysis, i
 
 Readings to be completed prior to class:
 
-  - O'Sullivan. 2014. Spatial Network Analysis. Handbook of Regional Science, edited by Fischer and Nijkamp. [Direct link](https://doi.org/10.1007/978-3-642-23430-9_67) [USC link](https://www-doi-org.libproxy2.usc.edu/10.1007/978-3-642-23430-9_67)
+  - O'Sullivan. 2014. Spatial Network Analysis. Handbook of Regional Science, edited by Fischer and Nijkamp. [Direct link](https://doi.org/10.1007/978-3-642-23430-9_67) [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1007/978-3-642-23430-9_67)
   - NetworkX [tutorial](https://networkx.org/documentation/stable/tutorial.html)
   - OSMnx [documentation](https://osmnx.readthedocs.io/)
 
@@ -201,8 +201,8 @@ Readings to be completed prior to class:
 
 We build on the theory and methods introduced in the prior module to explore applications of spatial network analysis in the science and practice of urban planning, including routing, accessibility, and network design.
 
-  - Boeing. 2021. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1080/01944363.2020.1819382)
-  - Boeing. 2021. Street Network Models and Indicators for Every Urban Area in the World. Geographical Analysis. [Direct link](https://doi.org/10.31235/osf.io/f2dqc)
+  - Boeing. 2021. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1080/01944363.2020.1819382)
+  - Boeing. 2021. Street Network Models and Indicators for Every Urban Area in the World. Geographical Analysis. [Direct link](https://doi.org/10.1111/gean.12281). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1111/gean.12281).
 
 Assignment 3 due the following Tuesday.
 
@@ -231,7 +231,7 @@ We introduce explicitly spatial models in the regression framework, including GW
 Readings to be completed prior to class:
 
   - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 12-13 and 14.4-14.6)
-  - Antonakis et al. 2010. On Making Causal Claims. The Leadership Quarterly. [Direct link](https://doi.org/10.1016/j.leaqua.2010.10.010). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1016/j.leaqua.2010.10.010)
+  - Antonakis et al. 2010. On Making Causal Claims. The Leadership Quarterly. [Direct link](https://doi.org/10.1016/j.leaqua.2010.10.010). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1016/j.leaqua.2010.10.010)
 
 Assignment 4 due the following Tuesday.
 
@@ -259,7 +259,7 @@ What we would have covered: deep learning and natural language processing. We in
 
 Readings to be completed prior to class:
 
-  - LeCun et al. 2015. Deep Learning. Nature. [Direct link](https://doi.org/10.1038/nature14539). [USC link](https://www-doi-org.libproxy2.usc.edu/10.1038/nature14539).
+  - LeCun et al. 2015. Deep Learning. Nature. [Direct link](https://doi.org/10.1038/nature14539). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1038/nature14539).
   - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 8, 12)
   - *Optional* [City of LA](https://github.com/CityOfLosAngeles/automated-walk-bike-counter) using computer vision to count cyclists and pedestrians
 
