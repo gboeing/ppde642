@@ -13,3 +13,5 @@ python -m ipykernel install --sys-prefix --name ppd599 --display-name "Python (p
 conda activate ppd599
 jupyter lab
 ```
+
+Then try to run the lecture notebook again, and see if you run into that bug.
