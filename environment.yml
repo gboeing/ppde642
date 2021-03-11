@@ -16,7 +16,7 @@ dependencies:
   - pandana
   - pandas
   - pysal
-  - python=3.7.*
+  - python
   - rasterio
   - rtree
   - seaborn
@@ -25,11 +25,11 @@ dependencies:
   - statsmodels
 
   # possible
-  - bokeh
-  - datashader
-  - holoviews
+  # bokeh
+  # datashader
+  # holoviews
   # keras
   # nltk
-  - psycopg2
-  - pydeck
-  - urbanaccess
+  # psycopg2
+  # pydeck
+  # urbanaccess
