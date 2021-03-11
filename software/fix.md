@@ -1,3 +1,6 @@
+# Fix broken environment
+
+Open a terminal window (or Anaconda command prompt if on Windows), change directories to the ppd599 folder on your desktop, and run the following commands, one at a time:
 
 ```
 git pull
