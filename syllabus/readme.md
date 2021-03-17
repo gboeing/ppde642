@@ -233,7 +233,7 @@ Readings to be completed prior to class:
   - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 12-13 and 14.4-14.6)
   - Antonakis et al. 2010. On Making Causal Claims. The Leadership Quarterly. [Direct link](https://doi.org/10.1016/j.leaqua.2010.10.010). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1016/j.leaqua.2010.10.010)
 
-Assignment 4 due the following Tuesday.
+Assignment 4 due April 4.
 
 
 
@@ -247,7 +247,7 @@ Readings to be completed prior to class:
 
   - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 1-4)
 
-Mini-lectures, part 1
+Mini-lectures, part 1: if you are doing a supervised learning topic, you must submit prior to our class session.
 
 
 
@@ -275,7 +275,7 @@ Readings to be completed prior to class:
 
   - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 6, 11)
 
-Mini-lectures, part 2
+Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must submit prior to our class session.
 
 
 
