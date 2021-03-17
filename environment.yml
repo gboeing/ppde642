@@ -1,9 +1,9 @@
 name: ppd599
+
 channels:
   - conda-forge
-dependencies:
 
-  # necessary
+dependencies:
   - beautifulsoup4
   - cartopy
   - contextily
@@ -23,8 +23,6 @@ dependencies:
   - scikit-learn
   - scipy
   - statsmodels
-
-  # possible
   # bokeh
   # datashader
   # holoviews
