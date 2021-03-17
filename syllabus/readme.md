@@ -212,7 +212,7 @@ Assignment 3 due the following Tuesday.
 
 **Mar 17 - Spatial analysis**
 
-We cover a coding approach to spatial analysis, including weights matrices, spatial clustering, spatial autocorrelation, spatial diffusion and spillover, and mapping.
+We cover a coding approach to exploratory spatial data analysis, including weights matrices, global and local spatial autocorrelation, spatial interpolation, and spatial clustering.
 
 Readings to be completed prior to class:
 
