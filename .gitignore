@@ -1,4 +1,5 @@
 data/*
+modules/*/*.gal
 modules/*/*.png
 modules/*/keys.py
 syllabus/pdf/*.pdf
