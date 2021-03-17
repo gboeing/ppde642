@@ -1,3 +1,6 @@
+# Fix broken environment
+
+Open a terminal window (or Anaconda command prompt if on Windows), change directories to the ppd599 folder on your desktop, and run the following commands, one at a time:
 
 ```
 git pull
@@ -10,3 +13,5 @@ python -m ipykernel install --sys-prefix --name ppd599 --display-name "Python (p
 conda activate ppd599
 jupyter lab
 ```
+
+Then try to run the lecture notebook again, and see if you run into that bug.
