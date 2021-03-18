@@ -204,7 +204,7 @@ We build on the theory and methods introduced in the prior module to explore app
   - Boeing. 2021. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1080/01944363.2020.1819382)
   - Boeing. 2021. Street Network Models and Indicators for Every Urban Area in the World. Geographical Analysis. [Direct link](https://doi.org/10.1111/gean.12281). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1111/gean.12281).
 
-Assignment 3 due the following Tuesday.
+Assignment 3 due March 18.
 
 
 
