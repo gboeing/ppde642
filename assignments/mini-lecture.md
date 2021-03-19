@@ -23,6 +23,6 @@ You will be graded according to the following. In your notebook, did you:
   - summarize what your analysis revealed
   - keep it all succinct
 
-Make sure your notebook runs from the top without any errors (i.e., restart the kernel and run all cells) and that all the output can be seen inline without me having to re-run your notebook. Via Blackboard, submit your notebook and data files, all zipped as a single file, named `LastName_FirstName_Lecture.zip`.
+Make sure your notebook runs from the top without any errors (i.e., restart the kernel and run all cells) and that all the output can be seen inline without me having to re-run your notebook. Via Blackboard, submit your notebook and data files, all zipped as a single file, named `LastName_FirstName_Lecture.zip`. If your submission file exceeds Blackboard's maximum upload size limit, you may provide a Google Drive link to your zipped data in the comment field when you submit.
 
 Note that if you pick a supervised learning method, your assignment is due prior to class in module 11. If you pick an unsupervised learning method, your assignment is due prior to class in module 13. The "presentation" is pretend: you are just creating the lecture notebook you would have presented, and submitting it via Blackboard *before that module's class session* begins.
