@@ -38,6 +38,8 @@ Prepare and deliver a 10 minute presentation, with slides, to present your confe
 
 ## Submission
 
-See syllabus for due dates. Via Blackboard, submit a single zip file named `LastName_FirstName_FinalProject.zip` containing the paper (as PDF), all images, and the Jupyter notebook(s) and data files used to conduct this study. Make sure your notebook runs from the top without any errors (i.e., restart the kernel and run all cells) and that all the visuals can be seen inline without me having to re-run your notebook. Make sure your code is well-commented throughout for explanatory clarity.
+See syllabus for due dates. Via Blackboard, submit a single zip file named `LastName_FirstName_FinalProject.zip` containing the paper (as PDF), all images, and the Jupyter notebook(s) and data files used to conduct this study. If your submission file exceeds Blackboard's maximum upload size limit, you may provide a Google Drive link to your zipped data in the comment field when you submit.
+
+Make sure your notebook runs from the top without any errors (i.e., restart the kernel and run all cells) and that all the visuals can be seen inline without me having to re-run your notebook. Make sure your code is well-commented throughout for explanatory clarity.
 
 Late final project submissions will not be accepted or graded, so try to submit a little early just to be safe.

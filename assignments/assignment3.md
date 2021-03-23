@@ -8,4 +8,4 @@ Create a new Jupyter notebook. Use OSMnx to download and model the street networ
 
 This assignment is left as open-ended as possible to give you maximum flexibility to explore widely and find synergy with your final project. You will be graded on creativity and level of effort.
 
-Make sure your notebook runs from the top without any errors (i.e., restart the kernel and run all cells) and that all the visuals can be seen inline without me having to re-run your notebook. Via Blackboard, submit your notebook and data files (if any), all zipped as a single file, named `LastName_FirstName_Assignment3.zip`.
+Make sure your notebook runs from the top without any errors (i.e., restart the kernel and run all cells) and that all the visuals can be seen inline without me having to re-run your notebook. Via Blackboard, submit your notebook and data files (if any), all zipped as a single file, named `LastName_FirstName_Assignment3.zip`. If your submission file exceeds Blackboard's maximum upload size limit, you may provide a Google Drive link to your zipped data in the comment field when you submit.

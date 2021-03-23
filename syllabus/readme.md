@@ -89,7 +89,7 @@ Final grades will be assigned according to the following, for a total of 1000 po
   - 200 points: final project
   - 100 points: active participation in classroom and on Slack
 
-Assignments must be submitted via Blackboard by 23:59 pacific time on their due date. Late assignment submissions will be deducted 20% per day. Late final project submissions will not be accepted or graded. It is your responsibility to ensure that all submissions have gone through, so please visually confirm successful submission in the system. You can expect grades to be posted within two weeks.
+Assignments must be submitted via Blackboard by 23:59 pacific time on their due date. Late assignment submissions will be deducted 20% per day. Late final project submissions will not be accepted or graded. If you have any technical issues when submitting, contact USC IT. It is your responsibility to ensure that all submissions have gone through, so please visually confirm successful submission in the system. You can expect grades to be posted within two weeks.
 
 
 
