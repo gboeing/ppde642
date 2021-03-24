@@ -226,7 +226,7 @@ Readings to be completed prior to class:
 
 **Mar 24 - Spatial models**
 
-We introduce explicitly spatial models in the regression framework, including GWR and spatial-lag and spatial-error models, to predict and explain urban phenomena while accounting for ubiquitous spatial heterogeneity and diffusion.
+We introduce explicitly spatial models in the regression framework, including spatial fixed effects, spatial regimes, spatial lag, spatial error, and geographically-weighted regression, to predict and explain urban phenomena while accounting for spatial heterogeneity and diffusion.
 
 Readings to be completed prior to class:
 
