@@ -201,7 +201,7 @@ Readings to be completed prior to class:
 
 We build on the theory and methods introduced in the prior module to explore applications of spatial network analysis in the science and practice of urban planning, including routing, accessibility, and network design.
 
-  - Boeing. 2021. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1080/01944363.2020.1819382)
+  - Boeing. 2021. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1080/01944363.2020.1819382).
   - Boeing. 2021. Street Network Models and Indicators for Every Urban Area in the World. Geographical Analysis. [Direct link](https://doi.org/10.1111/gean.12281). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1111/gean.12281).
 
 Assignment 3 due March 18.
@@ -231,7 +231,7 @@ We introduce explicitly spatial models in the regression framework, including sp
 Readings to be completed prior to class:
 
   - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 12-13 and 14.4-14.6)
-  - Antonakis et al. 2010. On Making Causal Claims. The Leadership Quarterly. [Direct link](https://doi.org/10.1016/j.leaqua.2010.10.010). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1016/j.leaqua.2010.10.010)
+  - Antonakis et al. 2010. On Making Causal Claims. The Leadership Quarterly. [Direct link](https://doi.org/10.1016/j.leaqua.2010.10.010). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1016/j.leaqua.2010.10.010).
 
 Assignment 4 due April 4.
 
@@ -274,6 +274,7 @@ We introduce, from an applied perspective, unsupervised learning through cluster
 Readings to be completed prior to class:
 
   - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 6, 11)
+  - *Optional* Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
 
 Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must submit prior to our class session.
 
