@@ -282,9 +282,9 @@ Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must
 
 ## Module 14
 
-**Apr 21 - Workshop**
+**Apr 21 - Next steps**
 
-We have a collective hands-on workshop applying the methods we have learned throughout the semester to the individual final projects.
+We discuss professional coding practices and next steps in learning data science, and hold a collective hands-on workshop for individual final projects.
 
 Readings to be completed prior to class:
 
