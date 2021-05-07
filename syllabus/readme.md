@@ -89,7 +89,7 @@ Final grades will be assigned according to the following, for a total of 1000 po
   - 200 points: final project
   - 100 points: active participation in classroom and on Slack
 
-Assignments must be submitted via Blackboard by 23:59 pacific time on their due date. Late assignment submissions will be deducted 20% per day. Late final project submissions will not be accepted or graded. If you have any technical issues when submitting, contact USC IT. It is your responsibility to ensure that all submissions have gone through, so please visually confirm successful submission in the system. You can expect grades to be posted within two weeks.
+Assignments must be submitted via Blackboard by 23:59 pacific time on their due date. Late assignment submissions will be deducted 20% per day. Late final project submissions will not be accepted or graded. Please submit early to avoid any last-minute headaches such as slow uploads, weak internet connections, or temporary system outages. If you have any technical issues when submitting, contact USC IT. It is solely the student's responsibility to ensure that all submissions have gone through on time, so please visually confirm successful submission in the system. The timestamp in the submission system is our official record: if it says you're late, you're late. You can expect grades to be posted within two weeks. Grades are non-negotiable.
 
 
 
@@ -273,8 +273,8 @@ We introduce, from an applied perspective, unsupervised learning through cluster
 
 Readings to be completed prior to class:
 
-  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 11)
-  - Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
+  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 6, 11)
+  - *Optional* Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
 
 Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must submit prior to our class session.
 
@@ -282,9 +282,9 @@ Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must
 
 ## Module 14
 
-**Apr 21 - Workshop**
+**Apr 21 - Next steps**
 
-We have a collective hands-on workshop applying the methods we have learned throughout the semester to the individual final projects.
+We discuss professional coding practices and next steps in learning data science, and hold a collective hands-on workshop for individual final projects.
 
 Readings to be completed prior to class:
 
