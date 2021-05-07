@@ -189,7 +189,7 @@ We introduce the theory and methods of computational spatial network analysis, i
 
 Readings to be completed prior to class:
 
-  - O'Sullivan. 2014. Spatial Network Analysis. Handbook of Regional Science, edited by Fischer and Nijkamp. [Direct link](https://doi.org/10.1007/978-3-642-23430-9_67) [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1007/978-3-642-23430-9_67)
+  - O'Sullivan. 2014. Spatial Network Analysis. Handbook of Regional Science, edited by Fischer and Nijkamp. [Direct link](https://doi.org/10.1007/978-3-642-23430-9_67). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1007/978-3-642-23430-9_67).
   - NetworkX [tutorial](https://networkx.org/documentation/stable/tutorial.html)
   - OSMnx [documentation](https://osmnx.readthedocs.io/)
 
@@ -245,7 +245,7 @@ We introduce, from an applied perspective, machine learning theory and methods. 
 
 Readings to be completed prior to class:
 
-  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 1-4)
+  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 1, 3, 4, 6)
 
 Mini-lectures, part 1: if you are doing a supervised learning topic, you must submit prior to our class session.
 
@@ -273,8 +273,8 @@ We introduce, from an applied perspective, unsupervised learning through cluster
 
 Readings to be completed prior to class:
 
-  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 6, 11)
-  - *Optional* Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
+  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 11)
+  - Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
 
 Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must submit prior to our class session.
 
