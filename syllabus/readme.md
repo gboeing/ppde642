@@ -273,8 +273,8 @@ We introduce, from an applied perspective, unsupervised learning through cluster
 
 Readings to be completed prior to class:
 
-  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 6, 11)
-  - *Optional* Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
+  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 11)
+  - Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
 
 Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must submit prior to our class session.
 
