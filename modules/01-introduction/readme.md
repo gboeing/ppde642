@@ -65,6 +65,6 @@ GitHub Guides provides an excellent [introduction](https://guides.github.com/) t
   - work with branches
   - add/commit changes
   - push and pull to/from a remote repo
-  - merge a feature branch into the master branch
+  - merge a feature branch into the main branch
 
 Start with their guides on the Git Handbook, Understanding the GitHub flow, Forking Projects, Mastering Markdown, and then explore from there.
