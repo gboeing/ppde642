@@ -4,7 +4,6 @@ USC PPD599 / Spring 2021 / 4 units
 
 
 
-
 # Instructor Info
 
 [Prof. Geoff Boeing](https://geoffboeing.com)
@@ -14,8 +13,6 @@ Email: boeing at usc dot edu
 Office hours: Wed 17:20-18:20, Zoom
 
 Classroom location and meeting times are [listed online](https://classes.usc.edu/)
-
-
 
 
 
@@ -35,7 +32,6 @@ The course has prerequisites: students are expected to have taken PPD534 or an e
 
 
 
-
 # Learning Objectives
 
   - Understand the nature and applications of urban analytics and urban science
@@ -45,10 +41,9 @@ The course has prerequisites: students are expected to have taken PPD534 or an e
 
 
 
-
 # Questions and Assistance
 
-I am available if you need help throughout the semester and am happy to answer your questions. By email, you should expect a reply typically within approximately one working day. Office hours info is provided at the beginning of the syllabus.
+I am available if you need help throughout the semester and am happy to answer your questions. Please ask course-related questions in our course's Slack channel: you should expect a reply typically within two working days. If you have a sensitive personal matter to discuss, please ask by email. Office hours info is provided at the beginning of the syllabus.
 
 Given the nature of this course, I do expect a few things of you before you seek assistance with coding/data questions:
 
@@ -67,7 +62,6 @@ I do not ask for this to be pedantic. Rather, I need it to be able to help you s
 
 
 
-
 # Materials
 
 Coursework will be based on free open-source software. You will need a laptop (non-Chromebook) to install and run the course software.
@@ -76,21 +70,19 @@ Copyrighted course reading materials are available via Blackboard for enrolled s
 
 
 
-
 # Assignments and Evaluation
 
 Per USC guidelines, for each course unit the university expects 2 hours of out-of-class student work per week. This is a 4 unit course. Therefore, you should expect an average of 8 hours of out-of-class work each week: please budget your time accordingly. See the schedule below for assignment due dates and see the "assignments" folder for instructions. Active participation is expected (and graded) in the classroom.
 
-Final grades will be assigned according to the following, for a total of 1000 points:
+Final grades will be weighted as follows:
 
-  - 500 points: 4 analytics assignments × 125 points each
-  - 100 points: mini-lecture
-  - 100 points: final presentation
-  - 200 points: final project
-  - 100 points: active participation in classroom and on Slack
+  - 50%: four analytics assignments
+  - 10%: mini-lecture
+  - 10%: final presentation
+  - 20%: final project
+  - 10%: active participation in classroom and on Slack
 
-Assignments must be submitted via Blackboard by 23:59 pacific time on their due date. Late assignment submissions will be deducted 20% per day. Late final project submissions will not be accepted or graded. Please submit early to avoid any last-minute headaches such as slow uploads, weak internet connections, or temporary system outages. If you have any technical issues when submitting, contact USC IT. It is solely the student's responsibility to ensure that all submissions have gone through on time, so please visually confirm successful submission in the system. The timestamp in the submission system is our official record: if it says you're late, you're late. You can expect grades to be posted within two weeks. Grades are non-negotiable.
-
+Assignments must be submitted via Blackboard by 23:59 pacific time on their due date. Late assignment submissions will be deducted one letter grade per day. Late final project submissions will not be accepted or graded. Please submit early to avoid any last-minute headaches such as slow uploads, weak internet connections, or temporary system outages. If you have any technical issues when submitting, contact USC IT. It is solely the student's responsibility to ensure that all submissions have gone through on time, so please visually confirm successful submission in the system. The timestamp in the submission system is our official record: if it says you're late, you're late. You can expect grades to be posted within two weeks. Grades are non-negotiable.
 
 
 
@@ -303,7 +295,6 @@ Present your final projects to the group and engage in a discussion around each.
 ## Exam Week
 
 **Final Projects** due May 4.
-
 
 
 
