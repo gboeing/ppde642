@@ -66,7 +66,7 @@ I do not ask for this to be pedantic. Rather, I need it to be able to help you s
 
 Coursework will be based on free open-source software. You will need a laptop (non-Chromebook) to install and run the course software.
 
-Copyrighted course reading materials are available via Blackboard for enrolled students to download. The course lectures assume that you have read the assigned readings prior to the class session and are now reasonably fluent in their contents and ready to discuss/debate them in class.
+Copyrighted course reading materials are available via Blackboard for enrolled students to download. The course lectures assume that you have read the assigned readings prior to the class session and are now reasonably fluent in their contents and ready to discuss/debate them in class. Lectures are supplemental to the assigned reading and are of little value if you haven't taken the time to prepare in advance. So, before class, make sure you have completed the reading, taken thorough notes, and prepared any questions you may have about the material.
 
 
 
