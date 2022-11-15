@@ -5,14 +5,18 @@ channels:
 
 dependencies:
   - beautifulsoup4
+  - black
   - cartopy
   - contextily
   - dill
+  - flake8
   - folium
   - geopandas
+  - isort
   - jupyterlab
   - mapclassify
-  - osmnx=1.0.1
+  - osmnx=1.2.2
+  - nbqa
   - pandana
   - pandas
   - pysal
