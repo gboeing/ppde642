@@ -1,6 +1,6 @@
 **Advanced Urban Analytics**
 
-USC PPD599 / Spring 2021 / 4 units
+USC PPD599 / Spring 2023 / 4 units
 
 
 
@@ -10,7 +10,7 @@ USC PPD599 / Spring 2021 / 4 units
 
 Email: boeing at usc dot edu
 
-Office hours: Wed 17:20-18:20, Zoom
+Office hours: TBD
 
 Classroom location and meeting times are [listed online](https://classes.usc.edu/)
 
@@ -18,7 +18,7 @@ Classroom location and meeting times are [listed online](https://classes.usc.edu
 
 # Course Description
 
-This course provides you with a modern toolkit and skills for analyzing urban data. It will teach Python, spatial analysis, network analysis, spatial models, and introductory applied machine learning. The course takes a computational social science approach to working with data. It uses Python and Jupyter notebooks to cover coding and statistical methods that students can reproduce and experiment with in real-time in the classroom.
+This course provides you with a modern toolkit and skills for urban data science, covering both professional and scholarly use cases. It teaches coding for spatial analysis, network analysis, spatial models, and applied machine learning. The course takes a computational social science approach to working with data. It uses Python and Jupyter notebooks to introduce coding and statistical methods that you can reproduce and experiment with in real-time in the classroom.
 
 Students will be expected to:
 
@@ -28,16 +28,16 @@ Students will be expected to:
   - Present a mini-lecture on an applied method
   - Prepare a short conference paper and presentation
 
-The course has prerequisites: students are expected to have taken PPD534 or an equivalent introductory course on basic Python, stats, and spatial concepts. These prerequisites will not be covered from the ground-up as you are expected to be already familiar with them. This course requires patience and practice: learning to code will take lots of trial-and-error, self-direction, repetition, and experimentation on your part. You will get out of it what you are willing to put into it. Please note that this syllabus is a living document and may be updated by the instructor during the semester as needed.
+This course has prerequisites: students are expected to have taken [PPD534](https://github.com/gboeing/ppd534) or an equivalent introductory course on basic Python, stats, and spatial concepts. These prerequisites will not be covered from the ground-up as you are expected to be already familiar with them. This course requires patience and practice: learning to code will take lots of trial-and-error, self-direction, repetition, and experimentation on your part. You will get out of it what you are willing to put into it. Please note that this syllabus is a living document and may be updated by the instructor during the semester as needed.
 
 
 
 # Learning Objectives
 
-  - Understand the nature and applications of urban analytics and urban science
-  - Write code to collect, organize, analyze, and visualize urban data
-  - Model and analyze urban networks
-  - Train and interpret urban models
+  - Understand the evolution and applications of urban analytics and urban science
+  - Write efficient code to collect, organize, analyze, and visualize urban data
+  - Model and analyze urban networks and flows
+  - Train and interpret various kinds of urban models
 
 
 
@@ -55,7 +55,7 @@ Given the nature of this course, I do expect a few things of you before you seek
 If the above steps haven't solved your problem, post on Slack (or attend office hours) and include the following information:
 
   1. A detailed description of what you're trying to do, why, and how
-  2. A complete [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) of your code so far (never send screenshots of code/tracebacks)
+  2. A complete [minimal reproducible example](https://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports) of your code so far (never send screenshots of code/tracebacks)
   3. What you've already tried to do to solve your problem and what you have learned from it so far (specifically, explain the results of steps 1-4 above, including relevant links from StackOverflow etc)
 
 I do not ask for this to be pedantic. Rather, I need it to be able to help you solve your problem.
@@ -66,13 +66,13 @@ I do not ask for this to be pedantic. Rather, I need it to be able to help you s
 
 Coursework will be based on free open-source software. You will need a laptop (non-Chromebook) to install and run the course software.
 
-Copyrighted course reading materials are available via Blackboard for enrolled students to download. The course lectures assume that you have read the assigned readings prior to the class session and are now reasonably fluent in their contents and ready to discuss/debate them in class.
+Copyrighted course reading materials are available via Blackboard for enrolled students to download. The course lectures assume that you have read the assigned readings prior to the class session and are now reasonably fluent in their contents and ready to discuss/debate them in class. Lectures are supplemental to the assigned reading and are of little value if you haven't taken the time to prepare in advance. So, before class, make sure you have completed the assigned reading, taken thorough notes, and prepared any questions you may have about the material.
 
 
 
 # Assignments and Evaluation
 
-Per USC guidelines, for each course unit the university expects 2 hours of out-of-class student work per week. This is a 4 unit course. Therefore, you should expect an average of 8 hours of out-of-class work each week: please budget your time accordingly. See the schedule below for assignment due dates and see the "assignments" folder for instructions. Active participation is expected (and graded) in the classroom.
+The following sections outline the work you agree to do by enrolling in this course. Per USC guidelines, for each course unit the university expects 2 hours of out-of-class student work per week. This is a 4 unit course. Therefore, you should expect an average of 8 hours of out-of-class work each week: please budget your time accordingly. See the schedule below for assignment due dates and see the "assignments" folder for instructions. Active participation is expected (and graded) in the classroom.
 
 Final grades will be weighted as follows:
 
@@ -82,7 +82,9 @@ Final grades will be weighted as follows:
   - 20%: final project
   - 10%: active participation in classroom and on Slack
 
-Assignments must be submitted via Blackboard by 23:59 pacific time on their due date. Late assignment submissions will be deducted one letter grade per day. Late final project submissions will not be accepted or graded. Please submit early to avoid any last-minute headaches such as slow uploads, weak internet connections, or temporary system outages. If you have any technical issues when submitting, contact USC IT. It is solely the student's responsibility to ensure that all submissions have gone through on time, so please visually confirm successful submission in the system. The timestamp in the submission system is our official record: if it says you're late, you're late. You can expect grades to be posted within two weeks. Grades are non-negotiable.
+See the schedule below for due dates. Submit everything via Blackboard by 23:59:00 pacific time on their due dates. I will grant you a 24 hour, no questions asked, grace period to submit late without penalty. The submission window closes completely after this grace period and no further submissions will be accepted or graded. Please submit early to avoid any last-minute headaches such as slow uploads, weak internet connections, or temporary system outages. If you have any technical issues when submitting, contact USC IT well before it is due. It is solely the student's responsibility to ensure that all submissions have gone through on time, so please visually confirm complete successful submission in the system. The timestamp in the submission system is our official record: if it says you're late, you're late.
+
+Grades in this course represent holistic qualitative assessments of your performance relative to both the assignments' instructions as well as your peers' performance given the same instructions and time. They reflect what you have demonstrated you know. Grades are non-negotiable. You can expect grades to be posted within two weeks of the assignment's due date.
 
 
 
@@ -134,7 +136,7 @@ Readings to be completed prior to class:
 
 **Feb 10 - Data cleaning and exploration**
 
-We introduce data wrangling, cleaning, and feature engineering to prepare data for analysis and then discuss exploratory descriptive statistics and visualization techniques to explore patterns in the data.
+We explore advanced data wrangling, cleaning, and feature engineering to prepare data for analysis and then discuss exploratory descriptive statistics and visualization techniques to explore patterns in the data.
 
 Readings to be completed prior to class:
 
@@ -161,7 +163,7 @@ Readings to be completed prior to class:
 
 **Feb 24 - Spatial data**
 
-We introduce methods for working with spatial data.
+We explore advanced methods for working with spatial data.
 
 Readings to be completed prior to class:
 
@@ -177,7 +179,7 @@ Assignment 2 due the following Tuesday.
 
 **Mar 3 - Urban network analysis I**
 
-We introduce the theory and methods of computational spatial network analysis, including spatially-embedded graphs and libraries to model and analyze urban infrastructure networks.
+We introduce the theory and methods of computational spatial network analysis, including spatially-embedded graphs and libraries to model and analyze urban infrastructure networks and the flows upon them.
 
 Readings to be completed prior to class:
 
@@ -245,9 +247,9 @@ Mini-lectures, part 1: if you are doing a supervised learning topic, you must su
 
 ## Module 12
 
-**Apr 7 - No class: wellness day**
+**Apr 7 - Deep learning and natural language processing**
 
-What we would have covered: deep learning and natural language processing. We introduce, from an applied perspective, deep learning with keras and natural language processing with nltk.
+We introduce, from an applied perspective, deep learning with keras and natural language processing with nltk.
 
 Readings to be completed prior to class:
 
@@ -302,32 +304,40 @@ Present your final projects to the group and engage in a discussion around each.
 
 ## Accommodations and Extensions
 
-Any student requesting academic accommodations based on a disability or ongoing mental health concern is required to register with Disability Services and Programs (DSP) each semester. A letter of verification for approved accommodations can be obtained from DSP. Please be sure the letter is delivered to the instructor as early in the semester as possible, as the accommodation can only be implemented upon receipt of the letter. Visit DSP's [web site](https://dsp.usc.edu/) for more details. For further support, I encourage you to contact USC Support and Advocacy (uscsupport@usc.edu). To maintain fairness and equality for all students, extensions to due dates are only granted in accordance with these official accommodation letters. If you need to request a *one-time emergency* extension to an assignment (e.g., due to a major illness or to a death in the family) you must do the following proactively *prior to its due date*: 1) provide written documentation, such as an official doctor's note, explaining that you are unable to complete the assignment by its due date and 2) work out an extension with the instructor.
+USC welcomes students with disabilities into all of the University's educational programs. The Office of Student Accessibility Services (OSAS) is responsible for the determination of appropriate accommodations for students who encounter disability-related barriers. Once a student has completed the OSAS process (registration, initial appointment, and submitted documentation) and accommodations are determined to be reasonable and appropriate, a Letter of Accommodation (LOA) will be available to generate for each course. The LOA must be given to each course instructor by the student and followed up with a discussion. This should be done as early in the semester as possible as accommodations are not retroactive. More information can be found at OSAS's [web site](https://osas.usc.edu/). You may contact OSAS at (213) 740-0776 or via email at osasfrontdesk@usc.edu.
+
+To maintain fairness and equality for all students, extensions to due dates are only granted in accordance with official LOAs. If you need to request a *one-time emergency* extension to an assignment (e.g., due to a major illness or to a death in the family) you must do the following proactively *prior to its due date*: 1) provide written documentation, such as an official doctor's note, explaining that you are unable to complete the assignment by its due date and 2) work out an extension with the instructor.
 
 ## Academic Conduct
 
-Recording a university class is forbidden without the express permission of the instructor and announcement to the class. Recording can inhibit future free discussion and thus infringe on the academic freedom of other students as well as the instructor.
+Recording a university class in any form is forbidden without the express permission of the instructor and announcement to the class, or unless conducted pursuant to an OSAS accommodation. Recording can inhibit free discussion in the future, and thus infringe on the academic freedom of other students as well as the instructor. Distribution or use of notes, recordings, exams, or other intellectual property based on university classes or lectures for purposes other than individual or group study is forbidden without the express permission of the instructor. This includes but is not limited to providing materials for distribution by services publishing course materials. This restriction on unauthorized use also applies to all information which had been distributed to students or in any way had been displayed for use in relationship to the class, whether obtained in class, via email, on the internet, or via any other media. Refer to the USC Student Handbook for further details.
 
-Plagiarism, presenting someone else's ideas as your own, either verbatim or recast in your own words, is a serious academic offense with serious consequences. Please familiarize yourself with the discussion of plagiarism in SCampus in Part B, Section 11, "Behavior Violating University Standards" https://policy.usc.edu/scampus-part-b. Other forms of academic dishonesty are equally unacceptable. See additional information in SCampus and university policies on scientific misconduct, https://policy.usc.edu/scientific-misconduct.
+The University of Southern California is foremost a learning community committed to fostering successful scholars and researchers dedicated to the pursuit of knowledge and the transmission of ideas. Academic misconduct is in contrast to the university's mission to educate students through a broad array of first-rank academic, professional, and extracurricular programs and includes any act of dishonesty in the submission of academic work (either in draft or final form).
+
+This course will follow the expectations for academic integrity as stated in the USC Student Handbook. All students are expected to submit assignments that are original work and prepared specifically for the course/section in this academic term. You may not submit work written by others or "recycle" work prepared for other courses without obtaining written permission from the instructor(s). Students suspected of engaging in academic misconduct will be reported to the Office of Academic Integrity. Other violations of academic misconduct include, but are not limited to, cheating, plagiarism, fabrication (e.g., falsifying data), knowingly assisting others in acts of academic dishonesty, and any act that gains or is intended to gain an unfair academic advantage. The impact of academic dishonesty is far-reaching and is considered a serious offense against the university and could result in outcomes such as failure on the assignment, failure in the course, suspension, or even expulsion from the university. For more information about academic integrity see the student handbook or the Office of Academic Integrity's website, and university policies on Research and Scholarship Misconduct.
 
 ## Support Systems
 
-Counseling and Mental Health - (213) 740-9355 – 24/7 on call, https://studenthealth.usc.edu/counseling Free and confidential mental health treatment for students, including short-term psychotherapy, group counseling, stress fitness workshops, and crisis intervention.
+Counseling and Mental Health - (213) 740-9355 – 24/7 on call, Free and confidential mental health treatment for students, including short-term psychotherapy, group counseling, stress fitness workshops, and crisis intervention.
 
-National Suicide Prevention Lifeline - 1 (800) 273-8255 – 24/7 on call, https://suicidepreventionlifeline.org Free and confidential emotional support to people in suicidal crisis or emotional distress 24 hours a day, 7 days a week.
+988 Suicide and Crisis Lifeline - 988 for both calls and text messages – 24/7 on call, The 988 Suicide and Crisis Lifeline (formerly known as the National Suicide Prevention Lifeline) provides free and confidential emotional support to people in suicidal crisis or emotional distress 24 hours a day, 7 days a week, across the United States. The Lifeline is comprised of a national network of over 200 local crisis centers, combining custom local care and resources with national standards and best practices. The new, shorter phone number makes it easier for people to remember and access mental health crisis services (though the previous 1 (800) 273-8255 number will continue to function indefinitely) and represents a continued commitment to those in crisis.
 
-Relationship and Sexual Violence Prevention Services (RSVP) - (213) 740-9355(WELL), press "0" after hours – 24/7 on call, https://studenthealth.usc.edu/sexual-assault Free and confidential therapy services, workshops, and training for situations related to gender-based harm.
+Relationship and Sexual Violence Prevention Services (RSVP) - (213) 740-9355(WELL) – 24/7 on call, Free and confidential therapy services, workshops, and training for situations related to gender- and power-based harm (including sexual assault, intimate partner violence, and stalking).
 
-Office of Equity and Diversity (OED) - (213) 740-5086 | Title IX – (213) 821-8298 https://equity.usc.edu, https://titleix.usc.edu Information about how to get help or help someone affected by harassment or discrimination, rights of protected classes, reporting options, and additional resources for students, faculty, staff, visitors, and applicants.
+Office for Equity, Equal Opportunity, and Title IX (EEO-TIX) - (213) 740-5086, Information about how to get help or help someone affected by harassment or discrimination, rights of protected classes, reporting options, and additional resources for students, faculty, staff, visitors, and applicants.
 
-Reporting Incidents of Bias or Harassment - (213) 740-5086 or (213) 821-8298, https://usc-advocate.symplicity.com/care_report Avenue to report incidents of bias, hate crimes, and microaggressions to the Office of Equity and Diversity |Title IX for appropriate investigation, supportive measures, and response.
+Reporting Incidents of Bias or Harassment - (213) 740-5086 or (213) 821-8298, Avenue to report incidents of bias, hate crimes, and microaggressions to the Office for Equity, Equal Opportunity, and Title for appropriate investigation, supportive measures, and response.
 
-The Office of Disability Services and Programs - (213) 740-0776, https://dsp.usc.edu Support and accommodations for students with disabilities. Services include assistance in providing readers/notetakers/interpreters, special accommodations for test taking needs, assistance with architectural barriers, assistive technology, and support for individual needs.
+The Office of Student Accessibility Services (OSAS) - (213) 740-0776, OSAS ensures equal access for students with disabilities through providing academic accommodations and auxiliary aids in accordance with federal laws and university policy.
 
-USC Campus Support and Intervention - (213) 821-4710, https://campussupport.usc.edu Assists students and families in resolving complex personal, financial, and academic issues adversely affecting their success as a student.
+USC Campus Support and Intervention - (213) 740-0411, Assists students and families in resolving complex personal, financial, and academic issues adversely affecting their success as a student.
 
-Diversity at USC - (213) 740-2101, https://diversity.usc.edu Information on events, programs and training, the Provost's Diversity and Inclusion Council, Diversity Liaisons for each academic school, chronology, participation, and various resources for students.
+Diversity, Equity and Inclusion - (213) 740-2101, Information on events, programs and training, the Provost's Diversity and Inclusion Council, Diversity Liaisons for each academic school, chronology, participation, and various resources for students.
 
-USC Emergency - UPC: (213) 740-4321, HSC: (323) 442-1000 – 24/7 on call, https://dps.usc.edu, https://emergency.usc.edu Emergency assistance and avenue to report a crime. Latest updates regarding safety, including ways in which instruction will be continued if an officially declared emergency makes travel to campus infeasible.
+USC Emergency - UPC: (213) 740-4321, HSC: (323) 442-1000 – 24/7 on call, Emergency assistance and avenue to report a crime. Latest updates regarding safety, including ways in which instruction will be continued if an officially declared emergency makes travel to campus infeasible.
 
-USC Department of Public Safety - UPC: (213) 740-6000, HSC: (323) 442-120 – 24/7 on call, https://dps.usc.edu Non-emergency assistance or information.
+USC Department of Public Safety - UPC: (213) 740-6000, HSC: (323) 442-1200 – 24/7 on call, Non-emergency assistance or information.
+
+Office of the Ombuds - (213) 821-9556 (UPC) / (323-442-0382 (HSC), A safe and confidential place to share your USC-related issues with a University Ombuds who will work with you to explore options or paths to manage your concern.
+
+Occupational Therapy Faculty Practice - (323) 442-2850 or otfp@med.usc.edu, Confidential Lifestyle Redesign services for USC students to support health promoting habits and routines that enhance quality of life and academic performance.
