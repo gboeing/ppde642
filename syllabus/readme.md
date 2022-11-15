@@ -92,7 +92,7 @@ Grades in this course represent holistic qualitative assessments of your perform
 
 ## Module 1
 
-**Jan 20 - Introduction**
+**Jan 11 - Introduction**
 
 We introduce the course, the syllabus, the semester's expectations and schedule, and set up the computing environment for coursework. Then we introduce the foundational tools underlying much of the modern data science world: package management, version control, and computational notebooks.
 
@@ -106,7 +106,7 @@ Readings to be completed prior to class:
 
 ## Module 2
 
-**Jan 27 - Urban analytics and urban science**
+**Jan 18 - Urban analytics and urban science**
 
 We introduce ourselves (see Google Doc) and the fields of urban analytics and urban science, consider how they relate to one another in the study and practice of city planning, and explore various critiques and open challenges.
 
@@ -120,7 +120,7 @@ Readings to be completed prior to class:
 
 ## Module 3
 
-**Feb 3 - Python for urban data science**
+**Jan 25 - Python for urban data science**
 
 We do a quick refresher on Python and pandas for (urban) data science. This course presumes prior experience, so we quickly review the basics then introduce more advanced methods.
 
@@ -134,7 +134,7 @@ Readings to be completed prior to class:
 
 ## Module 4
 
-**Feb 10 - Data cleaning and exploration**
+**Feb 1 - Data cleaning and exploration**
 
 We explore advanced data wrangling, cleaning, and feature engineering to prepare data for analysis and then discuss exploratory descriptive statistics and visualization techniques to explore patterns in the data.
 
@@ -148,7 +148,7 @@ Assignment 1 due the following Tuesday.
 
 ## Module 5
 
-**Feb 17 - APIs and scraping**
+**Feb 8 - APIs and scraping**
 
 We introduce working with APIs, geocoding, and scraping.
 
@@ -161,7 +161,7 @@ Readings to be completed prior to class:
 
 ## Module 6
 
-**Feb 24 - Spatial data**
+**Feb 15 - Spatial data**
 
 We explore advanced methods for working with spatial data.
 
@@ -177,7 +177,7 @@ Assignment 2 due the following Tuesday.
 
 ## Module 7
 
-**Mar 3 - Urban network analysis I**
+**Feb 22 - Urban network analysis I**
 
 We introduce the theory and methods of computational spatial network analysis, including spatially-embedded graphs and libraries to model and analyze urban infrastructure networks and the flows upon them.
 
@@ -191,7 +191,7 @@ Readings to be completed prior to class:
 
 ## Module 8
 
-**Mar 10 - Urban network analysis II**
+**Mar 1 - Urban network analysis II**
 
 We build on the theory and methods introduced in the prior module to explore applications of spatial network analysis in the science and practice of urban planning, including routing, accessibility, and network design.
 
@@ -204,7 +204,7 @@ Assignment 3 due March 18.
 
 ## Module 9
 
-**Mar 17 - Spatial analysis**
+**Mar 8 - Spatial analysis**
 
 We cover a coding approach to exploratory spatial data analysis, including weights matrices, global and local spatial autocorrelation, spatial interpolation, and spatial clustering.
 
@@ -216,9 +216,15 @@ Readings to be completed prior to class:
 
 
 
+## Spring Break
+
+**Mar 15 - No class**
+
+
+
 ## Module 10
 
-**Mar 24 - Spatial models**
+**Mar 22 - Spatial models**
 
 We introduce explicitly spatial models in the regression framework, including spatial fixed effects, spatial regimes, spatial lag, spatial error, and geographically-weighted regression, to predict and explain urban phenomena while accounting for spatial heterogeneity and diffusion.
 
@@ -233,7 +239,13 @@ Assignment 4 due April 4.
 
 ## Module 11
 
-**Mar 31 - Supervised learning**
+**Mar 29 - Workshop day**
+
+
+
+## Module 12
+
+**Apr 5 - Supervised learning**
 
 We introduce, from an applied perspective, machine learning theory and methods. We explore a class of algorithms known as supervised learning classifiers, including logistic regression, support vector machines, decision trees, random forests, k-nearest neighbors, perceptrons, and naive Bayes.
 
@@ -245,23 +257,9 @@ Mini-lectures, part 1: if you are doing a supervised learning topic, you must su
 
 
 
-## Module 12
-
-**Apr 7 - Deep learning and natural language processing**
-
-We introduce, from an applied perspective, deep learning with keras and natural language processing with nltk.
-
-Readings to be completed prior to class:
-
-  - LeCun et al. 2015. Deep Learning. Nature. [Direct link](https://doi.org/10.1038/nature14539). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1038/nature14539).
-  - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 8, 12)
-  - *Optional* [City of LA](https://github.com/CityOfLosAngeles/automated-walk-bike-counter) using computer vision to count cyclists and pedestrians
-
-
-
 ## Module 13
 
-**Apr 14 - Unsupervised learning**
+**Apr 12 - Unsupervised learning**
 
 We introduce, from an applied perspective, unsupervised learning through cluster analysis and dimensionality reduction to discover structure in data and to work with data in low-dimension embeddings.
 
@@ -276,7 +274,7 @@ Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must
 
 ## Module 14
 
-**Apr 21 - Next steps**
+**Apr 19 - Next steps**
 
 We discuss professional coding practices and next steps in learning data science, and hold a collective hands-on workshop for individual final projects.
 
@@ -288,7 +286,7 @@ Readings to be completed prior to class:
 
 ## Module 15
 
-**Apr 28 - Final Presentations**
+**Apr 26 - Final Presentations**
 
 Present your final projects to the group and engage in a discussion around each.
 
@@ -296,7 +294,7 @@ Present your final projects to the group and engage in a discussion around each.
 
 ## Exam Week
 
-**Final Projects** due May 4.
+**Final Projects** due Apr 30.
 
 
 
