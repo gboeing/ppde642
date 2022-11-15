@@ -68,7 +68,7 @@ Write like a lawyer, not like a detective. Don't list your results in the order 
 
 Rewrite and revise heavily. Get feedback from peers.
 
-**We all hate reading scholarly papers for good reason**. They are over-written by preening academics trying flaunt their supposed genius with inscrutable language. They overflow with weak verbs, passive voice, and long circuitous sentences. To communicate effectively with a broad audience, follow a few simple guidelines (adapted from Belcher) as you write, revise, and edit:
+**We all hate reading scholarly papers for good reason**. They are over-written by preening academics trying to flaunt their genius with inscrutable language. They overflow with weak verbs, passive voice, and long circuitous sentences. To communicate effectively with a broad audience, follow a few simple guidelines (adapted from Belcher) as you write, revise, and edit:
 
 ### Practice brevity
 
@@ -101,7 +101,7 @@ Before you draft a paper to share the results of an analytics project, make sure
   - **Methods**: what did you do and how did you do it
      - state your research question and hypotheses
      - data subsection: describe your data collection, variables, and any relevant processing
-     - analysis subsection: describe your analytis with enough detail that an expert could replicate it
+     - analysis subsection: describe your analysis with enough detail that an expert could replicate it
   - **Findings**: what did your analysis reveal
      - organize your results around your argument but present them objectively with limited interpretation
      - include supporting tables/figures
