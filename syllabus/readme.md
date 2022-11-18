@@ -84,7 +84,7 @@ Final grades will be weighted as follows:
 
 See the schedule below for due dates. Submit everything via Blackboard by 23:59:00 pacific time on their due dates. I will grant you a 24 hour, no questions asked, grace period to submit late without penalty. The submission window closes completely after this grace period and no further submissions will be accepted or graded. Please submit early to avoid any last-minute headaches such as slow uploads, weak internet connections, or temporary system outages. If you have any technical issues when submitting, contact USC IT well before it is due. It is solely the student's responsibility to ensure that all submissions have gone through on time, so please visually confirm complete successful submission in the system. The timestamp in the submission system is our official record: if it says you're late, you're late.
 
-Grades in this course represent holistic qualitative assessments of your performance relative to both the assignments' instructions as well as your peers' performance given the same instructions and time. They reflect what you have demonstrated you know. Grades are non-negotiable. You can expect grades to be posted within two weeks of the assignment's due date.
+Grades in this course reflect your demonstrated understanding of and competency with the material. They do not necessarily reflect the amount of time or effort you put in (consider: if the course were easy for you and you quickly completed the assignments perfectly, you wouldn't want a D just because you didn't have to expend much effort). Grades also account for your adherence to the assignments' instructions and your peers' performance given the same instructions and time. Grades are non-negotiable. You can expect them to be posted within two weeks of the assignment's due date.
 
 
 
@@ -113,7 +113,7 @@ We introduce ourselves (see Google Doc) and the fields of urban analytics and ur
 Readings to be completed prior to class:
 
   - Kontokosta. 2018. Urban Informatics in the Science and Practice of Planning. Journal of Planning Education and Research. [Direct link](https://doi.org/10.1177/0739456X18793716). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1177/0739456X18793716).
-  - Townsend. 2015. Cities of Data: Examining the New Urban Science. Public Culture. [Direct link](https://doi.org/10.1215/08992363-2841808). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1215/08992363-2841808).
+  - Kitchin. 2020. Urban Science: Prospect and Critique. The Routledge Companion to Smart Cities. [Direct link](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315178387-4/urban-science-rob-kitchin). [USC link](https://libproxy.usc.edu/login?url=https://www.taylorfrancis.com/chapters/edit/10.4324/9781315178387-4/urban-science-rob-kitchin).
   - Mattern. 2013. Methodolatry and the Art of Measure: The New Wave of Urban Data Science. Places. [Direct link](https://doi.org/10.22269/131105).
 
 
@@ -141,6 +141,7 @@ We explore advanced data wrangling, cleaning, and feature engineering to prepare
 Readings to be completed prior to class:
 
   - McKinney. 2017. Python for Data Analysis, 2nd Ed. (Ch 9-10)
+  - *Optional linear algebra refresher, if needed*: Kolter and Do. 2008. Linear Algebra Review and Reference.
 
 Assignment 1 due the following Tuesday.
 
@@ -210,7 +211,7 @@ We cover a coding approach to exploratory spatial data analysis, including weigh
 
 Readings to be completed prior to class:
 
-  - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 14.2-14.3)
+  - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 14.1-14.3)
   - PySAL [documentation](https://pysal.org/)
   - *Optional* 3Blue1Brown's (excellent) Essence of Linear Algebra [video series](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
@@ -239,36 +240,40 @@ Assignment 4 due April 4.
 
 ## Module 11
 
-**Mar 29 - Workshop day**
-
-
-
-## Module 12
-
-**Apr 5 - Supervised learning**
+**Mar 29 - Supervised learning**
 
 We introduce, from an applied perspective, machine learning theory and methods. We explore a class of algorithms known as supervised learning classifiers, including logistic regression, support vector machines, decision trees, random forests, k-nearest neighbors, perceptrons, and naive Bayes.
 
 Readings to be completed prior to class:
 
   - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 1, 3, 4, 6)
+  - *Optional* Raschka. 2020. Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning. [Direct link](https://arxiv.org/abs/1811.12808v2).
 
 Mini-lectures, part 1: if you are doing a supervised learning topic, you must submit prior to our class session.
 
 
 
-## Module 13
+## Module 12
 
-**Apr 12 - Unsupervised learning**
+**Apr 5 - Unsupervised learning**
 
 We introduce, from an applied perspective, unsupervised learning through cluster analysis and dimensionality reduction to discover structure in data and to work with data in low-dimension embeddings.
 
 Readings to be completed prior to class:
 
   - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 5, 11)
-  - Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
+  - Domingos. 2012. A Few Useful Things to Know about Machine Learning. Communications of the ACM.
+  - *Optional* Boeing. 2019. Urban Spatial Order: Street Network Orientation, Configuration, and Entropy. Applied Network Science. [Direct link](https://doi.org/10.1007/s41109-019-0189-1).
 
 Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must submit prior to our class session.
+
+
+
+## Module 13
+
+**Apr 12 - Natural language processing**
+
+Guest lecture T.B.D.
 
 
 
