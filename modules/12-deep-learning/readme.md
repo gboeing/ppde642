@@ -1,3 +1,3 @@
-# Module 12: Deep learning and natural language processing
+# Module 12: Natural language processing
 
-We introduce, from an applied perspective, deep learning with `keras` and natural language processing with `nltk`.
+We introduce, from an applied perspective, natural language processing with `nltk`.
