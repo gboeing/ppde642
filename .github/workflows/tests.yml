@@ -40,9 +40,8 @@ jobs:
 
       - name: Test environment
         run: |
-          conda activate ppd599
           python -m ipykernel install --sys-prefix --name ppd599 --display-name "Python (ppd599)"
-          conda list
-          conda info --all
+          mamba list
+          mamba info --all
           jupyter kernelspec list
           ipython -c "import osmnx; print('OSMnx version', osmnx.__version__)"
