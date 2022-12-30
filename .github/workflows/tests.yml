@@ -13,6 +13,7 @@ jobs:
     name: ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
 
@@ -23,26 +24,19 @@ jobs:
     steps:
 
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 2
 
-      - name: Cache conda
-        uses: actions/cache@v2
-        env:
-          CACHE_NUMBER: 0
+      - name: Setup Conda environment with Micromamba
+        uses: mamba-org/provision-with-micromamba@v14
         with:
-          path: ~/conda_pkgs_dir
-          key: ${{ runner.os }}-${{ env.CACHE_NUMBER }}-${{ hashFiles('environment.yml') }}
-
-      - name: Setup conda environment
-        uses: conda-incubator/setup-miniconda@v2
-        with:
-          use-only-tar-bz2: true  # required for caching
-          show-channel-urls: true
+          cache-downloads: true
+          cache-env: true
+          channels: conda-forge
           channel-priority: strict
-          activate-environment: ppd599
           environment-file: environment.yml
+          environment-name: ppd599
 
       - name: Test environment
         run: |
