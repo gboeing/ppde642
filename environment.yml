@@ -8,6 +8,7 @@ dependencies:
   - black
   - cartopy
   - cenpy
+  - conda
   - contextily
   - dill
   - flake8
