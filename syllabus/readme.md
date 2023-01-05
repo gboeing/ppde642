@@ -248,6 +248,7 @@ Readings to be completed prior to class:
 
   - Raschka. 2019. Python Machine Learning, 3rd Ed. (Ch 1, 3, 4, 6)
   - *Optional* Raschka. 2020. Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning. [Direct link](https://arxiv.org/abs/1811.12808v2).
+  - *Optional* Troy. 2017. Machine Learning Intuition: Cost Function Optimization (and the two following posts in this series. [Direct link](https://chelseatroy.com/2017/02/07/machine-learning-intuition-cost-function-optimization/).
 
 Mini-lectures, part 1: if you are doing a supervised learning topic, you must submit prior to our class session.
 
