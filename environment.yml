@@ -17,7 +17,7 @@ dependencies:
   - isort
   - jupyterlab
   - mapclassify
-  - osmnx=1.2.3
+  - osmnx=1.3.0
   - nbqa
   - pandana
   - pandas
