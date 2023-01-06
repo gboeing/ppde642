@@ -13,12 +13,14 @@ dependencies:
   - dill
   - flake8
   - folium
+  - gensim
   - geopandas
   - isort
   - jupyterlab
   - mapclassify
   - osmnx=1.3.0
   - nbqa
+  - nltk
   - pandana
   - pandas
   - pysal
@@ -33,7 +35,6 @@ dependencies:
   # datashader
   # holoviews
   # keras
-  # nltk
   # psycopg2
   # pydeck
   # urbanaccess
