@@ -10,7 +10,7 @@ USC PPD599 / Spring 2023 / 4 units
 
 Email: boeing at usc dot edu
 
-Office hours: TBD
+Office hours: Wed 13:00-14:00, RGL 301A
 
 Classroom location and meeting times are [listed online](https://classes.usc.edu/)
 
