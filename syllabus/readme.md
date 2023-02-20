@@ -197,7 +197,7 @@ Readings to be completed prior to class:
 We build on the theory and methods introduced in the prior module to explore applications of spatial network analysis in the science and practice of urban planning, including routing, accessibility, and network design.
 
   - Boeing. 2021. Off the Grid... and Back Again? The Recent Evolution of American Street Network Planning and Design. Journal of the American Planning Association. [Direct link](https://doi.org/10.1080/01944363.2020.1819382). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1080/01944363.2020.1819382).
-  - Boeing. 2021. Street Network Models and Indicators for Every Urban Area in the World. Geographical Analysis. [Direct link](https://doi.org/10.1111/gean.12281). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1111/gean.12281).
+  - Boeing et al. 2022. Using Open Data and Open-Source Software to Develop Spatial Indicators of Urban Design and Transport Features for Achieving Healthy and Sustainable Cities. The Lancet Global Health. [Direct link](https://doi.org/10.1016/S2214-109X(22)00072-9).
 
 Assignment 3 due the following Tuesday.
 
