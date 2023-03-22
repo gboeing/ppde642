@@ -2,7 +2,7 @@
 
 See syllabus for dates and see Blackboard announcement.
 
-In this assignment you will practice learning and applying a new method on your own, and then demonstrating it to others. Teaching someone else how to do something you've learned is a key skill in data analytics in both research and practice. You will create an 8-10 minute mini-lecture notebook demonstrating a method during modules 11 or 13. An example of a "method" would be random forest or k-means.
+In this assignment you will practice learning and applying a new method on your own, and then demonstrating it to others. Teaching someone else how to do something you've learned is a key skill in data analytics in both research and practice. You will create an 8-10 minute mini-lecture notebook demonstrating a method during modules 11 or 12. An example of a "method" would be random forest or k-means.
 
 This exercise is intended to be informal and an opportunity for self-discovery. Go find something interesting, play around with it, and show us all what you figured out! The goal is to have you demonstrate your ability to teach yourself a technique prior to me demonstrating it to you.
 
