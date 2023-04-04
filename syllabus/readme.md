@@ -312,7 +312,7 @@ USC welcomes students with disabilities into all of the University's educational
 
 To maintain fairness and equality for all students, extensions to due dates are only granted in accordance with official LOAs. If you need to request a *one-time emergency* extension to an assignment (e.g., due to a major illness or to a death in the family) you must do the following proactively *prior to its due date*: 1) provide written documentation, such as an official doctor's note, explaining why you are unable to complete the assignment by its due date and 2) work out an extension with the instructor.
 
-Course content may deal with topics you find difficult or upsetting. I cannot anticipate which specific readings and discussions might make you feel uncomfortable. Therefore, it is your responsibility review the syllabus to be aware of upcoming content so you can prepare for it adequately. Contact OSAS for an LOA if you require an accommodation.
+Course content and classroom discussion may deal with topics that you find difficult or upsetting but are relevant to the course. It is your responsibility to review the syllabus to be aware of upcoming content so you can prepare for it adequately. Contact OSAS for an LOA if you require an accommodation.
 
 ## Academic Conduct
 
