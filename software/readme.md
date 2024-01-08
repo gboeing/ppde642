@@ -24,7 +24,7 @@ You now have a `ppde642` folder on your desktop containing the course repo.
 
 ### Step 2: Conda
 
-Download and install [mambaforge](https://mamba.readthedocs.io/en/latest/installation.html). Then open a terminal window (or Anaconda command prompt if on Windows), change directories to the `ppde642` folder on your desktop, and run the following commands, one at a time:
+Download and install [miniforge](https://github.com/conda-forge/miniforge#download). Then open a terminal window (or Anaconda command prompt if on Windows), change directories to the `ppde642` folder on your desktop, and run the following commands, one at a time:
 
 ```
 git pull
