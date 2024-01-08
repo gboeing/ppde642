@@ -6,9 +6,9 @@ You will conduct a spatial analysis using a spatial dataset (ideally the same on
 
 Create a new Jupyter notebook. The first cell of your notebook should be markdown explaining what your research question and hypotheses are, where you found your data set, and what it contains. Use geopandas to load your data set and clean/process it as needed. Make sure your code is well-commented throughout for explanatory clarity. Using the techniques we learned in class, do the following:
 
-  1. conduct a spatial analysis to look for hot/cold spots and assess spatial autocorrelation
-  1. compute spatial diagnostics to pick an appropriate spatial regression model
-  1. estimate and interpret a spatial regression model
+1. conduct a spatial analysis to look for hot/cold spots and assess spatial autocorrelation
+1. compute spatial diagnostics to pick an appropriate spatial regression model
+1. estimate and interpret a spatial regression model
 
 Your notebook should be separated into high-level sections using markdown headers representing the steps above. Each section should conclude with a markdown cell that succinctly explains your analysis/visuals, why you set it up the way you did, and how you interpret its results. Your notebook should conclude with a markdown cell that explains 1) what evidence does this analysis provide for your research question and hypothesis, 2) what is the "big picture" story, and 3) how can planners or policymakers use this finding.
 

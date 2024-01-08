@@ -5,32 +5,33 @@ channels:
 
 dependencies:
   - beautifulsoup4
-  - black
   - cartopy
   - cenpy
-  - conda
   - contextily
-  - dill
-  - flake8
   - folium
-  - gensim
   - geopandas
-  - isort
   - jupyterlab
   - mapclassify
   - osmnx=1.8.1
-  - nbqa
-  - nltk
   - pandana
   - pandas
+  - pre-commit
   - pysal
   - python=3.11.*
   - rasterio
-  - rtree
   - seaborn
   - scikit-learn
   - scipy
   - statsmodels
+
+  # computer vision and NLP
+  - gensim
+  - nltk
+  - pillow
+  - pytorch
+  - torchvision
+
+  # others (unused)
   # bokeh
   # datashader
   # holoviews
