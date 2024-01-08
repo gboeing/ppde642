@@ -2,6 +2,7 @@ name: ppde642
 
 channels:
   - conda-forge
+  - pytorch
 
 dependencies:
   - beautifulsoup4
