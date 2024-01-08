@@ -2,7 +2,7 @@
 
 ## Usage
 
-The Docker image and container usage instructions are available on [Docker Hub](https://hub.docker.com/r/gboeing/ppd599).
+The Docker image and container usage instructions are available on [Docker Hub](https://hub.docker.com/r/gboeing/ppde642).
 
 ## Update and distribute image
 

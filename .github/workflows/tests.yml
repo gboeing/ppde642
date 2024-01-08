@@ -36,11 +36,11 @@ jobs:
           channels: conda-forge
           channel-priority: strict
           environment-file: environment.yml
-          environment-name: ppd599
+          environment-name: ppde642
 
       - name: Test environment
         run: |
-          python -m ipykernel install --sys-prefix --name ppd599 --display-name "Python (ppd599)"
+          python -m ipykernel install --sys-prefix --name ppde642 --display-name "Python (ppde642)"
           conda list
           conda info --all
           jupyter kernelspec list

@@ -1,13 +1,13 @@
 ########################################################################
-# PPD599 Dockerfile
+# PPDE642 Dockerfile
 # License: MIT, see full license in LICENSE.txt
-# Web: https://github.com/gboeing/ppd599
+# Web: https://github.com/gboeing/ppde642
 ########################################################################
 
 FROM jupyter/base-notebook
 LABEL maintainer="Geoff Boeing <boeing@usc.edu>"
-LABEL url="https://github.com/gboeing/ppd599"
-LABEL description="USC PPD599 course image"
+LABEL url="https://github.com/gboeing/ppde642"
+LABEL description="USC PPDE642 course image"
 
 COPY requirements.txt /tmp/
 
@@ -15,7 +15,7 @@ COPY requirements.txt /tmp/
 RUN mamba update --yes -c conda-forge --strict-channel-priority --no-banner -n base mamba && \
     mamba install --update-all --force-reinstall --yes -c conda-forge --strict-channel-priority --no-banner --file /tmp/requirements.txt && \
     rm -f -r -v /opt/conda/share/jupyter/kernels/python3 && \
-    python -m ipykernel install --sys-prefix --name ppd599 --display-name "Python (ppd599)" && \
+    python -m ipykernel install --sys-prefix --name ppde642 --display-name "Python (ppde642)" && \
     mamba clean --all --yes --quiet --no-banner && \
     mamba info --all && \
     mamba list && \

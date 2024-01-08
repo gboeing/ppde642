@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-ENV=ppd599
+ENV=ppde642
 PACKAGE=osmnx
 eval "$(conda shell.bash hook)"
 conda activate base

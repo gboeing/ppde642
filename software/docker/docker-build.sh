@@ -1,7 +1,7 @@
 #!/bin/bash
 DOCKERUSER=gboeing
 PACKAGE=osmnx
-IMAGE=ppd599
+IMAGE=ppde642
 
 TAG="$DOCKERUSER/$IMAGE:latest"
 ALLTAGS="$TAG"
