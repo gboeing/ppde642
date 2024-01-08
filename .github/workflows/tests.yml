@@ -7,9 +7,7 @@ on:
     branches: [main]
 
 jobs:
-
   build:
-
     name: ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
@@ -19,29 +17,28 @@ jobs:
 
     defaults:
       run:
-        shell: bash -l {0}
+        shell: bash -elo pipefail {0}
 
     steps:
-
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
 
-      - name: Setup Conda environment with Micromamba
-        uses: mamba-org/provision-with-micromamba@v14
+      - name: Create environment with Micromamba
+        uses: mamba-org/setup-micromamba@v1
         with:
           cache-downloads: true
-          cache-env: true
-          channels: conda-forge
-          channel-priority: strict
+          cache-environment: true
           environment-file: environment.yml
-          environment-name: ppd599
+          post-cleanup: none
 
       - name: Test environment
         run: |
-          python -m ipykernel install --sys-prefix --name ppd599 --display-name "Python (ppd599)"
-          conda list
-          conda info --all
+          python -m ipykernel install --sys-prefix --name ppde642 --display-name "Python (ppde642)"
           jupyter kernelspec list
           ipython -c "import osmnx; print('OSMnx version', osmnx.__version__)"
+
+      - name: Lint
+        run: |
+          SKIP=no-commit-to-branch pre-commit run --all-files

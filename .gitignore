@@ -2,6 +2,7 @@
 data/*
 modules/*/*.gal
 modules/*/*.png
+modules/*/cache/*
 modules/*/keys.py
 syllabus/pdf/*.pdf
 
