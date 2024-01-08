@@ -36,8 +36,6 @@ jobs:
       - name: Test environment
         run: |
           python -m ipykernel install --sys-prefix --name ppde642 --display-name "Python (ppde642)"
-          mamba list
-          mamba info --all --no-banner
           jupyter kernelspec list
           ipython -c "import osmnx; print('OSMnx version', osmnx.__version__)"
 
