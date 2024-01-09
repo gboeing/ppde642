@@ -37,6 +37,8 @@ jobs:
         run: |
           python -m ipykernel install --sys-prefix --name ppde642 --display-name "Python (ppde642)"
           jupyter kernelspec list
+          ipython -c "from nltk.corpus import brown; print(brown.words())"
+          ipython -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('I love you'))"
           ipython -c "import osmnx; print('OSMnx version', osmnx.__version__)"
 
       - name: Lint
