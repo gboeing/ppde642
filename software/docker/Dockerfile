@@ -21,6 +21,7 @@ RUN mamba update --yes -c conda-forge --strict-channel-priority --no-banner -n b
     mamba list && \
     jupyter kernelspec list && \
     ipython -c "from nltk.corpus import brown; print(brown.words())" && \
+    ipython -c "import torch; print(torch.__version__, torch.cuda.is_available())" && \
     ipython -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('I love you'))" && \
     ipython -c "import osmnx; print('OSMnx version', osmnx.__version__)"
 
