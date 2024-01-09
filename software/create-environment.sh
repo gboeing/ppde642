@@ -14,4 +14,5 @@ mamba clean --all --yes --quiet --no-banner
 mamba list --no-banner
 jupyter kernelspec list
 ipython -c "from nltk.corpus import brown; print(brown.words())"
+ipython -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('I love you'))"
 ipython -c "import $PACKAGE; print('$PACKAGE version', $PACKAGE.__version__)"
