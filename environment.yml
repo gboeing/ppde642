@@ -28,9 +28,11 @@ dependencies:
   # computer vision and NLP
   - gensim
   - nltk
+  - nltk_data
   - pillow
   - pytorch
   - torchvision
+  - transformers
 
   # others (unused)
   # bokeh

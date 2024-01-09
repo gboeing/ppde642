@@ -20,7 +20,8 @@ RUN mamba update --yes -c conda-forge --strict-channel-priority --no-banner -n b
     mamba info --all && \
     mamba list && \
     jupyter kernelspec list && \
-    ipython -c "import osmnx; print('OSMnx version', osmnx.__version__)"
+    ipython -c "import osmnx; print('OSMnx version', osmnx.__version__)" && \
+    ipython -c "from nltk.corpus import brown; print(brown.words())"
 
 # copy default jupyterlab settings, then set jupyter working directory to map to mounted volume
 COPY --chmod=0755 overrides.json /opt/conda/share/jupyter/lab/settings/

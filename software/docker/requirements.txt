@@ -17,8 +17,11 @@ seaborn
 scikit-learn
 scipy
 statsmodels
+# computer vision and NLP
 gensim
 nltk
+nltk_data
 pillow
 pytorch
 torchvision
+transformers
