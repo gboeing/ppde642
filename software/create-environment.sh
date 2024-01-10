@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 ENV=ppde642
-PACKAGE=osmnx
 eval "$(conda shell.bash hook)"
 conda activate base
 mamba env remove -n $ENV --yes
@@ -16,4 +15,4 @@ jupyter kernelspec list
 ipython -c "from nltk.corpus import brown; print(brown.words())"
 ipython -c "import torch; print(torch.__version__, torch.cuda.is_available())"
 ipython -c "from transformers import pipeline; print(pipeline('sentiment-analysis')('I love you'))"
-ipython -c "import $PACKAGE; print('$PACKAGE version', $PACKAGE.__version__)"
+ipython -c "import osmnx; print('osmnx version', osmnx.__version__)"
