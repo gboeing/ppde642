@@ -10,5 +10,5 @@ Complete the following steps before the class session:
 1. Sign in with your personal account (not a work or school Google account), create a new project for class, then click enable APIs.
 1. Enable the Google Maps Geocoding API and then the Google Places API.
 1. Go to billing and set up a credit card (you will not be billed for the usage in class, but these APIs require a card on file).
-1. Go to credentials, create an API key, then copy it.
-1. Rename the file `keys-example.py` (in this folder) to `keys.py`, open it, and replace the example API key with the one you copied above.
+1. Go to credentials, then create credentials > API key, then copy it.
+1. Rename the file `keys-example.py` (in this folder) to `keys.py`, open it in a text editor, and replace the example API key with the one you copied above.
