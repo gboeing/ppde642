@@ -8,7 +8,7 @@ USC PPDE642 / Spring 2024 / 4 units
 
 Email: boeing at usc dot edu
 
-Office hours: TBD
+Office hours: Wednesday, 13:00, in RGL 301a
 
 Classroom location and meeting times are [listed online](https://classes.usc.edu/)
 
