@@ -234,13 +234,22 @@ Mini-lectures, part 2: if you are doing an unsupervised learning topic, you must
 
 **Apr 10 - Natural language processing**
 
-Guest lecture T.B.D.
+We introduce, from an applied perspective, natural language processing, deep learning, and transformer models to identify topics and themes in urban text data.
+
+Readings to be completed prior to class:
+
+- Brinkley and Stahmer. 2021. What is in a plan? Using natural language processing to read 461 California city general plans. Journal of Planning Education and Research. [Direct link](https://doi.org/10.1177/0739456X21995890).
+- Hovy and Prabhumoye. 2021. Five sources of bias in natural language processing. Language and Linguistics Compass. [Direct link](https://doi.org/10.1111/lnc3.12432).
 
 ## Module 14
 
 **Apr 17 - Computer vision**
 
-Guest lecture T.B.D.
+We introduce, from an applied perspective, computer vision techniques to analyze urban environments using satellite imagery and street view data.
+
+Readings to be completed prior to class:
+
+- PyTorch: Learn the Basics. [Direct link](https://pytorch.org/tutorials/beginner/basics/intro.html).
 
 ## Module 15
 
