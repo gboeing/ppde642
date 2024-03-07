@@ -200,7 +200,7 @@ Readings to be completed prior to class:
 - Burt et al. 2009. Elementary Statistics for Geographers, 3rd Ed. (ch 12-13 and 14.4-14.6)
 - Antonakis et al. 2010. On Making Causal Claims. The Leadership Quarterly. [Direct link](https://doi.org/10.1016/j.leaqua.2010.10.010). [USC link](https://libproxy.usc.edu/login?url=https://doi.org/10.1016/j.leaqua.2010.10.010).
 
-Assignment 4 due the following Tuesday.
+Assignment 4 due April 2.
 
 ## Module 11
 
