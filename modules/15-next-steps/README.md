@@ -63,7 +63,9 @@ Don't overstate things: you'll lose your readers' trust. Present your results cl
 
 Write like a lawyer, not like a detective. Don't list your results in the order that you discovered them. Instead, structure them strategically around your argument to persuade us of its validity.
 
-Rewrite and revise heavily. Get feedback from peers.
+Rewrite and revise heavily, over and over and over. Get feedback from peers.
+
+F. Scott Fitzgerald said: "You don't write because you want to say something, you write because you have something to say." What is the point you are trying to make? What are you trying to say? Keep refining that central point in your mind until you are ready to write about it. Communicating the point is the goal of writing. As you write, ask yourself, for each sentence: how does it contribute to that goal? Get out of the student-homework mode of thinking that the more you say about something shows the more you know about it. Persuasively arguing a precise and concise point is the goal.
 
 **We all hate reading scholarly papers for good reason**. They are over-written by preening academics trying to flaunt their genius with inscrutable language. They overflow with weak verbs, passive voice, and long circuitous sentences. To communicate effectively with a broad audience, follow a few simple guidelines (adapted from Belcher) as you write, revise, and edit:
 
