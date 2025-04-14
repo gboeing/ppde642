@@ -93,10 +93,10 @@ Before you draft a paper to share the results of an analytics project, make sure
   - introduce your topic and its overall context and importance (persuade us to care)
   - introduce your research question and argument
   - summarize your methods, findings, and significance
-- **Background**: what is currently known and unknown
+- **Background**: what is currently known/unknown to subsequently establish your research problem, question, methods, and importance
   - explain the context of your study
   - review relevant previous work to establish what is currently known
-  - identify what important open question remains (gap in the literature or unmet need in practice)
+  - research problem: identify what important open question remains (gap in the literature or unmet need in practice)
 - **Methods**: what did you do and how did you do it
   - state your research question and hypotheses
   - data subsection: describe your data collection, variables, and any relevant processing
@@ -125,7 +125,7 @@ In general, people struggle most with writing an effective introduction and disc
 
 An **abstract** (when required) is written last and summarizes everything into a succinct paragraph. Consider using a five-sentence structure:
 
-1. what we currently know and don't know
+1. what is the research context and problem
 1. what is your research question
 1. how did you answer that question
 1. what did you find
