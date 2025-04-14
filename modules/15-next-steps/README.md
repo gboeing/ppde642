@@ -95,7 +95,7 @@ Before you draft a paper to share the results of an analytics project, make sure
   - summarize your methods, findings, and significance
 - **Background**: what is currently known/unknown to subsequently establish your research problem, question, methods, and importance
   - explain the context of your study
-  - review relevant previous work to establish what is currently known
+  - review relevant previous work to establish what is currently known and what is the state of the art
   - research problem: identify what important open question remains (gap in the literature or unmet need in practice)
 - **Methods**: what did you do and how did you do it
   - state your research question and hypotheses
