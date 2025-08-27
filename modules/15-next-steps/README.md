@@ -41,6 +41,8 @@ Use **docstrings** to automatically document your modules and functions. Numpy-s
 
 ## Meaningful analytics
 
+"We need less research, better research, and research done for the right reasons." -Doug Altman
+
 **Read a lot**. Understand current knowledge, how different perspectives relate to one another, and their intellectual lineage and trajectory. Understand state-of-the-art methods and their strengths and trade-offs. Understand the big problems, real-world challenges, and applied/practice context of your discipline. Then you can identify a knowledge gap with real-world importance and the appropriate methods to contribute new knowledge to advance theory.
 
 **Ask meaningful questions**. A good research question is motivated by real-world impact and engagement, not by "no one's done this before."
