@@ -26,7 +26,7 @@ jobs:
           fetch-depth: 2
 
       - name: Create environment with Micromamba
-        uses: mamba-org/setup-micromamba@v2
+        uses: mamba-org/setup-micromamba@v3
         with:
           cache-downloads: true
           cache-environment: true
