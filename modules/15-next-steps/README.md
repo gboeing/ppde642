@@ -23,7 +23,7 @@ Rule of three: if a piece of code appears three or more times, extract it into i
 
 Notebooks are useful for interactive analytics and seeing results, but most "workhorse" code can be extracted into a reusable module.
 
-Use a **code formatter**. Common Python formatters are [black](https://pypi.org/project/black/), [isort](https://pycqa.github.io/isort/), and [ruff](https://docs.astral.sh/ruff/). A typical approach is to use these tools as git [commit hooks](https://githooks.com/) with [pre-commit](https://pre-commit.com/).
+Use a **code formatter**. Common Python formatters are [black](https://pypi.org/project/black/), [isort](https://pycqa.github.io/isort/), and [ruff](https://docs.astral.sh/ruff/). A typical approach is to use these tools as git [commit hooks](https://githooks.com/) with [prek](https://prek.j178.dev/). This course uses ruff for formatting and linting.
 
 **Lint** your code. Common Python linters include [flake8](https://flake8.pycqa.org/) for code quality and [pydocstyle](https://www.pydocstyle.org/) for docstrings (see below). Nowadays, [ruff](https://docs.astral.sh/ruff/) is increasingly common.
 

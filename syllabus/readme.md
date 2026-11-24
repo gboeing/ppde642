@@ -86,7 +86,7 @@ Readings to be completed prior to class:
 
 - Boeing and Arribas-Bel. 2021. GIS and Computational Notebooks. In: The Geographic Information Science & Technology Body of Knowledge, edited by J.P. Wilson. [Direct link](https://doi.org/10.22224/gistbok/2021.1.2).
 - If you're on Windows, read [this guide](http://dosprompt.info/)'s "basics" and "folders" sections. If you're on Mac, read [this guide](https://computers.tutsplus.com/tutorials/navigating-the-terminal-a-gentle-introduction--mac-3855).
-- Conda [user guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
+- uv [project guide](https://docs.astral.sh/uv/guides/projects/)
 
 ## Module 2
 
