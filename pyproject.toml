@@ -8,32 +8,13 @@ license-files = ["LICENSE.txt"]
 readme = "README.md"
 requires-python = "==3.14.*"
 dependencies = [
-    "beautifulsoup4",
-    "branca",
-    "cartopy",
     "contextily",
     "folium",
-    "geopandas",
-    "geopy",
-    "mapclassify",
-    "matplotlib",
-    "networkx",
-    "nltk",
-    "numpy",
-    "osmnx",
+    "osmnx[all]",
     "pandarm",
-    "pandas",
-    "pillow",
     "pysal",
-    "rasterio",
-    "requests",
-    "scikit-learn",
-    "scipy",
-    "seaborn",
-    "shapely",
-    "statsmodels",
+    "seaborn[stats]",
     "torch",
-    "torchvision",
     "transformers",
 ]
 
@@ -57,7 +38,6 @@ max-line-length = 110 # line length + 10% since it isn't a hard upper bound
 # macOS uses the standard PyPI builds.
 [tool.uv.sources]
 torch = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
-torchvision = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
 
 [[tool.uv.index]]
 name = "pytorch-cpu"
