@@ -6,15 +6,13 @@ description = "USC PPDE642: Advanced Urban Analytics"
 license = "MIT"
 license-files = ["LICENSE.txt"]
 readme = "README.md"
-requires-python = "==3.12.*"
+requires-python = "==3.14.*"
 dependencies = [
     "beautifulsoup4",
     "branca",
     "cartopy",
-    "cenpy",
     "contextily",
     "folium",
-    "gensim",
     "geopandas",
     "geopy",
     "googletrans",
@@ -23,7 +21,7 @@ dependencies = [
     "networkx",
     "nltk",
     "numpy",
-    "osmnx==1.8.1",
+    "osmnx",
     "pandarm",
     "pandas",
     "pillow",
