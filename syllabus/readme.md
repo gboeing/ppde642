@@ -18,8 +18,7 @@ This course provides you with a modern toolkit and skills for urban data science
 
 Students will be expected to:
 
-- Complete and be prepared to discuss all assigned readings
-- Attend the lecture
+- Attend the lecture and be prepared to discuss the prep material
 - Complete and submit 4 analytics assignments
 - Prepare a short conference paper or professional portfolio
 
@@ -28,7 +27,7 @@ This course has prerequisites: students are expected to have taken [PPD534](http
 # Learning Objectives
 
 - Understand the evolution and applications of urban analytics and urban science
-- Write efficient code to collect, organize, analyze, and visualize urban data
+- Write code with and without AI to collect, organize, analyze, and visualize urban data
 - Model and analyze urban networks and flows
 - Train and interpret various kinds of urban models
 
@@ -36,10 +35,12 @@ This course has prerequisites: students are expected to have taken [PPD534](http
 
 I am available if you need help throughout the semester and am happy to answer your questions. Please ask course-related questions in our course's Slack channel: you should expect a reply typically within two working days. If you have a sensitive personal matter to discuss, please ask by email. Office hours info is provided at the beginning of the syllabus.
 
-Given the nature of this course, I do expect a few things of you before you seek assistance with coding/data questions:
+## How to ask a technical question
+
+Given the nature of this course, we do expect a few things of you before you seek assistance with coding/data questions:
 
 1. Close all open programs, restart your computer, then try your task again
-2. Search Google and StackOverflow for the topic/problem (for example, the name of the function you're struggling with or the error message you are seeing)
+2. Search Google and StackOverflow for the topic/problem (for example, the name of the function you're struggling with or the error message you are seeing), and ask AI for suggestions
 3. Go back through the relevant lecture materials to look for any insights
 4. Go back through the assigned reading materials to look for any insights
 
@@ -47,31 +48,47 @@ If the above steps haven't solved your problem, post on Slack (or attend office 
 
 1. A detailed description of what you're trying to do, why, and how
 2. A complete [minimal reproducible example](https://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports) of your code so far (never send screenshots of code/tracebacks)
-3. What you've already tried to do to solve your problem and what you have learned from it so far (specifically, explain the results of steps 1-4 above, including relevant links from StackOverflow etc)
+3. What you've already tried to do to solve your problem and what you have learned from it so far (specifically, explain the results of steps 1-4 above)
 
-I do not ask for this to be pedantic. Rather, I need it to be able to help you solve your problem.
+We do not ask for this to be pedantic. Rather, we need it to be able to help you solve your issue and avoid the [XY Problem](https://en.wikipedia.org/wiki/XY_problem).
 
 # Materials
 
-Coursework will be based on free open-source software. You will need a laptop (non-Chromebook) to install and run the course software.
+Coursework will be based on free open-source software. Copyrighted course reading materials are available via Brightspace for enrolled students to download. The course lectures assume that you have read the assigned readings prior to the class session and are now reasonably fluent in their contents and ready to discuss/debate them in class. Lectures are supplemental to the assigned reading and are of little value if you haven't taken the time to prepare in advance. So, before class, make sure you have completed the assigned reading, taken thorough notes, and prepared any questions you may have about the material.
 
-Copyrighted course reading materials are available via Blackboard for enrolled students to download. The course lectures assume that you have read the assigned readings prior to the class session and are now reasonably fluent in their contents and ready to discuss/debate them in class. Lectures are supplemental to the assigned reading and are of little value if you haven't taken the time to prepare in advance. So, before class, make sure you have completed the assigned reading, taken thorough notes, and prepared any questions you may have about the material.
+# Coursework
 
-# Assignments and Evaluation
+The following sections outline the work you agree to do by enrolling in this course. Per USC guidelines, for each course unit the university expects 2 hours of out-of-class student work per week. This is a 4 unit course. Therefore, you should expect an average of 8 hours of out-of-class work each week. Please budget your time accordingly. See the schedule below for learning assessment due dates and see the "assessments" folder for instructions.
 
-The following sections outline the work you agree to do by enrolling in this course. Per USC guidelines, for each course unit the university expects 2 hours of out-of-class student work per week. This is a 4 unit course. Therefore, you should expect an average of 8 hours of out-of-class work each week: please budget your time accordingly. See the schedule below for assignment due dates and see the "assignments" folder for instructions. Active participation is expected (and graded) in the classroom.
+## Attendance Policy
 
-Final grades will be weighted as follows:
+This is an in-person course. If you need to miss a class session, do not notify the instructor: attendance is not taken, so there are no "excused" versus "unexcused" absences, nor are there accommodations for missing in-class activities. It is the student's responsibility to request notes, etc from others who were in attendance. Likewise there is no accommodation for travel: it's the student's responsibility to know the school schedule before they book travel and to adjust travel dates as needed. Students are expected to manage their schedules such that they can keep all of their commitments, including attending class.
 
-- 50%: four analytics assignments
-- 10%: mini-lecture
+## Submission Policy
+
+Submissions are due by 23:59:00 Pacific Time on their stated due dates (see schedule below). Submit everything via Brightspace's submission system. Please submit early to avoid any last-minute headaches such as slow uploads, connectivity problems, or temporary system outages. If you have any technical issues when submitting, contact USC IT for resolution well before it is due. It is solely the student's responsibility to ensure that all submissions have gone through on time and contain the complete, working, correct, and expected files. Double-check and verify correct and successful submission, and fix it if necessary, before the deadline. You are graded solely on what you submit on Brightspace prior to the deadline. The timestamp in the submission system is our only official record: if it says you're late, you're late. Submissions outside of Brightspace (e.g., by email or on Google Drive) will not be accepted or graded. If your data set is too large for the submission system, you may upload *only your data set* to the USC Google Drive and provide a link to it in the first cell of your submitted Jupyter notebook that uses it.
+
+## Late Policy and Extensions
+
+The professional world demands punctuality, which we practice in this course through relatively strict deadlines. Remember that assignment due dates are final deadlines, not indicators of when you're supposed to work on them. You are given several days to complete assignments that take, at most, a few hours. Procrastinate at your own peril. However, sometimes things come up and we could use a little grace. Each assessment comes with a 12-hour, no-questions-asked grace period following its deadline during which it will be accepted as though on-time (does not apply to exams or final projects). You can submit after that for a 25% penalty until the submission system closes completely 24 hours after the original deadline. You must get an OSAS accommodation for additional extensions.
+
+## Grading Policy
+
+You can expect the grade you earned to be posted within two weeks of each assessment's due date. Grades are earned solely based on how well submissions fulfill the instructions and demonstrate your proficiency in the material. Effort and time spent do not factor in to grades. If your demonstrated proficiency is not where you want it to be, start coming to office hours, refocus your effort onto more effective study strategies, and optionally consider tutoring services. Posted grades are final and non-negotiable. This policy exists to protect you and ensure equitable outcomes for both you and your classmates. Professors don't arbitrarily hand out grades, and thus they should never arbitrarily alter them either. Accordingly, no grade disputes regarding the grader's expert judgment and standards will be considered. However, if we have made a clerical error in inputting your grade (e.g., you earned a certain number of points but we summed them incorrectly when tabulating the final grade), please provide specific documentation of that clerical error and we'll be happy to correct it.
+
+Final grade weighting (there is no extra credit):
+
+- 60%: four analytics assignments
 - 10%: final presentation
-- 20%: final project
-- 10%: active participation in classroom and on Slack
+- 30%: final project
 
-See the schedule below for due dates. Submit everything via Blackboard. Assignments are due by 23:59:00 pacific time on their stated due dates. Late submissions are deducted 25% per day late. Please submit early to avoid any last-minute headaches such as slow uploads, weak internet connections, or temporary system outages. If you have any technical issues when submitting, contact USC IT well before it is due. It is solely the student's responsibility to ensure that all submissions have gone through on time, so please doubly confirm complete successful submission in the system. The timestamp in the submission system is our official record: if it says you're late, you're late. Note that late final project submissions will not be accepted or graded.
+Final grade percentage ranges and meaning:
 
-Grades in this course reflect how you have demonstrated and communicated your understanding of and competency in the material. They account for your adherence to the assignments' instructions and your peers' performance given the same instructions and time. Grades do not necessarily reflect the amount of time or effort you put in, because I cannot observe you 24 hours a day to monitor your time and effort. If your demonstrated understanding of and competency in the material are not where you want them to be, start coming to office hours, refocus your effort onto more effective study strategies, and consider seeking tutoring. Grades are non-negotiable. You can expect them to be posted within two weeks of the assignment's due date.
+- 90 ≤ A (high pass)
+- 80 ≤ B < 90 (pass)
+- 70 ≤ C < 80 (low pass)
+- 60 ≤ D < 70 (fail)
+- F < 60 (fail)
 
 # Schedule
 
@@ -262,48 +279,57 @@ Present your final projects to the group and engage in a discussion around each.
 
 # Academic Conduct and Support
 
-## Accommodations and Extensions
+## Accommodations
 
-USC welcomes students with disabilities into all of the University's educational programs. The Office of Student Accessibility Services (OSAS) is responsible for the determination of appropriate accommodations for students who encounter disability-related barriers. Once a student has completed the OSAS process (registration, initial appointment, and submitted documentation) and accommodations are determined to be reasonable and appropriate, a Letter of Accommodation (LOA) will be available to generate for each course. The LOA must be given to each course instructor by the student and followed up with a discussion. This should be done as early in the semester as possible as accommodations are not retroactive. More information can be found at OSAS's [web site](https://osas.usc.edu/). You may contact OSAS at (213) 740-0776 or via email at osasfrontdesk@usc.edu.
+USC welcomes students with disabilities into all of the University's educational programs. The Office of Student Accessibility Services (OSAS) is responsible for the determination of appropriate accommodations for students who encounter disability-related barriers. Once a student has completed the OSAS process (registration, initial appointment, and submitted documentation) and accommodations are determined to be reasonable and appropriate, a Letter of Accommodation (LOA) will be available to generate for each course. The LOA must be given to each course instructor by the student and followed up with a discussion. This should be done as early in the semester as possible as accommodations are not retroactive. More information can be found at https://osas.usc.edu/. You may contact OSAS at (213) 740-0776 or osasfrontdesk@usc.edu.
 
-To maintain fairness and equality for all students, extensions to due dates are only granted in accordance with official LOAs. If you need to request a _one-time emergency_ extension to an assignment (e.g., due to a major illness requiring hospitalization or due to a death in the family) you must do the following proactively _prior to its due date_: 1) provide written documentation, such as an official doctor's note, explaining why you are unable to complete the assignment by its due date and 2) work out an extension with the instructor.
+To maintain fairness and equity for all students, exceptions to syllabus policies are only granted in accordance with official LOAs and there are no retroactive accommodations negotiable after deadlines. Course content and classroom discussion may deal with topics that you find difficult or upsetting but are relevant to the course's core learning outcomes. It is your responsibility to review the syllabus to be aware of upcoming content so you can prepare for it adequately. Contact OSAS for an LOA if you believe you require an accommodation.
 
-Course content and classroom discussion may deal with topics that you find difficult or upsetting but are relevant to the course. It is your responsibility to review the syllabus to be aware of upcoming content so you can prepare for it adequately. Contact OSAS for an LOA if you require an accommodation.
+## Plagiarism and AI
+
+Review the student handbook for expectations on academic integrity and understand what constitutes [plagiarism](https://apastyle.apa.org/style-grammar-guidelines/citations/plagiarism). Do not reproduce any words, images, code, or other content created by another author (including AI) without quote marks and citation. If you instead refer to their ideas in your own words, you must cite them to make it clear whose ideas you're referring to. We recommend APA style citations (but any common citation style will suffice), to include page numbers for direct quotations in your notes (also helpful for exam prep). The USC Library and the USC Writing Center provide guides and resources if you have any questions.
+
+Content generated from AI or similar tools including ChatGPT and Google Translate may be submitted in this course (except where expressly prohibited) in accordance with the preceding plagiarism guidelines. You are solely responsible for any submitted content: false claims and fake references, regardless of their origin, are academic integrity violations, so review all content carefully before submission.
 
 ## Academic Conduct
 
-Recording a university class in any form is forbidden without the express permission of the instructor and announcement to the class, or unless conducted pursuant to an OSAS accommodation. Recording can inhibit free discussion in the future, and thus infringe on the academic freedom of other students as well as the instructor. Distribution or use of notes, recordings, exams, or other intellectual property based on university classes or lectures for purposes other than individual or group study is forbidden without the express permission of the instructor. This includes but is not limited to providing materials for distribution by services publishing course materials. This restriction on unauthorized use also applies to all information which had been distributed to students or in any way had been displayed for use in relationship to the class, whether obtained in class, via email, on the internet, or via any other media. Refer to the USC Student Handbook for further details.
+Recording a university class in any form (including photography, video, and audio) is forbidden without the express permission of the instructor and announcement to the class, or unless conducted pursuant to an OSAS accommodation. Recording can inhibit free discussion in the future, and thus infringe on the academic freedom of other students as well as the instructor. Distribution or use of notes, recordings, exams, or other intellectual property based on university classes or lectures for purposes other than individual or group study is forbidden without the express permission of the instructor. This includes but is not limited to providing materials for distribution by services publishing course materials. This restriction on unauthorized use also applies to all information which had been distributed to students or in any way had been displayed for use in relationship to the class, whether obtained in class, via email, on the internet, or via any other media. Refer to the USC Student Handbook for further details.
 
-The University of Southern California is foremost a learning community committed to fostering successful scholars and researchers dedicated to the pursuit of knowledge and the transmission of ideas. Academic misconduct is in contrast to the university's mission to educate students through a broad array of first-rank academic, professional, and extracurricular programs and includes any act of dishonesty in the submission of academic work (either in draft or final form).
+The University of Southern California is foremost a learning community committed to fostering successful scholars and researchers dedicated to the pursuit of knowledge and the transmission of ideas. Academic misconduct is contrary to this fundamental mission and includes any act of dishonesty in the submission of academic work (either in draft or final form), as well as cheating, plagiarism, fabrication (e.g., falsifying data), knowingly assisting others in acts of academic dishonesty, and any act that gains or is intended to gain an unfair academic advantage. Students are expected to uphold the highest standards of academic integrity in all coursework.
 
-This course will follow the expectations for academic integrity as stated in the USC Student Handbook. All students are expected to submit assignments that are original work and prepared specifically for the course/section in this academic term. You may not submit work written by others or "recycle" work prepared for other courses without obtaining written permission from the instructor(s). Students suspected of engaging in academic misconduct will be reported to the Office of Academic Integrity. Other violations of academic misconduct include, but are not limited to, cheating, plagiarism, fabrication (e.g., falsifying data), knowingly assisting others in acts of academic dishonesty, and any act that gains or is intended to gain an unfair academic advantage. The impact of academic dishonesty is far-reaching and is considered a serious offense against the university and could result in outcomes such as failure on the assignment, failure in the course, suspension, or even expulsion from the university. For more information about academic integrity see the student handbook or the Office of Academic Integrity's website, and university policies on Research and Scholarship Misconduct.
+This course follows the expectations for academic integrity as stated in the USC Student Handbook. All students are expected to submit assignments that are original work and prepared specifically for the course/section in this academic term. Students may not submit work written by others or "recycle" work prepared for other courses without obtaining written permission from the instructor(s). Students suspected of academic misconduct will be reported to the Office of Academic Integrity. Academic dishonesty has a far-reaching impact and is considered a serious offense against the university. Violations will result in a grade penalty, such as a failing grade on the assignment or in the course, and disciplinary action from the university, such as suspension or expulsion. For more information about academic integrity see the Student Handbook, the Office of Academic Integrity's website, and university policies on Research and Scholarship Misconduct.
 
-Make sure you review the student handbook for expectations on academic integrity, and never commit [plagiarism](https://apastyle.apa.org/style-grammar-guidelines/citations/plagiarism). It is serious academic misconduct. In all your assignments, make sure you do not copy/paste any words, images, code, or other content written by another author (including the author of the piece to which you are responding) without quote marks and citation. If you use someone else's words, you must always use _quote_ marks and _cite_ them. If you refer to their ideas in your own words, you must _cite_ them to make it clear whose ideas you're referring to. In a reading response, citing the reading's author inline is sufficient for us to understand the citation. In other contexts, use a formal reference to make your citation clear.
+## Classroom Norms
 
-Content generated from AI, machine learning, or similar algorithmic tools cannot be submitted in this course. A violation of this policy constitutes academic misconduct.
+Our classroom adheres to four central norms of professionalism:
+
+  - We respect others' opinions, but defer to facts.
+  - We give honest criticism, but keep it constructive and courteous.
+  - We alone are responsible for our own actions.
+  - We adhere to the syllabus, so the squeaky wheel does not gain an advantage over their peers.
 
 ## Support Systems
 
-Counseling and Mental Health - (213) 740-9355 – 24/7 on call, Free and confidential mental health treatment for students, including short-term psychotherapy, group counseling, stress fitness workshops, and crisis intervention.
+Student Financial Aid and Satisfactory Academic Progress: To be eligible for certain kinds of financial aid, students are required to maintain Satisfactory Academic Progress (SAP) toward their degree objectives. Visit the Financial Aid Office webpage for undergraduate- and graduate-level SAP eligibility requirements and the appeals process.
 
-988 Suicide and Crisis Lifeline - 988 for both calls and text messages – 24/7 on call, The 988 Suicide and Crisis Lifeline (formerly known as the National Suicide Prevention Lifeline) provides free and confidential emotional support to people in suicidal crisis or emotional distress 24 hours a day, 7 days a week, across the United States. The Lifeline is comprised of a national network of over 200 local crisis centers, combining custom local care and resources with national standards and best practices. The new, shorter phone number makes it easier for people to remember and access mental health crisis services (though the previous 1 (800) 273-8255 number will continue to function indefinitely) and represents a continued commitment to those in crisis.
+Counseling and Mental Health - (213) 740-9355 - 24/7 on call. Free and confidential mental health treatment for students, including short-term psychotherapy, group counseling, stress fitness workshops, and crisis intervention.
 
-Relationship and Sexual Violence Prevention Services (RSVP) - (213) 740-9355(WELL) – 24/7 on call, Free and confidential therapy services, workshops, and training for situations related to gender- and power-based harm (including sexual assault, intimate partner violence, and stalking).
+988 Suicide and Crisis Lifeline - 988 for both calls and text messages - 24/7 on call. The 988 Suicide and Crisis Lifeline (formerly known as the National Suicide Prevention Lifeline) provides free and confidential emotional support to people in suicidal crisis or emotional distress 24 hours a day, 7 days a week, across the United States. The Lifeline consists of a national network of over 200 local crisis centers, combining custom local care and resources with national standards and best practices. The new, shorter phone number makes it easier for people to remember and access mental health crisis services (though the previous 1 (800) 273-8255 number will continue to function indefinitely) and represents a continued commitment to those in crisis.
 
-Office for Equity, Equal Opportunity, and Title IX (EEO-TIX) - (213) 740-5086, Information about how to get help or help someone affected by harassment or discrimination, rights of protected classes, reporting options, and additional resources for students, faculty, staff, visitors, and applicants.
+CARE-SC: Confidential Advocacy, Resources, and Education Support Center - (213) 740-9355(WELL) - 24/7/365 on call. Confidential advocates, prevention educators, and professional counseling teams work to promote a universal culture of consent, and prevent and respond to gender- and power-based harm. Services available to all USC students at no cost.
 
-Reporting Incidents of Bias or Harassment - (213) 740-5086 or (213) 821-8298, Avenue to report incidents of bias, hate crimes, and microaggressions to the Office for Equity, Equal Opportunity, and Title for appropriate investigation, supportive measures, and response.
+Office of Civil Rights Compliance - (213) 740-5086. Information about how to get help or help someone affected by harassment, discrimination, retaliation on the basis of a protected characteristic, rights of protected classes, reporting options, and additional resources for students, faculty, staff, visitors, and applicants.
 
-The Office of Student Accessibility Services (OSAS) - (213) 740-0776, OSAS ensures equal access for students with disabilities through providing academic accommodations and auxiliary aids in accordance with federal laws and university policy.
+USC Campus Support and Intervention - (213) 740-0411, uscsupport@usc.edu. Assists students and families in resolving complex personal, financial, and academic issues adversely affecting their success as a student.
 
-USC Campus Support and Intervention - (213) 740-0411, Assists students and families in resolving complex personal, financial, and academic issues adversely affecting their success as a student.
+USC Emergency Information - https://emergency.usc.edu/. Latest updates regarding safety, including ways in which instruction will be continued if an officially declared emergency makes travel to campus infeasible.
 
-Diversity, Equity and Inclusion - (213) 740-2101, Information on events, programs and training, the Provost's Diversity and Inclusion Council, Diversity Liaisons for each academic school, chronology, participation, and various resources for students.
+USC Department of Public Safety - For 24 hour emergency assistance or to report a crime: UPC: (213) 740-4321, HSC: (323)-442-1000. For 24 hour non-emergency assistance or information: UPC: (213) 740-6000, HSC: 323-442-1200.
 
-USC Emergency - UPC: (213) 740-4321, HSC: (323) 442-1000 – 24/7 on call, Emergency assistance and avenue to report a crime. Latest updates regarding safety, including ways in which instruction will be continued if an officially declared emergency makes travel to campus infeasible.
+Office of the Ombuds - (213) 821-9556 (UPC) / (323) 442-0382 (HSC). A safe and confidential place to share your USC-related issues with a University Ombuds who will work with you to explore options or paths to manage your concern.
 
-USC Department of Public Safety - UPC: (213) 740-6000, HSC: (323) 442-1200 – 24/7 on call, Non-emergency assistance or information.
+Occupational Therapy Faculty Practice - (323) 442-2850 or otfp@med.usc.edu. Lifestyle Redesign services for USC students to support health promoting habits and routines that enhance quality of life and academic performance.
 
-Office of the Ombuds - (213) 821-9556 (UPC) / (323-442-0382 (HSC), A safe and confidential place to share your USC-related issues with a University Ombuds who will work with you to explore options or paths to manage your concern.
+The Office of Sustainability promotes numerous ways for all Trojans to study, work, and live sustainably at USC. Students can access tools, resources, and opportunities on their website and in the Sustainability Hub in the Student Union Building, Suite 101.
 
-Occupational Therapy Faculty Practice - (323) 442-2850 or otfp@med.usc.edu, Confidential Lifestyle Redesign services for USC students to support health promoting habits and routines that enhance quality of life and academic performance.
+USC Report and Response provides a front door to reporting concerns, including an ability to report anonymously, which violate university policies or go against our Unifying Values and helps connect you with the support you need. The website provides a list of confidential resources, supporting offices, and policies that are available to our university community. The Resources page includes information regarding the university’s response in the event of immigration enforcement activity on campus or involving a student or employee.  Additional questions may be directed to the Office of Professionalism and Ethics (OPE) and ope@usc.edu or in reviewing the Office of Professionalism and Ethics website.
