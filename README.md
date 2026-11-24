@@ -1,5 +1,5 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gboeing/ppde642/blob/main)
-[![Build Status](https://github.com/gboeing/ppde642/workflows/CI/badge.svg?branch=main)](https://github.com/gboeing/ppde642/actions?query=workflow%3A%22CI%22)
+[![Build Status](https://github.com/gboeing/ppde642/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/gboeing/ppde642/actions/workflows/ci.yml)
 
 # PPDE642: Advanced Urban Analytics
 
