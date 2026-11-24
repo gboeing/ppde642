@@ -15,7 +15,6 @@ dependencies = [
     "folium",
     "geopandas",
     "geopy",
-    "googletrans",
     "mapclassify",
     "matplotlib",
     "networkx",
