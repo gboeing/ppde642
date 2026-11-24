@@ -1,5 +1,5 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gboeing/ppde642/main?urlpath=lab)
-[![Build Status](https://github.com/gboeing/ppde642/workflows/tests/badge.svg?branch=main)](https://github.com/gboeing/ppde642/actions?query=workflow%3A%22tests%22)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gboeing/ppde642/blob/main)
+[![Build Status](https://github.com/gboeing/ppde642/workflows/CI/badge.svg?branch=main)](https://github.com/gboeing/ppde642/actions?query=workflow%3A%22CI%22)
 
 # PPDE642: Advanced Urban Analytics
 
@@ -13,13 +13,13 @@ This course series takes a computational social science approach to working with
 
 The first course in the series, **PPD534**, starts with the basics of coding with Python, then on to data loading and analysis, then on to descriptive statistics, then inference and the scientific method, and finally a critical assessment of smart cities and urban informatics.
 
-**PPD534**'s lecture materials are available on [GitHub](https://github.com/gboeing/ppd534) and interactively on [Binder](https://mybinder.org/v2/gh/gboeing/ppd534/main).
+**PPD534**'s lecture materials are available on [GitHub](https://github.com/gboeing/ppd534) and interactively on [Colab](https://colab.research.google.com/github/gboeing/ppd534/blob/main).
 
 ### PPDE642: Advanced Urban Analytics
 
 The second course, **PPDE642**, assumes you have completed PPD534 (or its equivalent) and builds on its topics. It introduces spatial analysis, network analysis, spatial models, and applied machine learning. It also digs deeper into the tools and workflows of urban data science in both research and practice.
 
-**PPDE642**'s lecture materials are available in this repo and interactively on [Binder](https://mybinder.org/v2/gh/gboeing/ppde642/main).
+**PPDE642**'s lecture materials are available in this repo and interactively on [Colab](https://colab.research.google.com/github/gboeing/ppde642/blob/main).
 
 ## Not a USC student?
 

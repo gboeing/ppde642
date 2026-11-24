@@ -1,0 +1,61 @@
+---
+name: CI
+
+on:  # yamllint disable-line rule:truthy
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+
+    defaults:
+      run:
+        shell: bash -elo pipefail {0}
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 2
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v10.4.0
+        with:
+          cache-dependency-glob: uv.lock
+          enable-cache: true
+
+      - name: Install environment
+        run: uv sync
+
+      - name: Test environment
+        run: |
+          uv pip check
+          uv run python -c "import nltk; nltk.download('brown', raise_on_error=True)"
+          uv run python -c "from nltk.corpus import brown; print(brown.words())"
+          uv run python -c "import osmnx, pandarm, rasterio; print(osmnx.__version__)"
+          uv run python -c "import torch, torchvision, transformers; print(torch.__version__)"
+
+      - name: Cache pre-commit
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/prek/
+          key: pre-commit-${{ runner.os }}-${{ hashFiles('.pre-commit-config.yaml') }}
+
+      - name: Lint
+        run: uv run prek run --all-files
+        env:
+          PREK_HOME: ~/.cache/prek
+          SKIP: no-commit-to-branch
