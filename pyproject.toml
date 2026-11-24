@@ -1,0 +1,68 @@
+[project]
+authors = [{ name = "Geoff Boeing", email = "boeing@usc.edu" }]
+name = "PPDE642"
+version = "2027"
+description = "USC PPDE642: Advanced Urban Analytics"
+license = "MIT"
+license-files = ["LICENSE.txt"]
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "beautifulsoup4",
+    "branca",
+    "cartopy",
+    "cenpy",
+    "contextily",
+    "folium",
+    "gensim",
+    "geopandas",
+    "geopy",
+    "googletrans",
+    "mapclassify",
+    "matplotlib",
+    "networkx",
+    "nltk",
+    "numpy",
+    "osmnx==1.8.1",
+    "pandarm",
+    "pandas",
+    "pillow",
+    "pysal",
+    "rasterio",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "shapely",
+    "statsmodels",
+    "torch",
+    "torchvision",
+    "transformers",
+]
+
+[dependency-groups]
+dev = ["jupyterlab", "nbdime", "pip", "prek"]
+
+[tool.ruff]
+cache-dir = "~/.cache/prek/cache/ruff"
+line-length = 100
+
+[tool.ruff.lint]
+extend-select = ["A", "B", "E", "F", "I", "UP", "W"]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+
+[tool.ruff.lint.pycodestyle]
+max-line-length = 110 # line length + 10% since it isn't a hard upper bound
+
+# Use CPU builds on Linux and Windows to avoid unnecessary CUDA dependencies.
+# macOS uses the standard PyPI builds.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+torchvision = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
