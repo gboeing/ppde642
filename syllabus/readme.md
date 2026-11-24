@@ -1,6 +1,6 @@
 **Advanced Urban Analytics**
 
-USC PPDE642 / Spring 2024 / 4 units
+USC PPDE642 / Spring 2027 / 4 units
 
 # Instructor Info
 
@@ -8,7 +8,7 @@ USC PPDE642 / Spring 2024 / 4 units
 
 Email: boeing at usc dot edu
 
-Office hours: Wednesday, 13:00, in RGL 301a
+Office hours: Wednesday, 13:00, in RGL 301F
 
 Classroom location and meeting times are [listed online](https://classes.usc.edu/)
 
@@ -20,9 +20,8 @@ Students will be expected to:
 
 - Complete and be prepared to discuss all assigned readings
 - Attend the lecture
-- Complete and submit assignments
-- Present a mini-lecture on an applied method
-- Prepare a short conference paper and presentation
+- Complete and submit 4 analytics assignments
+- Prepare a short conference paper or professional portfolio
 
 This course has prerequisites: students are expected to have taken [PPD534](https://github.com/gboeing/ppd534) or an equivalent introductory course on Python, stats, and spatial concepts. These prerequisites will not be covered from the ground-up as you are expected to be already familiar with them. This course requires patience and practice: learning to code will take lots of trial-and-error, self-direction, repetition, and experimentation on your part. You will get out of it what you are willing to put into it. Please note that this syllabus is a living document and may be updated by the instructor during the semester as needed.
 
