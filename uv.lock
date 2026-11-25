@@ -171,11 +171,11 @@ wheels = [
 
 [[package]]
 name = "babel"
-version = "2.18.0"
+version = "2.19.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/7d/b2/51899539b6ceeeb420d40ed3cd4b7a40519404f9baf3d4ac99dc413a834b/babel-2.18.0.tar.gz", hash = "sha256:b80b99a14bd085fcacfa15c9165f651fbb3406e66cc603abf11c5750937c992d", size = 9959554, upload-time = "2026-02-01T12:30:56.078Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/32/44/744169ce3677a541439bc9506ef08bd85674e9d6e3895ebe5a87ff65fb7a/babel-2.19.0.tar.gz", hash = "sha256:fddd2cbbbac7c299af3c2880be23609c331bd94f0912baca6cb0abfe054dfc27", size = 10695455, upload-time = "2026-11-24T20:14:32.427Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/77/f5/21d2de20e8b8b0408f0681956ca2c69f1320a3848ac50e6e7f39c6159675/babel-2.18.0-py3-none-any.whl", hash = "sha256:e2b422b277c2b9a9630c1d7903c2a00d0830c409c59ac8cae9081c92f1aeba35", size = 10196845, upload-time = "2026-02-01T12:30:53.445Z" },
+    { url = "https://files.pythonhosted.org/packages/71/3b/ddf4b07be846bfa361683729b5948c9c61a87fbdf09e69540d8e586bb7c5/babel-2.19.0-py3-none-any.whl", hash = "sha256:6d49734aed1d595b2c065d012174df8c83964692f26fc461702281634dd7555b", size = 10983582, upload-time = "2026-11-24T20:14:30.163Z" },
 ]
 
 [[package]]
@@ -249,38 +249,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/32/14/9d409124bda3f4ab7af3802aba07181d1fd56aa96cc4b999faea6a27a0d2/branca-0.8.2.tar.gz", hash = "sha256:e5040f4c286e973658c27de9225c1a5a7356dd0702a7c8d84c0f0dfbde388fe7", size = 27890, upload-time = "2025-10-06T10:28:20.305Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7e/50/fc9680058e63161f2f63165b84c957a0df1415431104c408e8104a3a18ef/branca-0.8.2-py3-none-any.whl", hash = "sha256:2ebaef3983e3312733c1ae2b793b0a8ba3e1c4edeb7598e10328505280cf2f7c", size = 26193, upload-time = "2025-10-06T10:28:19.255Z" },
-]
-
-[[package]]
-name = "cartopy"
-version = "0.26.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "matplotlib" },
-    { name = "numpy" },
-    { name = "packaging" },
-    { name = "pyproj" },
-    { name = "pyshp" },
-    { name = "shapely" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/a3/a2/ae348fc400e73fd5b589919ab5f13aece4feb31cd5cc78ab54773018563b/cartopy-0.26.0.tar.gz", hash = "sha256:b87a35835f30333760cc46194bd90b6a4958d12f488f50131d4c4c0962ad9c3c", size = 8579492, upload-time = "2026-09-17T02:57:14.863Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/d9/3c/c0cdefc7a4f60d9c56673b9be732fd94526f7930db0b1914418c7f8e1dc4/cartopy-0.26.0-cp314-cp314-macosx_10_15_x86_64.whl", hash = "sha256:ce66f8adbcf26b64ac18fc25c15190108b3bc9b64a3d17a650d23e17714dcecd", size = 8791138, upload-time = "2026-09-17T02:55:43.77Z" },
-    { url = "https://files.pythonhosted.org/packages/22/31/397970fab138a7a8772871d9f9518e6fed0b3f9d708843d34ac3540c1c8d/cartopy-0.26.0-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:2a9b9dc5b396882091fef14569bfce04b9195e267bb22f1bf8207765de050453", size = 8788441, upload-time = "2026-09-17T02:55:46.347Z" },
-    { url = "https://files.pythonhosted.org/packages/54/7c/4cf68f5169d49db68296ba6bba884032766ed784e0c00534043824d09f14/cartopy-0.26.0-cp314-cp314-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:89fd20944a518eeab1c69d57a9e588522b540affd3affbbe46d915769db0cf2f", size = 9485816, upload-time = "2026-09-17T02:55:49.584Z" },
-    { url = "https://files.pythonhosted.org/packages/a6/8f/c3f210f3926c205483a7c8f824816c4d808efbe2c7de31aef15546e17b09/cartopy-0.26.0-cp314-cp314-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:f8ec2d6adbb3325eea8b0087471f7b52d1aff603383c669290914145c5d15dff", size = 9498074, upload-time = "2026-09-17T02:55:53.13Z" },
-    { url = "https://files.pythonhosted.org/packages/24/a1/535ca75a6f25006efa1a3622f7402282932d9725a7b16e51b8020ba8bf09/cartopy-0.26.0-cp314-cp314-musllinux_1_2_aarch64.whl", hash = "sha256:b9d4eca6344877ad971e4314a2a244aba67255dd959291a813f29538d6b8a345", size = 10452817, upload-time = "2026-09-17T02:55:55.771Z" },
-    { url = "https://files.pythonhosted.org/packages/dc/5a/dbead2524f62b9c799b9d6d80d5f2297f469ed7df7f0d07607a59520d766/cartopy-0.26.0-cp314-cp314-musllinux_1_2_x86_64.whl", hash = "sha256:27684a9b8e3ad41b4be8520c1a162e633e298cad51bf2a4a8263c6ae9c4ac616", size = 10524130, upload-time = "2026-09-17T02:55:59.081Z" },
-    { url = "https://files.pythonhosted.org/packages/93/e3/5e72c44cf9ffe57f79f80b7007077111e4ab87799cbab75e98f2074ab147/cartopy-0.26.0-cp314-cp314-win32.whl", hash = "sha256:ab020c9dc771bcc5229ed087764b5211eff05ff8e61585613e526eb145196baa", size = 9035508, upload-time = "2026-09-17T02:56:01.785Z" },
-    { url = "https://files.pythonhosted.org/packages/cd/a8/b2b3620dff97def14e49ea6368a06e33650b49ad0f4ce4417c3656f4d5c9/cartopy-0.26.0-cp314-cp314-win_amd64.whl", hash = "sha256:629aad5ff84d61915893e24a505e123db09572fb6294eb1192a2a59c0d6e46f0", size = 9053904, upload-time = "2026-09-17T02:56:04.531Z" },
-    { url = "https://files.pythonhosted.org/packages/cb/1c/6b15f17f820b241a9a646bfde63a24a4089a84738f0cf583a384db8ee2a5/cartopy-0.26.0-cp314-cp314t-macosx_10_15_x86_64.whl", hash = "sha256:fd19e0b89886c5cc27f7ffc351aa9e5fb25013b75999ee1951510409491300ac", size = 8795807, upload-time = "2026-09-17T02:56:07.752Z" },
-    { url = "https://files.pythonhosted.org/packages/20/09/1cd25d4e0d2b04b12a882881d85a59a3924b4fb372ea1e72057607baa9b6/cartopy-0.26.0-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:5f87a94f1338b62280ce419a22c657f8340327ca4b42982bd8f004410ceea30b", size = 8796263, upload-time = "2026-09-17T02:56:10.77Z" },
-    { url = "https://files.pythonhosted.org/packages/32/19/96da644b1542323a2cb322ce0dc423813865ff9defe22e3a426349b292a8/cartopy-0.26.0-cp314-cp314t-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:b9dce3bfde2cd3a994e1a999e3a6ca7799db653d478dba117d19a3241ba05af5", size = 9503937, upload-time = "2026-09-17T02:56:13.504Z" },
-    { url = "https://files.pythonhosted.org/packages/3c/9b/56400b4719271cc53edfe37ab4425c912d2759439e43b106967a5a89beb8/cartopy-0.26.0-cp314-cp314t-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:93948780d7994f59575afb4ca23b13efeb3de472227eb706ab1d841f75c6e24e", size = 9492803, upload-time = "2026-09-17T02:56:16.028Z" },
-    { url = "https://files.pythonhosted.org/packages/15/7e/ddf187fd16e7863b4cacab2aad2fe03dfdde98cf2b65e430614d3ed929e4/cartopy-0.26.0-cp314-cp314t-musllinux_1_2_aarch64.whl", hash = "sha256:168022e75a0323f245087343c567903754f0f83fae5782453292807976cd0088", size = 10459132, upload-time = "2026-09-17T02:56:18.735Z" },
-    { url = "https://files.pythonhosted.org/packages/e7/99/9f66d4684c096728c610912071fb1958180d4214caa54fe5bb3a3fe18428/cartopy-0.26.0-cp314-cp314t-musllinux_1_2_x86_64.whl", hash = "sha256:f342e99772c59ab0c289e53dbcfb6b5d7a60dde5985f108756a4b8f16d934ad7", size = 10516529, upload-time = "2026-09-17T02:56:21.596Z" },
-    { url = "https://files.pythonhosted.org/packages/97/fd/53685bc41dfccc87e9a487a44e00f8e94ba79de49a25207bb4e4383cd745/cartopy-0.26.0-cp314-cp314t-win32.whl", hash = "sha256:ae2c55df1917c1ded5da80d92960612ab8e3380449750a81d81c3d197dd4df96", size = 9041814, upload-time = "2026-09-17T02:56:24.625Z" },
-    { url = "https://files.pythonhosted.org/packages/49/35/3051356d5b0e76d8ea99b6515a9a1c73b9fc38664be6ab2ac43fe864eacb/cartopy-0.26.0-cp314-cp314t-win_amd64.whl", hash = "sha256:7c1d70f871f71b4535991d04fd982f87ad34ddf3ea4a23cc52fec483d5f911a0", size = 9061241, upload-time = "2026-09-17T02:56:27.255Z" },
 ]
 
 [[package]]
@@ -1693,22 +1661,6 @@ wheels = [
 ]
 
 [[package]]
-name = "nltk"
-version = "3.10.4"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "click" },
-    { name = "defusedxml" },
-    { name = "joblib" },
-    { name = "regex" },
-    { name = "tqdm" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/3a/cb/bbaa9be58e95d21729c6b9194376610230e0755f6de0bf38b6acc0dce079/nltk-3.10.4.tar.gz", hash = "sha256:44679f4e9220abfd496d2c8cdb22f8425ccbe557604f9aa5cacb1c44003dabc1", size = 4300570, upload-time = "2026-10-21T11:34:35.851Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/a2/04/e7816813e409ca874ba2fcc35455db0e4130b79eb277e1f9edd270ca3c69/nltk-3.10.4-py3-none-any.whl", hash = "sha256:769ba5413f265b7d3e87cd163cc28efa01e29eeef8bb6080bc907949d9fcfb51", size = 1722994, upload-time = "2026-10-21T11:34:27.975Z" },
-]
-
-[[package]]
 name = "notebook-shim"
 version = "0.2.4"
 source = { registry = "https://pypi.org/simple" }
@@ -1800,6 +1752,29 @@ wheels = [
 ]
 
 [[package]]
+name = "osmium"
+version = "4.3.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "requests" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a6/33/c7cb6aa530b887370c6b8d91660d327758562f5dc8dd19d744aea0c74d45/osmium-4.3.2.tar.gz", hash = "sha256:bea7aa809d41659ad29c7b4627ce7e1af4d420d03db45b3a4211cb6192b6926f", size = 540558, upload-time = "2026-10-18T19:24:35.996Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/03/24/8690f136f05e809858b49dab6bad3d676c8d0a6f8d661fec502e92b36477/osmium-4.3.2-cp314-cp314-macosx_11_0_arm64.whl", hash = "sha256:49ece293a6f021facf86fb388cd43d12689804bf9a8f9902c8d4183864d248f3", size = 1317584, upload-time = "2026-10-18T19:23:00.666Z" },
+    { url = "https://files.pythonhosted.org/packages/31/ca/013124f91768cb3b46a7886880a9bfcc7e97cf28ab254460aa8db5de341f/osmium-4.3.2-cp314-cp314-macosx_11_0_x86_64.whl", hash = "sha256:5767b5f21ad43f5689256e92d44dd6f4d7789d57b1850c4111c5281053ea5fe8", size = 1479083, upload-time = "2026-10-18T19:23:03.533Z" },
+    { url = "https://files.pythonhosted.org/packages/cf/cf/46ba662e6b32a6a723f554037006373683984ff3967c8ac3b9114c9ebc40/osmium-4.3.2-cp314-cp314-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:f0a23def0527f9e3b987f240527cddc3b8b38050a336e40a5df753faaff3c7d9", size = 1733425, upload-time = "2026-10-18T19:23:06.294Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/c3/7d63bfcd4a47fb1eb05d646ef76b0cb7c6c2631e3afcc51e5d68ee4901b9/osmium-4.3.2-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:97e6f18590966fa40a476ea957f050b3e3946e7e9e251e579fdd584b44be06d3", size = 1878625, upload-time = "2026-10-18T19:23:09.633Z" },
+    { url = "https://files.pythonhosted.org/packages/04/4c/9d5f767c34ac04c7e85256d77d7cf8bed4ac9d005144f8fd20c44bb47cc3/osmium-4.3.2-cp314-cp314-win_amd64.whl", hash = "sha256:bcf16dfc04397e0b04a5afd294d3726b33391b959ecc4a799ad2d347fbf5e690", size = 1919697, upload-time = "2026-10-18T19:23:35.093Z" },
+    { url = "https://files.pythonhosted.org/packages/6a/d1/4c5b5a2edaffc105566ce9a78a3bdac86e66e3cb2fe5a310259acfa10727/osmium-4.3.2-cp314-cp314-win_arm64.whl", hash = "sha256:249e2856c4f47e2a1a37fcdc95083222d0dbb42298fd551bcf18604d6758474c", size = 2050034, upload-time = "2026-10-18T19:23:38.097Z" },
+    { url = "https://files.pythonhosted.org/packages/e4/42/08ce98b9b3a52a4521ec907fef62fa8f67939d6f5da4bd3a66dfb12c239d/osmium-4.3.2-cp314-cp314t-macosx_11_0_arm64.whl", hash = "sha256:64eb4b388f1a13655ce118069e02016bc1364d5b91ed8db03c3bd7f2780b0402", size = 1384073, upload-time = "2026-10-18T19:23:12.704Z" },
+    { url = "https://files.pythonhosted.org/packages/c1/6d/913fd3930b75a73cb5022e6317143b36cc86e83b05dadad7d83bcf639252/osmium-4.3.2-cp314-cp314t-macosx_11_0_x86_64.whl", hash = "sha256:f3309b7d37b3266c097e28643b46315fea59be82d265bf20997cae4f3bf64aa6", size = 1528309, upload-time = "2026-10-18T19:23:15.848Z" },
+    { url = "https://files.pythonhosted.org/packages/f4/51/f6830cf62c5811944eee9742075c981a16939a6dcfcee3108e09f36cfbd9/osmium-4.3.2-cp314-cp314t-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:8f0eaace88c84e9852d034e64f422e9ee490351e9f64a035b9093ea0ce4d3929", size = 1744457, upload-time = "2026-10-18T19:23:19.16Z" },
+    { url = "https://files.pythonhosted.org/packages/04/af/6db8d03ec4c34e78cda067ffe173b0eff7e81edb770bf1e428cb97d0ceb6/osmium-4.3.2-cp314-cp314t-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:899ae322230347f3f9c47d22127cadd4b0990a107a921af97b5280d49f6758b5", size = 1894310, upload-time = "2026-10-18T19:23:22.389Z" },
+    { url = "https://files.pythonhosted.org/packages/88/25/f669c0c9c12052285f7dfecda4c080e7c3a3753074c570b5d62ffff08d02/osmium-4.3.2-cp314-cp314t-win_amd64.whl", hash = "sha256:32739f34b768855d867310fa9fc45e11e4dba6eb8484240aff36c880b34ffe8e", size = 1961468, upload-time = "2026-10-18T19:23:27.816Z" },
+    { url = "https://files.pythonhosted.org/packages/ce/88/bab542337c3930883092841cc92867512da8e507e221700d8af9377cc6d4/osmium-4.3.2-cp314-cp314t-win_arm64.whl", hash = "sha256:c2029263c051d9fd6de4ef61590358b1b3614fc57c228f7053530e41933f730f", size = 2107993, upload-time = "2026-10-18T19:23:31.636Z" },
+]
+
+[[package]]
 name = "osmnx"
 version = "2.2.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1814,6 +1789,16 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/97/28/88068f1e7e9c6f31da91fed370d2b4a17933fc0b534d6b435db54ad8b9e8/osmnx-2.2.0.tar.gz", hash = "sha256:da7dd76814f3c8c8eee913e1f13f1505d74e946fcd5e015a0d3e2f7de5280576", size = 95136, upload-time = "2026-11-18T21:40:25.865Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/b3/fd/23e4594b0f3a3dc95a7783c38b66785a7194b9d4f72f963ef7a9ff06ce87/osmnx-2.2.0-py3-none-any.whl", hash = "sha256:1df6d0cacedfd2189e33fda9358af631d54eaec545d613bf022ae769f8f179cd", size = 108068, upload-time = "2026-11-18T21:40:24.303Z" },
+]
+
+[package.optional-dependencies]
+all = [
+    { name = "matplotlib" },
+    { name = "osmium" },
+    { name = "rasterio" },
+    { name = "rio-vrt" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
 ]
 
 [[package]]
@@ -1950,15 +1935,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pip"
-version = "26.3"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/53/c7/f8d9e2e0e7c1ed8a22a10eeb3b5bf7860bc07d8446c7a978a882c5c8214b/pip-26.3.tar.gz", hash = "sha256:6c36ae7da8695be67e3cd9f7d87919667ced53f57ce2ede75d89b5912ed2bc4c", size = 1934348, upload-time = "2026-11-02T20:34:27.738Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/07/25/ee8c38ae72d66b844ce8eb9711ba905dba21ca1a8a0c960057c41cd23337/pip-26.3-py3-none-any.whl", hash = "sha256:f3b60b20ffaadd4415ed7957212a38ac63fa4c5fa375bd0f4a797777940fad13", size = 1950951, upload-time = "2026-11-02T20:34:25.728Z" },
-]
-
-[[package]]
 name = "platformdirs"
 version = "4.14.8"
 source = { registry = "https://pypi.org/simple" }
@@ -1990,34 +1966,14 @@ name = "ppde642"
 version = "2027"
 source = { virtual = "." }
 dependencies = [
-    { name = "beautifulsoup4" },
-    { name = "branca" },
-    { name = "cartopy" },
     { name = "contextily" },
     { name = "folium" },
-    { name = "geopandas" },
-    { name = "geopy" },
-    { name = "mapclassify" },
-    { name = "matplotlib" },
-    { name = "networkx" },
-    { name = "nltk" },
-    { name = "numpy" },
-    { name = "osmnx" },
+    { name = "osmnx", extra = ["all"] },
     { name = "pandarm" },
-    { name = "pandas" },
-    { name = "pillow" },
     { name = "pysal" },
-    { name = "rasterio" },
-    { name = "requests" },
-    { name = "scikit-learn" },
-    { name = "scipy" },
-    { name = "seaborn" },
-    { name = "shapely" },
-    { name = "statsmodels" },
+    { name = "seaborn", extra = ["stats"] },
     { name = "torch", version = "2.15.0", source = { registry = "https://pypi.org/simple" }, marker = "sys_platform == 'darwin'" },
     { name = "torch", version = "2.15.0+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "sys_platform != 'darwin'" },
-    { name = "torchvision", version = "0.29.2", source = { registry = "https://pypi.org/simple" }, marker = "sys_platform == 'darwin'" },
-    { name = "torchvision", version = "0.29.2+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" }, marker = "sys_platform != 'darwin'" },
     { name = "transformers" },
 ]
 
@@ -2025,40 +1981,19 @@ dependencies = [
 dev = [
     { name = "jupyterlab" },
     { name = "nbdime" },
-    { name = "pip" },
     { name = "prek" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "beautifulsoup4" },
-    { name = "branca" },
-    { name = "cartopy" },
     { name = "contextily" },
     { name = "folium" },
-    { name = "geopandas" },
-    { name = "geopy" },
-    { name = "mapclassify" },
-    { name = "matplotlib" },
-    { name = "networkx" },
-    { name = "nltk" },
-    { name = "numpy" },
-    { name = "osmnx" },
+    { name = "osmnx", extras = ["all"] },
     { name = "pandarm" },
-    { name = "pandas" },
-    { name = "pillow" },
     { name = "pysal" },
-    { name = "rasterio" },
-    { name = "requests" },
-    { name = "scikit-learn" },
-    { name = "scipy" },
-    { name = "seaborn" },
-    { name = "shapely" },
-    { name = "statsmodels" },
+    { name = "seaborn", extras = ["stats"] },
     { name = "torch", marker = "sys_platform != 'darwin'", index = "https://download.pytorch.org/whl/cpu" },
     { name = "torch", marker = "sys_platform == 'darwin'" },
-    { name = "torchvision", marker = "sys_platform != 'darwin'", index = "https://download.pytorch.org/whl/cpu" },
-    { name = "torchvision", marker = "sys_platform == 'darwin'" },
     { name = "transformers" },
 ]
 
@@ -2066,7 +2001,6 @@ requires-dist = [
 dev = [
     { name = "jupyterlab" },
     { name = "nbdime" },
-    { name = "pip" },
     { name = "prek" },
 ]
 
@@ -2345,15 +2279,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pyshp"
-version = "3.1.9"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b7/e5/1e72c0eca21dfd63a22dfd774931d28d1a7d02ca4b61e7530d54923054d2/pyshp-3.1.9.tar.gz", hash = "sha256:7a4ac6c0898f54d09a7f75c8494c05a2ed86964010f27a8a7df9c7ecb6738569", size = 2271763, upload-time = "2026-11-16T19:53:36.389Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/91/ae/7154308ae637e32530b93575fd815a210f805c79097b7e47a51b98c75bae/pyshp-3.1.9-py3-none-any.whl", hash = "sha256:e20febdaaef14d153f7eabfb8143edfcf61ca6d454f20ba214076dc994901db1", size = 75090, upload-time = "2026-11-16T19:53:34.993Z" },
-]
-
-[[package]]
 name = "python-dateutil"
 version = "4.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2622,6 +2547,18 @@ wheels = [
 ]
 
 [[package]]
+name = "rio-vrt"
+version = "0.3.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "rasterio" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/e1/0f/96dbfd66d10ac9c3d6f4d88994eae542f4463c1a43965ea0c9e97c1b0f22/rio_vrt-0.3.1.tar.gz", hash = "sha256:e6dd8d483b748b0b800ebd1109c9d5be121185833aa4c061e7cbeda41c23ad40", size = 7317, upload-time = "2024-08-19T21:51:01.604Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f5/74/a24d00f38b8dfea19911b741801f5b88bfb5201c9e7ca47d46e84f869128/rio_vrt-0.3.1-py3-none-any.whl", hash = "sha256:c4273baa756341364e2cff2815e8730761f2989728a6871e14de07d6fb9107dc", size = 5733, upload-time = "2024-08-19T21:50:59.235Z" },
+]
+
+[[package]]
 name = "rpds-py"
 version = "2026.9.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2768,6 +2705,12 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/86/59/a451d7420a77ab0b98f7affa3a1d78a313d2f7281a57afb1a34bae8ab412/seaborn-0.13.2.tar.gz", hash = "sha256:93e60a40988f4d65e9f4885df477e2fdaff6b73a9ded434c1ab356dd57eefff7", size = 1457696, upload-time = "2024-01-25T13:21:52.551Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl", hash = "sha256:636f8336facf092165e27924f223d3c62ca560b1f2bb5dff7ab7fad265361987", size = 294914, upload-time = "2024-01-25T13:21:49.598Z" },
+]
+
+[package.optional-dependencies]
+stats = [
+    { name = "scipy" },
+    { name = "statsmodels" },
 ]
 
 [[package]]
@@ -3264,42 +3207,6 @@ wheels = [
     { url = "https://download-r2.pytorch.org/whl/cpu/torch-2.15.0%2Bcpu-cp314-cp314t-manylinux_2_28_aarch64.whl", hash = "sha256:68e4595afffb1af18480b6ecb7217688c02a0f2a7b482c7a95b4896a3b38d49a", upload-time = "2026-10-28T13:19:48Z" },
     { url = "https://download-r2.pytorch.org/whl/cpu/torch-2.15.0%2Bcpu-cp314-cp314t-manylinux_2_28_x86_64.whl", hash = "sha256:17d66ae6f8a49d4dfca368b50b7dc15f7129175e80b4ae2832dfa0cce86d3159", upload-time = "2026-10-28T13:19:55Z" },
     { url = "https://download-r2.pytorch.org/whl/cpu/torch-2.15.0%2Bcpu-cp314-cp314t-win_amd64.whl", hash = "sha256:c556fb12f69e907386e98136d3be6fbcf4f3962ad018cf74fc6fe43d1c81a240", upload-time = "2026-10-28T13:20:02Z" },
-]
-
-[[package]]
-name = "torchvision"
-version = "0.29.2"
-source = { registry = "https://pypi.org/simple" }
-resolution-markers = [
-    "sys_platform == 'darwin'",
-]
-dependencies = [
-    { name = "numpy" },
-    { name = "pillow" },
-    { name = "torch", version = "2.15.0", source = { registry = "https://pypi.org/simple" } },
-]
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/60/ec/ce97c46e5322b588b95be388f2c21878d014ca20838478e7aab59edd128a/torchvision-0.29.2-py3-none-macosx_14_0_arm64.whl", hash = "sha256:d412494ff011f24c884a3cffd33eba1cb45a0299d4e26c1e175113f9d3b3ebc7", size = 1823414, upload-time = "2026-10-28T15:21:31.892Z" },
-]
-
-[[package]]
-name = "torchvision"
-version = "0.29.2+cpu"
-source = { registry = "https://download.pytorch.org/whl/cpu" }
-resolution-markers = [
-    "sys_platform == 'win32'",
-    "sys_platform == 'emscripten'",
-    "sys_platform != 'darwin' and sys_platform != 'emscripten' and sys_platform != 'win32'",
-]
-dependencies = [
-    { name = "numpy" },
-    { name = "pillow" },
-    { name = "torch", version = "2.15.0+cpu", source = { registry = "https://download.pytorch.org/whl/cpu" } },
-]
-wheels = [
-    { url = "https://download-r2.pytorch.org/whl/cpu/torchvision-0.29.2%2Bcpu-py3-none-manylinux_2_28_aarch64.whl", hash = "sha256:0be2f85933012cb487f844c7483665191653ee8684da89d6d0e34fd63c3a0a88", upload-time = "2026-10-28T14:18:50Z" },
-    { url = "https://download-r2.pytorch.org/whl/cpu/torchvision-0.29.2%2Bcpu-py3-none-manylinux_2_28_x86_64.whl", hash = "sha256:87631236a47be98ab21301e8cb4fc1cbb9325fe0aa7a022e18d2f894087b68c3", upload-time = "2026-10-28T14:18:50Z" },
-    { url = "https://download-r2.pytorch.org/whl/cpu/torchvision-0.29.2%2Bcpu-py3-none-win_amd64.whl", hash = "sha256:84cb034b4ad99ccfda755270f6a7fff8a1c6694450e29880b99e4a60274e800b", upload-time = "2026-10-28T14:18:50Z" },
 ]
 
 [[package]]
