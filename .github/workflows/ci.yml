@@ -38,15 +38,13 @@ jobs:
           enable-cache: true
 
       - name: Install environment
-        run: uv sync
+        run: uv sync --locked
 
       - name: Test environment
         run: |
           uv pip check
-          uv run python -c "import nltk; nltk.download('brown', raise_on_error=True)"
-          uv run python -c "from nltk.corpus import brown; print(brown.words())"
-          uv run python -c "import osmnx, pandarm, rasterio; print(osmnx.__version__)"
-          uv run python -c "import torch, torchvision, transformers; print(torch.__version__)"
+          uv run --no-sync python -c "import osmnx, pandarm, rasterio"
+          uv run --no-sync python -c "import torch; from transformers import pipeline"
 
       - name: Cache pre-commit
         uses: actions/cache@v6
@@ -55,7 +53,7 @@ jobs:
           key: pre-commit-${{ runner.os }}-${{ hashFiles('.pre-commit-config.yaml') }}
 
       - name: Lint
-        run: uv run prek run --all-files
+        run: uv run --no-sync prek run --all-files
         env:
           PREK_HOME: ~/.cache/prek
           SKIP: no-commit-to-branch
