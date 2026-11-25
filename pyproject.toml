@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = ["jupyterlab", "nbdime", "pip", "prek"]
+dev = ["jupyterlab", "nbdime", "prek"]
 
 [tool.ruff]
 cache-dir = "~/.cache/prek/cache/ruff"
